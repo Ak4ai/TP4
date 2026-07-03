@@ -1,0 +1,372 @@
+<style>
+    /* ==============================================================================
+   1. ESTILIZAÇÃO EM CSS (DARK THEME & RESPONSIVIDADE)
+   ============================================================================== */
+
+    /* ------------------------------------------------------------------
+   A. FONTES E CONFIGURAÇÃO DO BODY
+   ------------------------------------------------------------------ */
+    /* Importa as fontes Outfit e Inter do repositório Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@700;800&display=swap');
+
+    /* Remove margens e define o fundo transparente para misturar-se com o tema do Streamlit */
+    body {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 260px;
+        /* Margem inferior de respiro para acomodar tooltips flutuantes */
+        background: transparent;
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* ------------------------------------------------------------------
+   B. ESTRUTURA DOS TOOLTIPS FLUTUANTES (CAPAS E DETALHES)
+   ------------------------------------------------------------------ */
+    /* Gatilho: célula do título do livro físico na qual o mouse passa por cima */
+    .tooltip-trigger {
+        position: relative;
+        /* Contexto de posicionamento relativo para que o tooltip absolute se alinhe a ela */
+        cursor: pointer;
+        color: #60a5fa;
+        font-weight: 500;
+    }
+
+    .tooltip-trigger:hover {
+        text-decoration: underline;
+        color: #93c5fd !important;
+    }
+
+    /* Contêiner do Tooltip (Caixa que contém a Capa e Descrição do Livro) */
+    .book-tooltip {
+        visibility: hidden;
+        /* Começa oculto de forma padrão */
+        opacity: 0;
+        position: absolute;
+        bottom: 125%;
+        /* Flutua acima da linha da tabela */
+        left: 20px;
+        width: 280px;
+        background-color: rgb(28, 29, 37);
+        /* Fundo cinza escuro correspondente */
+        border: 1px solid rgb(62, 64, 76);
+        border-radius: 8px;
+        padding: 12px;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        /* Sombra pesada para criar profundidade tridimensional */
+        z-index: 99999;
+        /* Garante que fique acima de todas as outras linhas da tabela */
+        transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+        /* Transição fade-in suave */
+        color: #e2e8f0;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        line-height: 1.4;
+        text-align: left;
+    }
+
+    /* Capa da obra dentro da tooltip */
+    .book-tooltip img {
+        width: 100%;
+        aspect-ratio: 2/3;
+        /* Proporção padrão de capas de livros e mangás */
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 8px;
+    }
+
+    .book-tooltip strong {
+        display: block;
+        font-size: 0.95rem;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+
+    /* Crachá de nota (MyAnimeList ou nota do usuário) */
+    .book-tooltip .tooltip-rating {
+        display: inline-block;
+        background-color: #854d0e;
+        color: #fef9c3;
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding: 2px 6px;
+        border-radius: 4px;
+        margin-bottom: 6px;
+    }
+
+    /* Texto da descrição e resenha */
+    .book-tooltip p {
+        margin: 0;
+        font-size: 0.8rem;
+        color: #94a3b8;
+        max-height: 90px;
+        overflow-y: auto;
+        /* Adiciona barra de rolagem se a descrição for longa */
+    }
+
+    /* Quando o mouse entra no gatilho, exibe a caixa tooltip alterando a visibilidade e opacidade */
+    .tooltip-trigger:hover .book-tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* DIRECIONA TOOLTIPS NAS PRIMEIRAS LINHAS:
+   Evita que as tooltips das primeiras 12 linhas da tabela fiquem cortadas no topo do iframe.
+   Nas primeiras linhas, o tooltip é forçado a abrir para BAIXO (top: 125%) em vez de para cima. */
+    .library-table tbody tr:nth-child(-n+12) .book-tooltip {
+        bottom: auto;
+        top: 125%;
+    }
+
+    /* PLACEHOLDER DE CARREGAMENTO ANIMADO (SHIMMER EFFECT)
+   Exibe uma caixa cinza pulsante simulando o esqueleto da imagem enquanto a API carrega a capa original. */
+    .tooltip-cover-placeholder {
+        width: 100%;
+        height: 60px;
+        border-radius: 6px;
+        margin-bottom: 8px;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.05) 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        /* Animação cíclica infinita */
+    }
+
+    @keyframes shimmer {
+        0% {
+            background-position: 200% 0;
+        }
+
+        100% {
+            background-position: -200% 0;
+        }
+    }
+
+    /* ------------------------------------------------------------------
+   C. DESIGN DA TABELA PRINCIPAL DO ACERVO
+   ------------------------------------------------------------------ */
+    .library-table {
+        width: 100%;
+        border-collapse: separate;
+        /* Permite cantos arredondados nas bordas externas */
+        border-spacing: 0;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.95rem;
+        background-color: rgb(38, 39, 48);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        border: 1px solid rgb(50, 52, 62);
+        border-radius: 8px;
+    }
+
+    /* Cabeçalho da tabela */
+    .library-table thead th {
+        background: linear-gradient(135deg, rgb(30, 31, 40) 0%, rgb(42, 43, 55) 100%);
+        padding: 14px 16px;
+        text-align: left;
+        font-weight: 600;
+        font-size: 0.85rem;
+        color: #94a3b8;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-bottom: 2px solid rgb(62, 64, 76);
+    }
+
+    /* Arredondamento inteligente das quatro quinas da tabela */
+    .library-table thead th:first-child {
+        border-top-left-radius: 8px;
+    }
+
+    .library-table thead th:last-child {
+        border-top-right-radius: 8px;
+    }
+
+    .library-table tbody td {
+        padding: 12px 16px;
+        border-bottom: 1px solid rgb(50, 52, 62);
+        color: #e2e8f0;
+        vertical-align: middle;
+    }
+
+    /* Efeito Hover nas linhas */
+    .library-table tbody tr:hover td {
+        background-color: rgba(96, 165, 250, 0.08);
+        /* Fundo azul bem discreto ao passar o mouse */
+    }
+
+    .library-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    .library-table tbody tr:last-child td:first-child {
+        border-bottom-left-radius: 8px;
+    }
+
+    .library-table tbody tr:last-child td:last-child {
+        border-bottom-right-radius: 8px;
+    }
+</style>
+
+<!-- ==============================================================================
+   2. ESTRUTURA DOM (HTML DA TABELA)
+   ============================================================================== -->
+<div style="overflow: visible;">
+    <table class="library-table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Ano</th>
+                <th>Gênero</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- O corpo da tabela inicia vazio e será preenchido dinamicamente via script JS (Lazy Loading) -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Tag para injetar a lista de linhas JSON em tempo de execução no Python sem gerar erro de sintaxe JS no editor -->
+<script id="rows-data" type="application/json">
+{{ROWS_JSON}}
+</script>
+
+<script>
+    // Executamos em uma IIFE (Immediately Invoked Function Expression) para encapsular escopo de variáveis
+    (function () {
+        // ------------------------------------------------------------------
+        // A. ROLAGEM INFINITA (LAZY LOADING EM LOTES)
+        // ------------------------------------------------------------------
+        const allRows = JSON.parse(document.getElementById('rows-data').textContent);
+        let currentIndex = 0;
+        const chunkSize = 40; // Renderiza apenas 40 linhas por vez para otimizar DOM do navegador
+        const tbody = document.querySelector('.library-table tbody');
+
+        // Função que adiciona o próximo lote de elementos à tabela
+        function loadMore() {
+            const nextLimit = Math.min(currentIndex + chunkSize, allRows.length);
+            for (let i = currentIndex; i < nextLimit; i++) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = allRows[i];
+                tbody.appendChild(tr);
+            }
+            currentIndex = nextLimit;
+        }
+
+        // Carga inicial dos primeiros 40 livros
+        loadMore();
+
+        // Monitora a rolagem vertical da tela
+        window.addEventListener('scroll', function () {
+            // Quando a posição do scroll chega a 250 pixels ou menos do fim da página, carrega o próximo lote
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 250) {
+                loadMore();
+            }
+        });
+
+        // ------------------------------------------------------------------
+        // B. PROCESSAMENTO DE TEXTO PARA BUSCAS (CLEANER)
+        // ------------------------------------------------------------------
+        const cache = {}; // Cache local do script para armazenar descrições e URLs de capas já consultadas
+
+        // Limpa títulos e autores removendo parênteses (ex: ano como "(2003)") e caracteres especiais
+        // para garantir que a API pública da OpenLibrary localize a obra com sucesso.
+        function cleanText(text) {
+            var result = '';
+            var depth = 0;
+            for (var i = 0; i < text.length; i++) {
+                if (text[i] === '(') depth++;
+                else if (text[i] === ')') depth--;
+                else if (depth === 0) result += text[i];
+            }
+            return result.replace(/[^a-zA-Z0-9\u00C0-\u024F ]/g, ' ').replace(/ +/g, ' ').trim();
+        }
+
+        // ------------------------------------------------------------------
+        // C. EVENT DELEGATION PARA MOUSEOVER (TOOLTIP DINÂMICA)
+        // ------------------------------------------------------------------
+        // Em vez de vincular um escutador a milhares de células individuais (o que causaria lentidão),
+        // monitoramos apenas o elemento pai comum (document). O evento "bubbling" propaga e capturamos aqui.
+        document.addEventListener('mouseover', function (e) {
+            var trigger = e.target.closest('.tooltip-trigger');
+            if (!trigger) return;
+
+            var tooltip = trigger.querySelector('.book-tooltip[data-book-title]');
+            // Se o tooltip não existe ou já foi carregado anteriormente de forma bem-sucedida, ignora
+            if (!tooltip || tooltip.dataset.loaded === 'true') return;
+            tooltip.dataset.loaded = 'true'; // Trava para impedir requisições AJAX concorrentes
+
+            var title = tooltip.dataset.bookTitle;
+            var author = tooltip.dataset.bookAuthor;
+            var cacheKey = title + '|' + author;
+
+            // Atualiza o DOM injetando a imagem e o texto recuperado
+            function applyData(tooltipEl, data) {
+                var placeholder = tooltipEl.querySelector('.tooltip-cover-placeholder');
+                var descEl = tooltipEl.querySelector('.tooltip-desc');
+                if (data.coverUrl && placeholder) {
+                    var img = document.createElement('img');
+                    img.src = data.coverUrl;
+                    img.alt = 'Capa';
+                    img.className = 'tooltip-img';
+                    placeholder.replaceWith(img); // Substitui placeholder cinza animado pela imagem real
+                } else if (placeholder) {
+                    placeholder.remove(); // Se não há capa, remove o placeholder cinza
+                }
+                if (descEl) {
+                    descEl.textContent = data.desc || 'Sem descrição disponível.';
+                }
+            }
+
+            // Se a informação já está no cache local do JS, carrega imediatamente
+            if (cache[cacheKey]) {
+                applyData(tooltip, cache[cacheKey]);
+                return;
+            }
+
+            var descEl = tooltip.querySelector('.tooltip-desc');
+            if (descEl) descEl.textContent = 'Carregando...';
+
+            var query = cleanText(title);
+            var cleanAuthor = cleanText(author);
+            if (cleanAuthor && cleanAuthor !== 'Autor Desconhecido') query += ' ' + cleanAuthor;
+
+            // ------------------------------------------------------------------
+            // D. CONSULTA DINÂMICA DE DADOS (OPENLIBRARY API)
+            // ------------------------------------------------------------------
+            // 1º Passo: Busca a chave identificadora da obra pelo título/autor
+            fetch('https://openlibrary.org/search.json?q=' + encodeURIComponent(query) + '&limit=1')
+                .then(function (r) { return r.json(); })
+                .then(function (searchData) {
+                    var doc = searchData.docs && searchData.docs[0];
+                    var coverUrl = null;
+                    var desc = null;
+                    if (doc) {
+                        // Compõe a URL de capa se houver cover id associado na OpenLibrary
+                        if (doc.cover_i) coverUrl = 'https://covers.openlibrary.org/b/id/' + doc.cover_i + '-L.jpg';
+                        if (doc.key) {
+                            // 2º Passo: Consulta os detalhes da obra (Works API) usando a chave recuperada para obter sinopse
+                            return fetch('https://openlibrary.org' + doc.key + '.json')
+                                .then(function (r2) { return r2.json(); })
+                                .then(function (workData) {
+                                    if (workData.description) {
+                                        desc = typeof workData.description === 'string' ? workData.description : workData.description.value;
+                                    }
+                                    return { coverUrl: coverUrl, desc: desc };
+                                })
+                                .catch(function () { return { coverUrl: coverUrl, desc: null }; });
+                        }
+                    }
+                    return { coverUrl: coverUrl, desc: desc };
+                })
+                .then(function (result) {
+                    // Salva os dados processados no cache javascript da sessão
+                    cache[cacheKey] = result;
+                    applyData(tooltip, result);
+                })
+                .catch(function () {
+                    if (descEl) descEl.textContent = 'Erro ao carregar.';
+                });
+        });
+    })();
+</script>

@@ -1,0 +1,31 @@
+codigo,titulo,autor,ano,genero,disponivel
+L001,The Prophet,Kahlil Gibran,1900,Literatura,nao
+L002,Das Schloß,Franz Kafka,1926,Literatura,sim
+L003,On The Road,Jack Kerouac,1957,Literatura,sim
+L004,Tanglewood Tales,Nathaniel Hawthorne,1853,Literatura,sim
+L005,The Fountainhead,Ayn Rand,1943,Literatura,nao
+L006,The Fall of Hyperion,Dan Simmons,1990,Ficcao cientifica,sim
+L007,The Caves of Steel,Isaac Asimov,1953,Ficcao cientifica,sim
+L008,The Naked Sun,Isaac Asimov,1954,Ficcao cientifica,sim
+L009,The Foundation Trilogy,Isaac Asimov,1950,Ficcao cientifica,nao
+L010,Nightfall,Isaac Asimov,1969,Ficcao cientifica,sim
+L011,The Blade Itself,Joe Abercrombie,2001,Fantasia,sim
+L012,The Hero of Ages,Brandon Sanderson,2008,Fantasia,sim
+L013,The Lies of Locke Lamora,Scott Lynch,2001,Fantasia,nao
+L014,Wizard's First Rule,Terry Goodkind,1994,Fantasia,sim
+L015,The Poppy War,R. F. Kuang,2018,Fantasia,sim
+L016,The Man in the Brown Suit,Agatha Christie,1924,Suspense,sim
+L017,The Secret of Chimneys,Agatha Christie,1925,Suspense,nao
+L018,Never Lie,Freida McFadden,2022,Suspense,sim
+L019,At Bertram's Hotel,Agatha Christie,1965,Suspense,sim
+L020,4:50 from Paddington,Agatha Christie,1957,Suspense,sim
+L021,A Gentleman in Moscow,Amor Towles,2016,Ficcao historica,nao
+L022,Circe,Madeline Miller,2018,Ficcao historica,sim
+L023,Redeeming Love,Francine Rivers,1991,Ficcao historica,sim
+L024,Quicksilver,Neal Stephenson,2003,Ficcao historica,sim
+L025,Homegoing,Yaa Gyasi,2016,Ficcao historica,nao
+L026,Alice in Wonderland in Five Acts,Lewis Carroll,1897,Infantojuvenil,sim
+L027,Fantastic Mr Fox,Roald Dahl,1970,Infantojuvenil,sim
+L028,The Book of Dragons,Edith Nesbit,1973,Infantojuvenil,sim
+L029,James and the Giant Peach,Roald Dahl,1961,Infantojuvenil,nao
+L030,Love Potion,Steven Banks,2003,Infantojuvenil,sim

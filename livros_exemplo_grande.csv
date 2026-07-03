@@ -1,0 +1,3001 @@
+codigo,titulo,autor,ano,genero,disponivel
+L00001,The Prophet,Kahlil Gibran,1900,Literatura,nao
+L00002,Das Schloß,Franz Kafka,1926,Literatura,sim
+L00003,On The Road,Jack Kerouac,1957,Literatura,sim
+L00004,Ὀδύσσεια,Όμηρος,1488,Literatura,sim
+L00005,Tanglewood Tales,Nathaniel Hawthorne,1853,Literatura,sim
+L00006,Братья Карамазовы,Fyodor Dostoyevsky,1880,Literatura,nao
+L00007,The Fountainhead,Ayn Rand,1943,Literatura,sim
+L00008,Tender is the Night,F. Scott Fitzgerald,1933,Literatura,sim
+L00009,Where the Red Fern Grows,Wilson Rawls,1961,Literatura,sim
+L00010,Die Aufzeichnungen des Malte Laurids Brigge,Rainer Maria Rilke,1910,Literatura,sim
+L00011,Pagan Papers,Kenneth Grahame,1894,Literatura,nao
+L00012,"Ramayana, a Holy Bible of India",Vālmīki,1823,Literatura,nao
+L00013,La Peste,Albert Camus,1942,Literatura,sim
+L00014,The Cask of Amontillado,Edgar Allan Poe,1846,Literatura,sim
+L00015,Анна Каренина,Лев Толстой,1876,Literatura,sim
+L00016,The Wild Knight and Other Poems,Gilbert Keith Chesterton,1900,Literatura,nao
+L00017,Mythology,Edith Hamilton,1940,Literatura,sim
+L00018,Love and Freindship,Jane Austen,1995,Literatura,sim
+L00019,Post office,Charles Bukowski,1974,Literatura,sim
+L00020,The inside of the cup,Winston Churchill,1913,Literatura,sim
+L00021,Atlas Shrugged (Centennial Ed. HC),Ayn Rand,1936,Literatura,nao
+L00022,A Modern Utopia,H. G. Wells,1900,Literatura,sim
+L00023,The Road to Oz,L. Frank Baum,1909,Literatura,nao
+L00024,Sult,Knut Hamsun,1890,Literatura,sim
+L00025,The Stepford Wives,Ira Levin,1972,Literatura,sim
+L00026,A Wonder Book for Girls and Boys,Nathaniel Hawthorne,1800,Literatura,nao
+L00027,Memórias póstumas de Brás Cubas,Machado de Assis,1881,Literatura,sim
+L00028,Markens grøde,Knut Hamsun,1917,Literatura,sim
+L00029,Player Piano,Kurt Vonnegut,1952,Literatura,sim
+L00030,Siddhartha,Hermann Hesse,1922,Literatura,sim
+L00031,The Sea Fairies,L. Frank Baum,1911,Literatura,nao
+L00032,Heidi,"Spyri, Johanna",1885,Literatura,sim
+L00033,Black Ships Before Troy,Rosemary Sutcliff,1967,Literatura,sim
+L00034,Women in Love,D. H. Lawrence,1877,Literatura,nao
+L00035,Il Paradiso,Dante Alighieri,1595,Literatura,sim
+L00036,Phantastes,George MacDonald,1850,Literatura,nao
+L00037,Dawn,Eleanor Hodgman Porter,1919,Literatura,sim
+L00038,Where the Sidewalk Ends,Shel Silverstein,1974,Literatura,sim
+L00039,कामसूत्र,Vatsyāyana,1883,Literatura,sim
+L00040,La fortune des Rougon,Émile Zola,1875,Literatura,sim
+L00041,The Princess and Curdie,George MacDonald,1832,Literatura,nao
+L00042,The Aeneid,Publius Vergilius Maro,1990,Literatura,sim
+L00043,"Heroes, Gods and Monsters of the Greek Myths",Bernard Evslin,1967,Literatura,sim
+L00044,The Princess and the Goblin,George MacDonald,1872,Literatura,sim
+L00045,D'Aulaires' Book of Greek Myths,Ingri Parin D'Aulaire,1962,Literatura,nao
+L00046,Animal Farm,George Orwell,1945,Literatura,nao
+L00047,Metamorphoses,Lucius Apuleius,1500,Literatura,sim
+L00048,Sense and Sensibility,Jane Austen,1811,Literatura,sim
+L00049,The Evil Shepherd,Edward Phillips Oppenheim,1922,Literatura,sim
+L00050,The Sirens of Titan,Kurt Vonnegut,1959,Literatura,sim
+L00051,What's wrong with the world,Gilbert Keith Chesterton,1910,Literatura,nao
+L00052,Original Short Stories,Guy de Maupassant,1925,Literatura,sim
+L00053,The Awakening,Kate Chopin,1899,Literatura,sim
+L00054,Of Mice and Men,John Steinbeck,1937,Literatura,sim
+L00055,Breakfast of Champions,Kurt Vonnegut,1973,Literatura,sim
+L00056,Don Quijote de la Mancha,Miguel de Cervantes Saavedra,1600,Literatura,nao
+L00057,Nineteen Eighty-Four,George Orwell,1949,Literatura,sim
+L00058,De rerum natura,Titus Lucretius Carus,1486,Literatura,sim
+L00059,The Freedom of Life,Annie Payson Call,1905,Literatura,sim
+L00060,The Giver,Lois Lowry,1993,Literatura,sim
+L00061,The Paradise Mystery,Joseph Smith Fletcher,1920,Literatura,nao
+L00062,The Railway Children,Edith Nesbit,1900,Literatura,sim
+L00063,Whose Body?,Dorothy L. Sayers,1923,Literatura,sim
+L00064,The Lost Princess of Oz,L. Frank Baum,1917,Literatura,sim
+L00065,The Waves,Virginia Woolf,1931,Literatura,sim
+L00066,Flatland,Edwin Abbott Abbott,1884,Literatura,nao
+L00067,The house by the church-yard,Sheridan Le Fanu,1863,Literatura,nao
+L00068,A strange disappearance,Anna Katharine Green,1879,Literatura,sim
+L00069,Mother Goose in Prose,L. Frank Baum,1897,Literatura,sim
+L00070,Classics,Mary Beard,1995,Literatura,sim
+L00071,El Lazarillo de Tormes,Anonymous,1997,Literatura,nao
+L00072,Dubliners,James Joyce,1914,Literatura,sim
+L00073,Смерть Ивана Ильича,Лев Толстой,1887,Literatura,sim
+L00074,"Under the Greenwood Tree or, The Mellstock quire",Thomas Hardy,1872,Literatura,sim
+L00075,The Age of Fable,Thomas Bulfinch,1800,Literatura,sim
+L00076,The Greek myths,Robert Graves,1955,Literatura,nao
+L00077,Go Tell It on the Mountain,James Baldwin,1952,Literatura,sim
+L00078,K,Mary Roberts Rinehart,1915,Literatura,nao
+L00079,Die Leiden des jungen Werthers,Johann Wolfgang von Goethe,1779,Literatura,sim
+L00080,L'Ecole Des Femmes,Molière,1950,Literatura,sim
+L00081,Metamorphoses,Ovid,1479,Literatura,nao
+L00082,The Pearl,John Steinbeck,1945,Literatura,sim
+L00083,Inferno,Dante Alighieri,1767,Literatura,sim
+L00084,One Flew Over the Cuckoo's Nest,Ken Kesey,1962,Literatura,sim
+L00085,The Scarecrow of Oz,L. Frank Baum,1915,Literatura,sim
+L00086,The Great God Pan,Arthur Machen,1894,Literatura,nao
+L00087,Chance,Joseph Conrad,1913,Literatura,sim
+L00088,The Soul of Man Under Socialism,Oscar Wilde,1891,Literatura,sim
+L00089,Giovanni's Room,James Baldwin,1956,Literatura,nao
+L00090,A Tale of Two Cities,Charles Dickens,1800,Literatura,sim
+L00091,Through the Looking-Glass,Lewis Carroll,1865,Literatura,nao
+L00092,Ἰλιάς,Όμηρος,1505,Literatura,sim
+L00093,The Vampyre,John William Polidori,1819,Literatura,sim
+L00094,Tao te Ching,老子,1842,Literatura,sim
+L00095,Baum's American Fairy Tales,L. Frank Baum,1901,Literatura,sim
+L00096,The Trojan War,Olivia E. Coolidge,1952,Literatura,nao
+L00097,La vie de Marianne,Pierre Carlet de Chamblain de Marivaux,1736,Literatura,sim
+L00098,Κρίτων,Πλάτων,1833,Literatura,sim
+L00099,The Midwich Cuckoos,John Wyndham,1957,Literatura,sim
+L00100,The Gods of Mars,Edgar Rice Burroughs,1918,Literatura,nao
+L00101,Death's End (The Three-Body Problem Series Book 3),刘慈欣,2010,Ficcao cientifica,nao
+L00102,The Fall of Hyperion,Dan Simmons,1990,Ficcao cientifica,sim
+L00103,The Caves of Steel,Isaac Asimov,1953,Ficcao cientifica,sim
+L00104,Понедельник начинается в субботу; Пикник на обочине,Аркадий Стругацкий,1978,Ficcao cientifica,sim
+L00105,The Naked Sun,Isaac Asimov,1954,Ficcao cientifica,sim
+L00106,The Dark Forest (The Three-Body Problem Series Book 2),刘慈欣,2008,Ficcao cientifica,nao
+L00107,The Foundation Trilogy,Isaac Asimov,1950,Ficcao cientifica,sim
+L00108,Nightfall,Isaac Asimov,1969,Ficcao cientifica,sim
+L00109,I Have No Mouth and I Must Scream,Harlan Ellison,1972,Ficcao cientifica,sim
+L00110,Project Hail Mary,Andy Weir,2021,Ficcao cientifica,sim
+L00111,The End of Eternity,Isaac Asimov,1955,Ficcao cientifica,nao
+L00112,The Mote in God's Eye,Larry Niven,1974,Ficcao cientifica,sim
+L00113,God Emperor of Dune,Frank Herbert,1981,Ficcao cientifica,sim
+L00114,Snow Crash,Neal Stephenson,1992,Ficcao cientifica,sim
+L00115,"The Stars, Like Dust",Isaac Asimov,1951,Ficcao cientifica,sim
+L00116,Dune Messiah,Frank Herbert,1969,Ficcao cientifica,nao
+L00117,Altered Carbon,Richard K. Morgan,2002,Ficcao cientifica,sim
+L00118,Artemis,Andy Weir,2017,Ficcao cientifica,sim
+L00119,Chapterhouse Dune,Frank Herbert,1985,Ficcao cientifica,sim
+L00120,2001,Arthur C. Clarke,1968,Ficcao cientifica,sim
+L00121,Solaris,Stanisław Lem,1961,Ficcao cientifica,nao
+L00122,Endymion,Dan Simmons,1995,Ficcao cientifica,nao
+L00123,The Robots of Dawn,Isaac Asimov,1983,Ficcao cientifica,sim
+L00124,Dune,Frank Herbert,1965,Ficcao cientifica,sim
+L00125,Foundation,Isaac Asimov,1951,Ficcao cientifica,sim
+L00126,The Martian Chronicles,Ray Bradbury,1950,Ficcao cientifica,nao
+L00127,Ubik,Philip K. Dick,1969,Ficcao cientifica,sim
+L00128,Contact,Carl Sagan,1985,Ficcao cientifica,sim
+L00129,Friday,Robert A. Heinlein,1982,Ficcao cientifica,sim
+L00130,Pandora's Star,Peter F. Hamilton,2004,Ficcao cientifica,sim
+L00131,"The Long Way to a Small, Angry Planet",Becky Chambers,2014,Ficcao cientifica,nao
+L00132,Lucifer's Hammer,Larry Niven,1977,Ficcao cientifica,sim
+L00133,A Closed and Common Orbit,Becky Chambers,2016,Ficcao cientifica,nao
+L00134,Heretics of Dune,Frank Herbert,1984,Ficcao cientifica,sim
+L00135,Burning Chrome,William Gibson,1986,Ficcao cientifica,sim
+L00136,A Princess of Mars,Edgar Rice Burroughs,1912,Ficcao cientifica,nao
+L00137,Blindsight,Peter Watts,2006,Ficcao cientifica,sim
+L00138,Foundation and Earth,Isaac Asimov,1986,Ficcao cientifica,sim
+L00139,Shatter Me,Tahereh Mafi,2011,Ficcao cientifica,sim
+L00140,Shatter Me Complete Collection,Tahereh Mafi,2011,Ficcao cientifica,sim
+L00141,Robots and Empire,Isaac Asimov,1985,Ficcao cientifica,nao
+L00142,The Time Machine,H. G. Wells,1895,Ficcao cientifica,sim
+L00143,"I, Robot",Isaac Asimov,1950,Ficcao cientifica,sim
+L00144,The Currents of Space,Isaac Asimov,1952,Ficcao cientifica,nao
+L00145,Defy Me (Shatter Me),Tahereh Mafi,2019,Ficcao cientifica,sim
+L00146,三体,刘慈欣,2008,Ficcao cientifica,nao
+L00147,Unravel me,Tahereh Mafi,2013,Ficcao cientifica,sim
+L00148,Ancillary Sword,Ann Leckie,2014,Ficcao cientifica,sim
+L00149,The Diamond Age,Neal Stephenson,1995,Ficcao cientifica,sim
+L00150,A Fire upon the Deep,Vernor Vinge,1992,Ficcao cientifica,sim
+L00151,Starship Troopers,Robert A. Heinlein,1959,Ficcao cientifica,nao
+L00152,The Martian,Andy Weir,2011,Ficcao cientifica,sim
+L00153,The Last Colony,John Scalzi,2007,Ficcao cientifica,sim
+L00154,Xenocide,Orson Scott Card,1991,Ficcao cientifica,sim
+L00155,Brave New World,Aldous Huxley,1932,Ficcao cientifica,nao
+L00156,I am Legend,Richard Matheson,1954,Ficcao cientifica,nao
+L00157,Foundation and Empire,Isaac Asimov,1945,Ficcao cientifica,sim
+L00158,Dawn,Octavia E. Butler,1987,Ficcao cientifica,sim
+L00159,Prelude to Foundation,Isaac Asimov,1988,Ficcao cientifica,sim
+L00160,Cryptonomicon,Neal Stephenson,1999,Ficcao cientifica,sim
+L00161,The Day of the Triffids,John Wyndham,1951,Ficcao cientifica,nao
+L00162,The Difference Engine,William Gibson,1990,Ficcao cientifica,sim
+L00163,Animal Farm / Nineteen Eighty-Four,George Orwell,1978,Ficcao cientifica,sim
+L00164,The Hitch Hiker's Guide to the Galaxy,Douglas Adams,1979,Ficcao cientifica,sim
+L00165,"Works (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish / Mostly Harmless / Young Zaphod Plays it Safe)",Douglas Adams,1996,Ficcao cientifica,sim
+L00166,Pebble in the Sky,Isaac Asimov,1950,Ficcao cientifica,nao
+L00167,The Stars My Destination,Alfred Bester,1956,Ficcao cientifica,sim
+L00168,Pyramids,Terry Pratchett,1989,Ficcao cientifica,sim
+L00169,Dandelion Wine,Ray Bradbury,1946,Ficcao cientifica,sim
+L00170,Small Gods,Terry Pratchett,1992,Ficcao cientifica,sim
+L00171,The Dispossessed,Ursula K. Le Guin,1974,Ficcao cientifica,nao
+L00172,Kindred,Octavia E. Butler,1979,Ficcao cientifica,sim
+L00173,A Deepness in the Sky (Zones of Thought),Vernor Vinge,1999,Ficcao cientifica,sim
+L00174,Nemesis Games,James S. A. Corey,2015,Ficcao cientifica,sim
+L00175,The ones who walk away from Omelas,Ursula K. Le Guin,1973,Ficcao cientifica,sim
+L00176,The Forever War,Joe Haldeman,1974,Ficcao cientifica,nao
+L00177,"2010, odyssey two",Arthur C. Clarke,1982,Ficcao cientifica,nao
+L00178,Second Foundation,Isaac Asimov,1953,Ficcao cientifica,sim
+L00179,The Lathe of Heaven,Ursula K. Le Guin,1971,Ficcao cientifica,sim
+L00180,Virtual light,William Gibson,1743,Ficcao cientifica,sim
+L00181,The Restaurant at the End of the Universe,Douglas Adams,1980,Ficcao cientifica,nao
+L00182,Abaddon’s Gate,James S. A. Corey,2013,Ficcao cientifica,sim
+L00183,The Illustrated Man,Ray Bradbury,1951,Ficcao cientifica,sim
+L00184,The Man in the High Castle,Philip K. Dick,1962,Ficcao cientifica,sim
+L00185,The Rise of Endymion,Dan Simmons,1997,Ficcao cientifica,sim
+L00186,Fahrenheit 451,Ray Bradbury,1953,Ficcao cientifica,nao
+L00187,This is How You Lose the Time War,Amal El-Mohtar,2019,Ficcao cientifica,sim
+L00188,The Salmon of Doubt,Douglas Adams,1995,Ficcao cientifica,nao
+L00189,Children of Dune,Frank Herbert,1976,Ficcao cientifica,sim
+L00190,Have Spacesuit--Will Travel,Robert A. Heinlein,1958,Ficcao cientifica,sim
+L00191,A Scanner Darkly,Philip K. Dick,1977,Ficcao cientifica,nao
+L00192,Restore me,Tahereh Mafi,2018,Ficcao cientifica,sim
+L00193,Use of Weapons,Iain Banks,1990,Ficcao cientifica,sim
+L00194,The White Dragon,Anne McCaffrey,1978,Ficcao cientifica,sim
+L00195,Rocannon's World,Ursula K. Le Guin,1966,Ficcao cientifica,sim
+L00196,The Number of the Beast,Robert A. Heinlein,1980,Ficcao cientifica,nao
+L00197,Caliban's war,James S. A. Corey,2012,Ficcao cientifica,sim
+L00198,The Chrysalids,John Wyndham,1955,Ficcao cientifica,sim
+L00199,The Ringworld throne,Larry Niven,1996,Ficcao cientifica,nao
+L00200,Anathem,Neal Stephenson,2008,Ficcao cientifica,sim
+L00201,The Blade Itself,Joe Abercrombie,2001,Fantasia,nao
+L00202,The Hero of Ages,Brandon Sanderson,2008,Fantasia,sim
+L00203,The Lies of Locke Lamora,Scott Lynch,2001,Fantasia,sim
+L00204,The Assassin’s Blade,Sarah J. Maas,2014,Fantasia,sim
+L00205,Wizard's First Rule,Terry Goodkind,1994,Fantasia,sim
+L00206,Krew elfów,Andrzej Sapkowski,1994,Fantasia,nao
+L00207,The Poppy War,R. F. Kuang,2018,Fantasia,sim
+L00208,The Eye of the World,Robert Jordan,1990,Fantasia,sim
+L00209,The Princess Bride,William Goldman,1973,Fantasia,sim
+L00210,Lord of Chaos,Robert Jordan,1994,Fantasia,nao
+L00211,The Alloy of Law,Brandon Sanderson,2001,Fantasia,nao
+L00212,The Way of Kings,Brandon Sanderson,2010,Fantasia,sim
+L00213,The Silmarillion,J.R.R. Tolkien,1977,Fantasia,sim
+L00214,Elantris,Brandon Sanderson,2005,Fantasia,sim
+L00215,Sojourn,R. A. Salvatore,1991,Fantasia,sim
+L00216,Pawn of Prophecy,David Eddings,1982,Fantasia,nao
+L00217,Gardens of the Moon,Steven Erikson,1999,Fantasia,sim
+L00218,The Shadow Rising,Robert Jordan,1992,Fantasia,sim
+L00219,The Shadow of the Torturer,Gene Wolfe,1980,Fantasia,sim
+L00220,Miecz przeznaczenia,Andrzej Sapkowski,1992,Fantasia,sim
+L00221,Ship of Magic,Robin Hobb,1998,Fantasia,nao
+L00222,Powerless,Lauren Roberts,2023,Fantasia,sim
+L00223,Exile,R. A. Salvatore,1990,Fantasia,sim
+L00224,The Emperor's Soul,Brandon Sanderson,2012,Fantasia,sim
+L00225,The Fires of Heaven,Robert Jordan,1993,Fantasia,sim
+L00226,Best served cold,Joe Abercrombie,2009,Fantasia,nao
+L00227,Wolves of the Calla,Stephen King,2003,Fantasia,sim
+L00228,Ostatnie Życzenie,Andrzej Sapkowski,1993,Fantasia,sim
+L00229,House of Earth and Blood,Sarah J. Maas,2019,Fantasia,sim
+L00230,Enchanters' End Game (The Belgariad),David Eddings,1984,Fantasia,sim
+L00231,The Great Hunt (The Wheel of Time Book 2),Robert Jordan,1990,Fantasia,nao
+L00232,Assassin's Apprentice,Robin Hobb,1995,Fantasia,nao
+L00233,The Way of Shadows,Brent Weeks,2008,Fantasia,sim
+L00234,Onyx Storm,Rebecca Yarros,2025,Fantasia,sim
+L00235,Once Upon a Broken Heart,Stephanie Garber,2021,Fantasia,sim
+L00236,Arcanum Unbounded,Brandon Sanderson,2016,Fantasia,nao
+L00237,Iron Flame,Rebecca Yarros,2023,Fantasia,sim
+L00238,Stellarlune,Shannon Messenger,2022,Fantasia,sim
+L00239,Midnight,Erin Hunter,2005,Fantasia,sim
+L00240,The Ballad of Never After,Stephanie Garber,2022,Fantasia,sim
+L00241,Mort,Terry Pratchett,1987,Fantasia,nao
+L00242,A Spell for Chameleon,Piers Anthony,1977,Fantasia,sim
+L00243,The City of Ember (The First Book of Ember),Jeanne DuPrau,1998,Fantasia,nao
+L00244,Neverwhere,Neil Gaiman,1996,Fantasia,sim
+L00245,A Clash of Kings,George R. R. Martin,1998,Fantasia,sim
+L00246,"New Spring (The Wheel of Time, Book 0)",Robert Jordan,2004,Fantasia,nao
+L00247,Equal Rites,Terry Pratchett,1987,Fantasia,sim
+L00248,The Cruel Prince,Holly Black,2018,Fantasia,sim
+L00249,The Eyes of the Dragon,Stephen King,1959,Fantasia,sim
+L00250,Fire and Ice,Erin Hunter,2003,Fantasia,sim
+L00251,The Hobbit,J.R.R. Tolkien,1937,Fantasia,nao
+L00252,Sourcery,Terry Pratchett,1988,Fantasia,sim
+L00253,Interesting Times,Terry Pratchett,1994,Fantasia,sim
+L00254,The Last Unicorn,Peter S. Beagle,1968,Fantasia,nao
+L00255,The Darkest Hour,Erin Hunter,2004,Fantasia,sim
+L00256,The Invisible Life of Addie LaRue,V. E. Schwab,2015,Fantasia,nao
+L00257,Knife of Dreams,Robert Jordan,2005,Fantasia,sim
+L00258,Haunting Adeline,H. D. Carlton,2021,Fantasia,sim
+L00259,Gideon the Ninth,Tamsyn Muir,2019,Fantasia,sim
+L00260,Exile,Shannon Messenger,2012,Fantasia,sim
+L00261,Unfinished Tales of Númenor and Middle-earth,J.R.R. Tolkien,1980,Fantasia,nao
+L00262,A Court of Silver Flames,Sarah J. Maas,2021,Fantasia,sim
+L00263,The Crystal Shard,R. A. Salvatore,1988,Fantasia,sim
+L00264,The Last Battle,C. S. Lewis,1956,Fantasia,sim
+L00265,The Path of Daggers,Robert Jordan,1998,Fantasia,nao
+L00266,On a pale horse,Piers Anthony,1983,Fantasia,nao
+L00267,Rising Storm,Erin Hunter,2004,Fantasia,sim
+L00268,Homeland,R. A. Salvatore,1990,Fantasia,sim
+L00269,Storm Front,Jim Butcher,2000,Fantasia,sim
+L00270,Dragons of Winter Night,Margaret Weis,1985,Fantasia,sim
+L00271,Last Argument of Kings,Joe Abercrombie,2008,Fantasia,nao
+L00272,Song of Susannah,Stephen King,1999,Fantasia,sim
+L00273,Wyrd Sisters,Terry Pratchett,1988,Fantasia,sim
+L00274,Czas pogardy,Andrzej Sapkowski,1995,Fantasia,sim
+L00275,Witches Abroad,Terry Pratchett,1991,Fantasia,sim
+L00276,Babel,R. F. Kuang,2022,Fantasia,nao
+L00277,Wieża jaskółki,Andrzej Sapkowski,1997,Fantasia,sim
+L00278,Oathbringer,Brandon Sanderson,2017,Fantasia,sim
+L00279,"Deadhouse Gates (The Malazan Book of the Fallen, Book 2)",Steven Erikson,2000,Fantasia,sim
+L00280,The Wise Man’s Fear,Patrick Rothfuss,2011,Fantasia,sim
+L00281,Lords and Ladies,Terry Pratchett,1992,Fantasia,nao
+L00282,The Drawing of the Three,Stephen King,1987,Fantasia,sim
+L00283,Red Seas Under Red Skies (Gentlemen Bastards #2),Scott Lynch,2007,Fantasia,sim
+L00284,Heir of Fire,Sarah J. Maas,2014,Fantasia,sim
+L00285,House of Chains,Steven Erikson,1998,Fantasia,sim
+L00286,Queen of Shadows,Sarah J. Maas,2015,Fantasia,nao
+L00287,Crossroads of Twilight,Robert Jordan,1995,Fantasia,nao
+L00288,The Source of Magic,Piers Anthony,1979,Fantasia,sim
+L00289,A Game of Thrones,George R. R. Martin,1996,Fantasia,sim
+L00290,A Darker Shade of Magic,V.E. Schwab,2015,Fantasia,sim
+L00291,Rhythm of War,Brandon Sanderson,2011,Fantasia,nao
+L00292,The Chronicles of Narnia,C. S. Lewis,1970,Fantasia,sim
+L00293,Mad Ship,Robin Hobb,1999,Fantasia,sim
+L00294,The Light Fantastic,Terry Pratchett,1986,Fantasia,sim
+L00295,Howl's Moving Castle,Diana Wynne Jones,1986,Fantasia,sim
+L00296,Belgarath the sorcerer,David Eddings,1995,Fantasia,nao
+L00297,A Torre Negra,Stephen King,1991,Fantasia,sim
+L00298,Good Omens,Neil Gaiman,1990,Fantasia,nao
+L00299,A Gathering of Shadows,V.E. Schwab,2016,Fantasia,sim
+L00300,The Starless Sea,Erin Morgenstern,2019,Fantasia,sim
+L00301,The Man in the Brown Suit,Agatha Christie,1924,Suspense,nao
+L00302,The Secret of Chimneys,Agatha Christie,1925,Suspense,sim
+L00303,Never Lie,Freida McFadden,2022,Suspense,sim
+L00304,At Bertram's Hotel,Agatha Christie,1965,Suspense,sim
+L00305,4:50 from Paddington,Agatha Christie,1957,Suspense,sim
+L00306,The Mirror Crack'd from Side to Side,Agatha Christie,1960,Suspense,nao
+L00307,They Do It with Mirrors,Agatha Christie,1952,Suspense,sim
+L00308,Hallowe'en Party,Agatha Christie,1969,Suspense,sim
+L00309,The Big Four,Agatha Christie,1927,Suspense,nao
+L00310,After the Funeral,Agatha Christie,1953,Suspense,sim
+L00311,The Hidden Staircase,Carolyn Keene,1930,Suspense,nao
+L00312,Murder in Three Acts,Agatha Christie,1934,Suspense,sim
+L00313,The Murder of Roger Ackroyd,Agatha Christie,1926,Suspense,sim
+L00314,Poirot investigates,Agatha Christie,1924,Suspense,sim
+L00315,The Big Sleep,Raymond Chandler,1939,Suspense,sim
+L00316,Sleeping Murder,Agatha Christie,1940,Suspense,nao
+L00317,Five Little Pigs,Agatha Christie,1942,Suspense,sim
+L00318,Nemesis,Agatha Christie,1970,Suspense,sim
+L00319,The Inmate,Freida McFadden,2022,Suspense,sim
+L00320,The Locked Door,Freida McFadden,2021,Suspense,nao
+L00321,The Sign of Four,Arthur Conan Doyle,1889,Suspense,nao
+L00322,Crooked House,Agatha Christie,1949,Suspense,sim
+L00323,Peril at End House,Agatha Christie,1932,Suspense,sim
+L00324,The Murder at the Vicarage,Agatha Christie,1930,Suspense,sim
+L00325,Mrs. McGinty's Dead,Agatha Christie,1951,Suspense,sim
+L00326,His Last Bow [8 stories],Arthur Conan Doyle,1917,Suspense,nao
+L00327,The Red House Mystery,A. A. Milne,1922,Suspense,sim
+L00328,The Sittaford Mystery,Agatha Christie,1931,Suspense,sim
+L00329,And Then There Were None,Agatha Christie,1939,Suspense,sim
+L00330,One for the Money,Janet Evanovich,1994,Suspense,sim
+L00331,Murder on the Links,Agatha Christie,1923,Suspense,nao
+L00332,Gone Girl,Gillian Flynn,2011,Suspense,sim
+L00333,Memoirs of Sherlock Holmes [11 stories],Arthur Conan Doyle,1893,Suspense,sim
+L00334,The Adventures of Sherlock Holmes [12 stories],Arthur Conan Doyle,1892,Suspense,sim
+L00335,Destination Unknown,Agatha Christie,1954,Suspense,sim
+L00336,Die Softly,Christopher Pike,1991,Suspense,nao
+L00337,The Seven Dials Mystery,Agatha Christie,1920,Suspense,sim
+L00338,Endless Night,Agatha Christie,1905,Suspense,sim
+L00339,A Study in Scarlet,Arthur Conan Doyle,1887,Suspense,sim
+L00340,The Clocks,Agatha Christie,1963,Suspense,sim
+L00341,Why Didn't they Ask Evans?,Agatha Christie,1934,Suspense,nao
+L00342,Evil Under the Sun,Agatha Christie,1941,Suspense,nao
+L00343,Brain Damage,Freida McFadden,2016,Suspense,sim
+L00344,The Big Bad Wolf,James Patterson,2001,Suspense,sim
+L00345,Hercule Poirot's Christmas,Agatha Christie,1939,Suspense,sim
+L00346,Death in the Clouds,Agatha Christie,1935,Suspense,nao
+L00347,The Secret of the Old Clock,Carolyn Keene,1930,Suspense,sim
+L00348,The Body in the Library,Agatha Christie,1942,Suspense,sim
+L00349,The Secret Adversary,Agatha Christie,1922,Suspense,sim
+L00350,Curtain,Agatha Christie,1975,Suspense,sim
+L00351,Appointment with Death,Agatha Christie,1938,Suspense,nao
+L00352,Roses Are Red,James Patterson,1752,Suspense,sim
+L00353,The Perfect Marriage,Jeneva Rose,2020,Suspense,nao
+L00354,Lord Edgware Dies,Agatha Christie,1933,Suspense,sim
+L00355,The Moonstone,Wilkie Collins,1800,Suspense,sim
+L00356,The Pale Horse,Agatha Christie,1952,Suspense,nao
+L00357,Suicide Med,Freida McFadden,2014,Suspense,sim
+L00358,Cat Among the Pigeons,Agatha Christie,1959,Suspense,sim
+L00359,The Hollow,Agatha Christie,1946,Suspense,sim
+L00360,The Moving Finger,Agatha Christie,1942,Suspense,sim
+L00361,The Man Who Was Thursday,Gilbert Keith Chesterton,1908,Suspense,nao
+L00362,The Innocence of Father Brown (Father Brown Mystery),Gilbert Keith Chesterton,1583,Suspense,sim
+L00363,Murder is Easy,Agatha Christie,1853,Suspense,sim
+L00364,The Man Who Knew Too Much,Gilbert Keith Chesterton,1922,Suspense,nao
+L00365,A Pocket Full of Rye,Agatha Christie,1953,Suspense,sim
+L00366,The house without a key,Earl Derr Biggers,1925,Suspense,nao
+L00367,The Case-Book of Sherlock Holmes,Arthur Conan Doyle,1927,Suspense,sim
+L00368,The Valley of Fear,Arthur Conan Doyle,1914,Suspense,sim
+L00369,Layla,Colleen Hoover,2020,Suspense,sim
+L00370,Hidden Pictures,Jason Rekulak,2022,Suspense,sim
+L00371,Sparkling Cyanide,Agatha Christie,1945,Suspense,nao
+L00372,"""A"" is for Alibi",Sue Grafton,1982,Suspense,sim
+L00373,Dead Man's Folly,Agatha Christie,1956,Suspense,sim
+L00374,Elephants Can Remember,Agatha Christie,1969,Suspense,sim
+L00375,The Prom Queen,Robert Lawrence Stine,1992,Suspense,nao
+L00376,Slumber Party,Christopher Pike,1985,Suspense,nao
+L00377,The Housemaid,Freida McFadden,2022,Suspense,sim
+L00378,Mördare utan ansikte,Henning Mankell,1993,Suspense,sim
+L00379,If We Were Villains,M. L. Rio,2017,Suspense,sim
+L00380,Murder on the Orient Express,Agatha Christie,1933,Suspense,sim
+L00381,The tower treasure,Franklin W. Dixon,1927,Suspense,nao
+L00382,Violets Are Blue,James Patterson,2001,Suspense,sim
+L00383,The Angel of Terror,Edgar Wallace,1923,Suspense,sim
+L00384,The Thursday Murder Club,Richard Osman,2020,Suspense,sim
+L00385,Sad Cypress,Agatha Christie,1939,Suspense,sim
+L00386,"One, Two, Buckle My Shoe",Agatha Christie,1940,Suspense,nao
+L00387,Dark Matter,Blake Crouch,2016,Suspense,sim
+L00388,Culpa mía,Mercedes Ron,2014,Suspense,sim
+L00389,The A.B.C. Murders,Agatha Christie,1936,Suspense,sim
+L00390,Fear Street - Ski Weekend,Robert Lawrence Stine,1991,Suspense,sim
+L00391,Taken at the Flood,Agatha Christie,1948,Suspense,nao
+L00392,Ordeal by Innocence,Agatha Christie,1958,Suspense,sim
+L00393,The Thirteen Problems,Agatha Christie,1932,Suspense,sim
+L00394,The Wife Upstairs,Freida McFadden,2020,Suspense,sim
+L00395,The Mystery of the Blue Train,Agatha Christie,1928,Suspense,sim
+L00396,Fall into Darkness,Christopher Pike,1990,Suspense,nao
+L00397,The Housemaid's Secret,Freida McFadden,2023,Suspense,nao
+L00398,Coma,Robin Cook,1977,Suspense,sim
+L00399,The Club of Queer Trades,Gilbert Keith Chesterton,1900,Suspense,sim
+L00400,The mysterious Mr Quin,Agatha Christie,1930,Suspense,sim
+L00401,A Gentleman in Moscow,Amor Towles,2016,Ficcao historica,nao
+L00402,Circe,Madeline Miller,2018,Ficcao historica,sim
+L00403,Redeeming Love,Francine Rivers,1991,Ficcao historica,sim
+L00404,Quicksilver,Neal Stephenson,2003,Ficcao historica,sim
+L00405,Homegoing,Yaa Gyasi,2016,Ficcao historica,sim
+L00406,The Underground Railroad,Colson Whitehead,2000,Ficcao historica,nao
+L00407,The Clan of the Cave Bear,Jean M. Auel,1900,Ficcao historica,sim
+L00408,Blood Meridian,Cormac McCarthy,1985,Ficcao historica,nao
+L00409,The Song of Achilles,Madeline Miller,2011,Ficcao historica,sim
+L00410,Perfume,Patrick Süskind,1985,Ficcao historica,sim
+L00411,Le Comte de Monte Cristo,Alexandre Dumas,1830,Ficcao historica,nao
+L00412,Outlander,Diana Gabaldon,1991,Ficcao historica,sim
+L00413,Lonesome Dove,Larry McMurtry,1985,Ficcao historica,sim
+L00414,The Last Kingdom,Bernard Cornwell,2004,Ficcao historica,sim
+L00415,Alias Grace,Margaret Atwood,1996,Ficcao historica,sim
+L00416,Almost Heaven,Judith McNaught,1990,Ficcao historica,nao
+L00417,The Flame and the Flower,Kathleen E. Woodiwiss,1972,Ficcao historica,sim
+L00418,Witch Wood,John Buchan,1927,Ficcao historica,sim
+L00419,The Picture of Dorian Gray,Oscar Wilde,1890,Ficcao historica,nao
+L00420,Devil's Cub (Alastair-Audley #2),Georgette Heyer,1932,Ficcao historica,sim
+L00421,The Palace of Illusions,Chitra Banerjee Divakaruni,2008,Ficcao historica,nao
+L00422,The Viscount Who Loved Me,Julia Quinn,2000,Ficcao historica,sim
+L00423,The blue castle,Lucy Maud Montgomery,1926,Ficcao historica,sim
+L00424,A Rose In Winter,Kathleen E. Woodiwiss,1982,Ficcao historica,sim
+L00425,Lady of Quality,Georgette Heyer,1972,Ficcao historica,sim
+L00426,Shanna,Kathleen E. Woodiwiss,1977,Ficcao historica,nao
+L00427,Fingersmith,Sarah Waters,2002,Ficcao historica,sim
+L00428,Cloud Atlas,David Mitchell,2004,Ficcao historica,sim
+L00429,Atonement,Ian McEwan,2001,Ficcao historica,sim
+L00430,Bath Tangle,Georgette Heyer,1955,Ficcao historica,nao
+L00431,Записки изъ подполья,Fyodor Dostoyevsky,1864,Ficcao historica,nao
+L00432,The Things We Leave Unfinished,Rebecca Yarros,2021,Ficcao historica,sim
+L00433,The Dream Within,Barbara Cartland,1947,Ficcao historica,sim
+L00434,The Pillars of the Earth,Ken Follett,1989,Ficcao historica,sim
+L00435,The Lion's Lady,Julie Garwood,1988,Ficcao historica,sim
+L00436,Midwinter,John Buchan,1923,Ficcao historica,nao
+L00437,Once and Always,Judith McNaught,1987,Ficcao historica,sim
+L00438,Kane & Abel,Jeffrey Archer,1979,Ficcao historica,sim
+L00439,Half of a Yellow Sun,Chimamanda Ngozi Adichie,2006,Ficcao historica,sim
+L00440,The Mammoth Hunters,Jean M. Auel,1611,Ficcao historica,sim
+L00441,The Great Gatsby,F. Scott Fitzgerald,1920,Ficcao historica,nao
+L00442,Rebellious Desire,Julie Garwood,1986,Ficcao historica,sim
+L00443,The Day of the Jackal,Frederick Forsyth,1971,Ficcao historica,sim
+L00444,The Masqueraders,Georgette Heyer,1928,Ficcao historica,sim
+L00445,The Fiery Cross,Diana Gabaldon,1994,Ficcao historica,sim
+L00446,The Sun Also Rises,Ernest Hemingway,1926,Ficcao historica,nao
+L00447,Memoirs of a Geisha,Arthur Golden,1997,Ficcao historica,sim
+L00448,"Whitney, My Love",Judith McNaught,1985,Ficcao historica,sim
+L00449,Les Trois Mousquetaires,Alexandre Dumas,1844,Ficcao historica,sim
+L00450,Friday's Child,Georgette Heyer,1944,Ficcao historica,sim
+L00451,The Remains of the Day,Kazuo Ishiguro,1989,Ficcao historica,nao
+L00452,Wide Sargasso Sea,Jean Rhys,1966,Ficcao historica,nao
+L00453,The Wedding,Julie Garwood,1996,Ficcao historica,sim
+L00454,The Once and Future King,T. H. White,1939,Ficcao historica,sim
+L00455,Pride and Prejudice,Jane Austen,1813,Ficcao historica,sim
+L00456,Drums of Autumn,Diana Gabaldon,1997,Ficcao historica,nao
+L00457,The Last Days of Pompeii,"Edward Bulwer Lytton, Baron Lytton",1800,Ficcao historica,sim
+L00458,The Wolf and the Dove,Kathleen E. Woodiwiss,1974,Ficcao historica,sim
+L00459,Things Fall Apart,Chinua Achebe,1958,Ficcao historica,sim
+L00460,The Hired Girl,Laura Amy Schlitz,2015,Ficcao historica,sim
+L00461,Rilla of Ingleside,Lucy Maud Montgomery,1920,Ficcao historica,nao
+L00462,Train to Pakistan,Khushwant Singh,1956,Ficcao historica,sim
+L00463,Lincoln in the Bardo,George Saunders,2017,Ficcao historica,nao
+L00464,Eaters of the Dead,Michael Crichton,1976,Ficcao historica,sim
+L00465,L'amica geniale,Elena Ferrante,2011,Ficcao historica,sim
+L00466,The Prince and the Pauper,Mark Twain,1881,Ficcao historica,nao
+L00467,Romancing Mister Bridgerton,Julia Quinn,2002,Ficcao historica,sim
+L00468,The Double Wager,Mary Balogh,1985,Ficcao historica,sim
+L00469,The Terror,Dan Simmons,2007,Ficcao historica,sim
+L00470,The Obedient Bride,Mary Balogh,1989,Ficcao historica,sim
+L00471,Le roman du masque de fer,Alexandre Dumas,1600,Ficcao historica,nao
+L00472,A Breath of Snow and Ashes,Diana Gabaldon,1992,Ficcao historica,sim
+L00473,The Duke and I,Julia Quinn,2000,Ficcao historica,sim
+L00474,White Fang,Jack London,1905,Ficcao historica,nao
+L00475,Water for Elephants,Sara Gruen,2006,Ficcao historica,sim
+L00476,Ivanhoe,Sir Walter Scott,1800,Ficcao historica,nao
+L00477,The Tattooist of Auschwitz: the heart-breaking and unforgettable international bestseller,Heather Morris,2018,Ficcao historica,sim
+L00478,The Bride,Julie Garwood,1989,Ficcao historica,sim
+L00479,All the Light We Cannot See,Anthony Doerr,2014,Ficcao historica,sim
+L00480,Voyager,Diana Gabaldon,1994,Ficcao historica,sim
+L00481,Hawai,James A. Michener,1959,Ficcao historica,nao
+L00482,The Winter King,Bernard Cornwell,1995,Ficcao historica,sim
+L00483,Röde Orm,Frans Gunnar Bengtsson,1943,Ficcao historica,sim
+L00484,Master and Commander,Patrick O'Brian,1969,Ficcao historica,sim
+L00485,Jonathan Strange and Mr. Norrell,Susanna Clarke,2001,Ficcao historica,nao
+L00486,The Historian,Elizabeth Kostova,2005,Ficcao historica,nao
+L00487,Arabella,Georgette Heyer,1949,Ficcao historica,sim
+L00488,Bluestocking Bride,Elizabeth Thornton,2003,Ficcao historica,sim
+L00489,Come The Morning,Heather Graham,1999,Ficcao historica,sim
+L00490,Mexican Gothic,Silvia Moreno-Garcia,2020,Ficcao historica,sim
+L00491,The Undaunted Bride,Miranda Cameron,1987,Ficcao historica,nao
+L00492,Palace of Illusions,Chitra Banerjee Divakaruni,2008,Ficcao historica,sim
+L00493,The Source,James A. Michener,1900,Ficcao historica,sim
+L00494,Tai-Pan (Asian Saga,James Clavell,1966,Ficcao historica,sim
+L00495,На Дрини ћуприја (Na Drini ćuprija),Ivo Andrić,1946,Ficcao historica,sim
+L00496,The Pale Horseman,Bernard Cornwell,2004,Ficcao historica,nao
+L00497,The Scarlet Pimpernel,Emma Orczy,1900,Ficcao historica,sim
+L00498,Stars in My Heart,Barbara Cartland,1957,Ficcao historica,sim
+L00499,Shirley,Charlotte Brontë,1800,Ficcao historica,sim
+L00500,Stranger in My Arms,Lisa Kleypas,1998,Ficcao historica,sim
+L00501,Um casamento arranjado,Zana Kheiron,2019,Romance,nao
+L00502,Twisted Games,Ana Huang,2021,Romance,sim
+L00503,Twisted Love,Ana Huang,2021,Romance,sim
+L00504,Twisted Hate,Ana Huang,2022,Romance,sim
+L00505,Married at first sight,Gu Lingfei,2015,Romance,sim
+L00506,Punk 57,Penelope Douglas,2016,Romance,nao
+L00507,It Starts with Us,Colleen Hoover,2022,Romance,nao
+L00508,The Sweetest Oblivion,Danielle Lori,2018,Romance,sim
+L00509,Twisted Lies,Ana Huang,2022,Romance,sim
+L00510,Corrupt,Penelope Douglas,2015,Romance,sim
+L00511,It Ends With Us,Colleen Hoover,2012,Romance,nao
+L00512,Breaking Point,Emma Darcy,1992,Romance,sim
+L00513,Heated Rivalry,Rachel Reid,2019,Romance,sim
+L00514,Devil and the Deep Sea,Sara Craven,1988,Romance,sim
+L00515,Hopeless,Colleen Hoover,2013,Romance,sim
+L00516,Before December,Joana Marcus,2021,Romance,nao
+L00517,A Man Possessed,Penny Jordan,1986,Romance,sim
+L00518,Destroy Me,Tahereh Mafi,2012,Romance,nao
+L00519,Bought with His Name,Penny Jordan,1982,Romance,sim
+L00520,Uncertain Destiny,Carole Mortimer,1988,Romance,sim
+L00521,The Marriage Deal,Sara Craven,1986,Romance,nao
+L00522,Falcon's Prey,Penny Jordan,1981,Romance,sim
+L00523,To Speak of Love,Claudia Jameson,1986,Romance,sim
+L00524,To Catch A Butterfly,Marjorie Lewty,1977,Romance,sim
+L00525,Confirmed bachelor,Roberta Leigh,1981,Romance,sim
+L00526,Priest,Sierra Simone,2015,Romance,nao
+L00527,King of Pride,Ana Huang,2023,Romance,sim
+L00528,Not Once But Twice,Betty Neels,1981,Romance,sim
+L00529,Taggart's Woman,Carole Mortimer,1987,Romance,nao
+L00530,Temporary Bride,P. Wilson,1988,Romance,sim
+L00531,Season of Mists,Anne Mather,1982,Romance,nao
+L00532,Out of Control,Charlotte Lamb,1987,Romance,sim
+L00533,Past Passion,Penny Jordan,1992,Romance,sim
+L00534,Icebreaker,Hannah Grace,2020,Romance,sim
+L00535,Without Trust,Penny Jordan,1988,Romance,sim
+L00536,Lover's Touch,Penny Jordan,1989,Romance,nao
+L00537,Contra Su Voluntad,Sara Craven,2006,Romance,sim
+L00538,Impossible Bargain,Patricia Wilson,1987,Romance,sim
+L00539,When Two Paths Meet,Betty Neels,1988,Romance,sim
+L00540,Dark Lover,J. R. Ward,2005,Romance,nao
+L00541,Never Count Tomorrow,Daphne Clair,1980,Romance,nao
+L00542,No Alternative,Margaret Way,1983,Romance,sim
+L00543,A High Price to Pay,Sara Craven,1986,Romance,sim
+L00544,The Fine Print,Lauren Asher,2021,Romance,sim
+L00545,The Girl with Green Eyes,Betty Neels,1990,Romance,sim
+L00546,Kingfisher Morning,Charlotte Lamb,1977,Romance,nao
+L00547,Fire with Fire,Penny Jordan,1985,Romance,sim
+L00548,Beyond Compare,Penny Jordan,1989,Romance,sim
+L00549,From Blood and Ash,Jennifer L. Armentrout,2020,Romance,sim
+L00550,Levelling the Score,Penny Jordan,1987,Romance,sim
+L00551,Stormy Surrender,Patricia Wilson,1990,Romance,nao
+L00552,Twist of Fate,Charlotte Lamb,1979,Romance,sim
+L00553,Perilous Refuge,Patricia Wilson,1991,Romance,sim
+L00554,Bittersweet Passion,Lynne Graham,1987,Romance,sim
+L00555,Dearest Traitor,Patricia Wilson,1992,Romance,sim
+L00556,Love in the Dark,Charlotte Lamb,1987,Romance,nao
+L00557,Comparative Strangers,Sara Craven,1988,Romance,sim
+L00558,Retribution,Charlotte Lamb,1981,Romance,sim
+L00559,The Other Woman,Jessica Steele,1980,Romance,sim
+L00560,Passionate Scandal,Michelle Reid,1994,Romance,sim
+L00561,God of Malice,Rina Kent,2022,Romance,nao
+L00562,Pattern of Deceit,Emma Darcy,1989,Romance,nao
+L00563,"Red, White & Royal Blue",Casey McQuiston,2019,Romance,sim
+L00564,Spellbinding,Charlotte Lamb,1990,Romance,sim
+L00565,Intangible Dream,Patricia Wilson,1992,Romance,sim
+L00566,Echoes of the Past,Sally Wentworth,1989,Romance,nao
+L00567,The Dark Side of Desire,Michelle Reid,1991,Romance,sim
+L00568,Black Ties and White Lies,Kat Singleton,2023,Romance,sim
+L00569,The Marriage Possession,Helen Bianchin,2007,Romance,sim
+L00570,Substitute Lover,Penny Jordan,1987,Romance,sim
+L00571,The Velvet Tiger,Emma Darcy,1992,Romance,nao
+L00572,The Guarded Heart,Robyn Donald,1983,Romance,sim
+L00573,Second-Best Bride,Margaret Rome,1981,Romance,nao
+L00574,A Reason for Being,Penny Jordan,1989,Romance,sim
+L00575,Temporary Wife,Roberta Leigh,1975,Romance,sim
+L00576,The Spanish Love Deception,Elena Armas,2021,Romance,nao
+L00577,Iceberg,Robyn Donald,1980,Romance,sim
+L00578,Passport to Happiness,Jessica Steele,1990,Romance,sim
+L00579,Dangerous Obsession,Patricia Wilson,1989,Romance,sim
+L00580,Mansion for My Love,Robyn Donald,1982,Romance,sim
+L00581,Reluctant Wife,Lindsay Armstrong,1987,Romance,nao
+L00582,When the Loving Stopped,Jessica Steele,1988,Romance,sim
+L00583,Love's Duel,Carole Mortimer,1982,Romance,sim
+L00584,Sweet Revenge,Anne Mather,1970,Romance,nao
+L00585,Gold Ring of Betrayal,Michelle Reid,1996,Romance,sim
+L00586,Things We Never Got Over,Lucy Score,2022,Romance,nao
+L00587,Hidden Heart,Jessica Steele,1990,Romance,sim
+L00588,One More River to Cross,Essie Summers,1979,Romance,sim
+L00589,Betrayal in Bali,Sally Wentworth,1980,Romance,sim
+L00590,House of Mirrors,Yvonne Whittal,1982,Romance,sim
+L00591,Temple of Fire,Margaret Way,1981,Romance,nao
+L00592,Savage Interlude,Carole Mortimer,1979,Romance,sim
+L00593,Capable of Feeling,Penny Jordan,1986,Romance,sim
+L00594,Sirocco,Anne Mather,1983,Romance,sim
+L00595,Heartbreaker,Charlotte Lamb,1981,Romance,nao
+L00596,His Virgin Mistress,Anne Mather,2002,Romance,nao
+L00597,Distrust Her Shadow,Jessica Steele,1982,Romance,sim
+L00598,Fatal Deception,Sally Wentworth,1985,Romance,sim
+L00599,Terrace In The Sun,Anne Weale,1966,Romance,sim
+L00600,Unfriendly Alliance,Jessica Steele,1987,Romance,sim
+L00601,Misery,Stephen King,1978,Terror,nao
+L00602,The Shining,Stephen King,1977,Terror,sim
+L00603,The Exorcist,William Peter Blatty,1971,Terror,sim
+L00604,Cujo,Stephen King,1981,Terror,sim
+L00605,The Hellbound Heart,Clive Barker,1991,Terror,sim
+L00606,The Long Walk,Stephen King,1979,Terror,nao
+L00607,It,Stephen King,1986,Terror,sim
+L00608,Christine,Stephen King,1983,Terror,sim
+L00609,Four Past Midnight,Stephen King,1990,Terror,sim
+L00610,Fear Street - The Knife,Robert Lawrence Stine,1991,Terror,sim
+L00611,House of Leaves,Mark Z. Danielewski,1998,Terror,nao
+L00612,Thinner,Stephen King,1984,Terror,sim
+L00613,Pet Sematary,Stephen King,1983,Terror,sim
+L00614,The New Girl,Robert Lawrence Stine,1989,Terror,sim
+L00615,Phantoms,Dean Koontz,1983,Terror,sim
+L00616,The Stand,Stephen King,1978,Terror,nao
+L00617,Haunted,Robert Lawrence Stine,1990,Terror,nao
+L00618,Fear Street - Sunburn,Robert Lawrence Stine,1993,Terror,sim
+L00619,Desperation,Stephen King,1996,Terror,sim
+L00620,The Sleepwalker,Robert Lawrence Stine,1990,Terror,sim
+L00621,Skeleton crew,Stephen King,1985,Terror,nao
+L00622,Danse Macabre,Stephen King,1980,Terror,sim
+L00623,Firestarter,Stephen King,1980,Terror,sim
+L00624,Fear Street - The New Boy,Robert Lawrence Stine,1993,Terror,sim
+L00625,Fear Street - Missing,Robert Lawrence Stine,1990,Terror,sim
+L00626,Works (Buried Talents / Dance of the Dead / Dress of White Silk / From Shadowed Places / I Am Legend / Mad House / Person to Person / Prey / The Funeral / The Near Departed / Witch War),Richard Matheson,1970,Terror,nao
+L00627,Cell,Stephen King,2006,Terror,sim
+L00628,The Fall of the House of Usher,Edgar Allan Poe,1704,Terror,nao
+L00629,Carrie,Stephen King,1974,Terror,sim
+L00630,Books of Blood Volume One,Clive Barker,1985,Terror,sim
+L00631,Insomnia,Stephen King,1994,Terror,nao
+L00632,The Mist,Stephen King,1925,Terror,sim
+L00633,The Queen of the Damned,Anne Rice,1988,Terror,sim
+L00634,Fear Street - The Overnight,Robert Lawrence Stine,1989,Terror,sim
+L00635,Fear Street - The Surprise Party,Robert Lawrence Stine,1989,Terror,sim
+L00636,Lights Out,Robert Lawrence Stine,1991,Terror,nao
+L00637,The Power of Darkness,Edith Nesbit,2006,Terror,sim
+L00638,Mr. Mercedes,Stephen King,2013,Terror,sim
+L00639,Dracula,Bram Stoker,1897,Terror,nao
+L00640,The Masque of the Red Death,Edgar Allan Poe,1922,Terror,sim
+L00641,The talisman,Stephen King,1925,Terror,nao
+L00642,Fear Street - Dead End,Robert Lawrence Stine,1995,Terror,sim
+L00643,Welcome to Dead House,Robert Lawrence Stine,1992,Terror,sim
+L00644,The Secret Bedroom,Robert Lawrence Stine,1991,Terror,sim
+L00645,Coraline,Neil Gaiman,2001,Terror,sim
+L00646,Whispers,Dean Koontz,1960,Terror,nao
+L00647,Cabal,Clive Barker,1988,Terror,sim
+L00648,Gerald's Game,Stephen King,1992,Terror,sim
+L00649,The Thief of Always,Clive Barker,1992,Terror,sim
+L00650,The Best Friend,Robert Lawrence Stine,1992,Terror,nao
+L00651,Fear Street - Runaway,Robert Lawrence Stine,1997,Terror,nao
+L00652,Fear Street - Switched,Robert Lawrence Stine,1992,Terror,sim
+L00653,Watchers,Dean Koontz,1987,Terror,sim
+L00654,Swan Song,Robert R. McCammon,1978,Terror,sim
+L00655,Carmilla,Sheridan Le Fanu,1871,Terror,sim
+L00656,Fear Street - First Date,Robert Lawrence Stine,1992,Terror,nao
+L00657,Semilla del Diablo,Ira Levin,1900,Terror,sim
+L00658,Goosebumps - Deep Trouble,Robert Lawrence Stine,1994,Terror,sim
+L00659,Darkness Comes,Dean Koontz,1984,Terror,sim
+L00660,Hell House,Richard Matheson,1971,Terror,sim
+L00661,The Tell-Tale Heart,Edgar Allan Poe,1958,Terror,nao
+L00662,The Vampire Lestat,Anne Rice,1986,Terror,sim
+L00663,Fear Street - The Wrong Number 2,Robert Lawrence Stine,1995,Terror,sim
+L00664,Rose Madder,Stephen King,1995,Terror,sim
+L00665,From a Buick 8,Stephen King,2002,Terror,sim
+L00666,The Tommyknockers,Stephen King,1985,Terror,nao
+L00667,Novels (Black House / Talisman),Stephen King,2002,Terror,sim
+L00668,Remember Me,Christopher Pike,1989,Terror,sim
+L00669,The Call of Cthulhu,H.P. Lovecraft,2016,Terror,sim
+L00670,At the Mountains of Madness,H.P. Lovecraft,1968,Terror,sim
+L00671,Necronomicon,H.P. Lovecraft,2008,Terror,nao
+L00672,The Tale of the Body Thief,Anne Rice,1992,Terror,nao
+L00673,Fear Street Cheerleaders - The First Evil,Robert Lawrence Stine,1992,Terror,sim
+L00674,Dolores Claiborne,Stephen King,1992,Terror,sim
+L00675,Fear Street - Secret Admirer,Robert Lawrence Stine,1996,Terror,sim
+L00676,The Two Dead Girls,Stephen King,1996,Terror,nao
+L00677,The Werewolf of Fever Swamp,Robert Lawrence Stine,1993,Terror,sim
+L00678,Doctor Sleep,Stephen King,2013,Terror,sim
+L00679,The Dead Zone,Stephen King,1979,Terror,sim
+L00680,Ghost story,Peter Straub,1979,Terror,sim
+L00681,The Bachman Books (Long Walk / Rage / Roadwork / Running Man),Stephen King,1985,Terror,nao
+L00682,Fear Street - The Thrill Club,Robert Lawrence Stine,1994,Terror,sim
+L00683,Fear Street - The Fire Game,Robert Lawrence Stine,1991,Terror,nao
+L00684,Interview With the Vampire,Anne Rice,1672,Terror,sim
+L00685,Fear Street - The Face,Robert Lawrence Stine,1996,Terror,sim
+L00686,Storm of the Century,Stephen King,1999,Terror,nao
+L00687,World War Z,Max Brooks,2006,Terror,sim
+L00688,The Baby-Sitter II,Robert Lawrence Stine,1991,Terror,sim
+L00689,Fear Street Super Chiller - Goodnight Kiss,Robert Lawrence Stine,1992,Terror,sim
+L00690,The Ghost Next Door,Robert Lawrence Stine,1993,Terror,sim
+L00691,Beach Party,Robert Lawrence Stine,1990,Terror,nao
+L00692,Road to Nowhere,Christopher Pike,1993,Terror,sim
+L00693,Twisted,Robert Lawrence Stine,1987,Terror,sim
+L00694,Novels (Carrie / Salem's Lot / Shining),Stephen King,1984,Terror,nao
+L00695,The Dark Descent,David G. Hartwell,1987,Terror,sim
+L00696,The Langoliers,Stephen King,1991,Terror,nao
+L00697,The Green Mile,Stephen King,1996,Terror,sim
+L00698,Truth or Dare,Robert Lawrence Stine,1995,Terror,sim
+L00699,Fear Street Sagas - A New Fear,Robert Lawrence Stine,1996,Terror,sim
+L00700,Monster,Christopher Pike,1992,Terror,sim
+L00701,Alice in Wonderland in Five Acts,Lewis Carroll,1897,Infantojuvenil,nao
+L00702,Fantastic Mr Fox,Roald Dahl,1970,Infantojuvenil,sim
+L00703,The Book of Dragons,Edith Nesbit,1973,Infantojuvenil,sim
+L00704,James and the Giant Peach,Roald Dahl,1961,Infantojuvenil,sim
+L00705,Love Potion,Steven Banks,2003,Infantojuvenil,nao
+L00706,Chicken Little (Read-Aloud Storybook),RH Disney,2005,Infantojuvenil,nao
+L00707,"Ready, Alice?",Amanda Haley,2005,Infantojuvenil,sim
+L00708,First Day at Gymnastics,DK Publishing,2002,Infantojuvenil,sim
+L00709,Mildred and Sam,Sharleen Collicott,2002,Infantojuvenil,sim
+L00710,The Twits,Roald Dahl,1967,Infantojuvenil,sim
+L00711,The Classic Tale of the Velveteen Rabbit,Margery Williams Bianco,1900,Infantojuvenil,nao
+L00712,The Blue Umbrella,Ruskin Bond,1974,Infantojuvenil,sim
+L00713,Guess How Much I Love You,Sam McBratney,1994,Infantojuvenil,sim
+L00714,Imagine Me,Tahereh Mafi,2020,Infantojuvenil,sim
+L00715,George's Marvelous Medicine,Roald Dahl,1981,Infantojuvenil,sim
+L00716,The Enormous Potato,Aubrey Davis,1997,Infantojuvenil,nao
+L00717,Five on a Treasure Island,Enid Blyton,1942,Infantojuvenil,sim
+L00718,Chicka chicka boom boom,Bill Martin Jr.,1989,Infantojuvenil,sim
+L00719,The Ugly Duckling,Hans Christian Andersen,1851,Infantojuvenil,sim
+L00720,Ikigai,Chiemi Souen,2021,Infantojuvenil,sim
+L00721,Rockets and Spaceships,DK Publishing,2001,Infantojuvenil,nao
+L00722,The Incredible Journey,Sheila Burnford,1960,Infantojuvenil,sim
+L00723,"Danny, The Champion of the World",Roald Dahl,1975,Infantojuvenil,sim
+L00724,Hooked on Phonics,Hooked on Phonics,2005,Infantojuvenil,sim
+L00725,Diving Dolphin,DK Publishing,2001,Infantojuvenil,sim
+L00726,Mrs. Frisby and the Rats of Nimh,Robert C. O'Brien,1970,Infantojuvenil,nao
+L00727,The Berenstain Bears Hug and Make Up (Berenstain Bears),Mike Berenstain,2006,Infantojuvenil,nao
+L00728,The School for Good and Evil,Soman Chainani,2007,Infantojuvenil,sim
+L00729,The Boxcar Children,Gertrude Chandler Warner,1924,Infantojuvenil,sim
+L00730,The Very Hungry Caterpillar,Eric Carle,1969,Infantojuvenil,sim
+L00731,Harry the Dirty Dog,Gene Zion,1956,Infantojuvenil,nao
+L00732,Owl Babies,Martin Waddell,1975,Infantojuvenil,sim
+L00733,If You Give a Mouse a Cookie,Laura Joffe Numeroff,1985,Infantojuvenil,sim
+L00734,Barbie Horse Trouble Barbie Look Look,Golden Books,1921,Infantojuvenil,sim
+L00735,Shapes in the Sky,Josepha Sherman,2003,Infantojuvenil,sim
+L00736,Have You Seen My Cat?,Eric Carle,1973,Infantojuvenil,nao
+L00737,Ozma of Oz,L. Frank Baum,1907,Infantojuvenil,sim
+L00738,The Monster at the End of This Book,Jon Stone,1971,Infantojuvenil,nao
+L00739,The Summer I Turned Pretty Trilogy,Jenny Han,2009,Infantojuvenil,sim
+L00740,Dork Diaries Collection,Rachel Renée Russell,2020,Infantojuvenil,sim
+L00741,The magic Faraway Tree,Enid Blyton,1943,Infantojuvenil,nao
+L00742,No Brainer,Jeff Kinney,2023,Infantojuvenil,sim
+L00743,Farmer Duck,Martin Waddell,1991,Infantojuvenil,sim
+L00744,Cabin Fever,Jeff Kinney,2007,Infantojuvenil,sim
+L00745,The Stinky Cheese Man and Other Fairly Stupid Tales,Jon Scieszka,1992,Infantojuvenil,sim
+L00746,In Watermelon Sugar,Richard Brautigan,1968,Infantojuvenil,nao
+L00747,The Phantom Tollbooth,Norton Juster,1961,Infantojuvenil,sim
+L00748,The Gruffalo,Julia Donaldson,1999,Infantojuvenil,sim
+L00749,The BFG,Roald Dahl,1980,Infantojuvenil,nao
+L00750,The Green Fairy Book,Andrew Lang,1892,Infantojuvenil,sim
+L00751,A Cow Called Boy,C. Everard Palmer,1973,Infantojuvenil,nao
+L00752,Lucy and the Sea Monster,Karen Dolby,1994,Infantojuvenil,sim
+L00753,Percy Jackson's Greek Gods,Rick Riordan,2006,Infantojuvenil,sim
+L00754,Childcraft,World Book,1937,Infantojuvenil,sim
+L00755,The Foot Book,Dr. Seuss,1968,Infantojuvenil,sim
+L00756,Love You Forever,Robert N. Munsch,1986,Infantojuvenil,nao
+L00757,No More Monsters for Me!,Peggy Parish,1981,Infantojuvenil,sim
+L00758,A Little Princess,Frances Hodgson Burnett,1905,Infantojuvenil,sim
+L00759,The Secret Garden,Frances Hodgson Burnett,1911,Infantojuvenil,sim
+L00760,Old Tom,Leigh Hobbs,2005,Infantojuvenil,nao
+L00761,Meet the Robinsons,Apple Jordan,2007,Infantojuvenil,nao
+L00762,Long time coming,Sandra Brown,1989,Infantojuvenil,sim
+L00763,Ten in the Bed,Cabrera Jane,2006,Infantojuvenil,sim
+L00764,And to think that I saw it on Mulberry Street,Dr. Seuss,1937,Infantojuvenil,sim
+L00765,Tom Gates,Liz Pichon,2018,Infantojuvenil,sim
+L00766,On top of spaghetti,Tom Glazer,1982,Infantojuvenil,nao
+L00767,Tikki Tikki Tembo,Arlene Mosel,1968,Infantojuvenil,sim
+L00768,I Want to Go Home!,Gordon Korman,1981,Infantojuvenil,sim
+L00769,The World Almanac for Kids,Judith S. Levey,1995,Infantojuvenil,sim
+L00770,Charlie and the Chocolate Factory,Roald Dahl,1964,Infantojuvenil,sim
+L00771,Skellig,David Almond,1998,Infantojuvenil,nao
+L00772,Clip-Clop,Nicola Smee,2006,Infantojuvenil,sim
+L00773,Today Tonight Tomorrow,Rachel Lynn Solomon,2019,Infantojuvenil,sim
+L00774,Pumpkin Jack,Will Hubbell,2000,Infantojuvenil,sim
+L00775,Demigods & magicians,Rick Riordan,2000,Infantojuvenil,sim
+L00776,My Little Pony,Scout Driggs,2005,Infantojuvenil,nao
+L00777,Big Nate Blasts Off!,Lincoln Peirce,2016,Infantojuvenil,sim
+L00778,"Momo oder Die seltsame Geschichte von den Zeit-Dieben und von dem Kind, das den Menschen die gestohlene Zeit zurückbrachte",Michael Ende,1973,Infantojuvenil,sim
+L00779,The mitten,Jan Brett,1989,Infantojuvenil,sim
+L00780,The Bronze Bow,Elizabeth George Speare,1961,Infantojuvenil,sim
+L00781,"Mog, the forgetful cat",Judith Kerr,1970,Infantojuvenil,nao
+L00782,Billionaire Boy,David Walliams,2010,Infantojuvenil,nao
+L00783,Fear Street Fear Park - The First Scream,Robert Lawrence Stine,1996,Infantojuvenil,sim
+L00784,Kingdom of Fantasy #14,Elisabetta Dami,2021,Infantojuvenil,sim
+L00785,The Westing Game,Ellen Raskin,1978,Infantojuvenil,sim
+L00786,The Magic World,Edith Nesbit,1959,Infantojuvenil,nao
+L00787,Night Train at Deoli,Ruskin Bond,1989,Infantojuvenil,sim
+L00788,The Sword of Summer,Rick Riordan,2015,Infantojuvenil,sim
+L00789,"Teddy bear, teddy bear",Michael Hague,1993,Infantojuvenil,sim
+L00790,The Jungle Book,Rudyard Kipling,1893,Infantojuvenil,sim
+L00791,The Tower of Nero,Rick Riordan,2020,Infantojuvenil,nao
+L00792,Uncle Elephant,Arnold Lobel,1981,Infantojuvenil,sim
+L00793,Beauty,Robin McKinley,1978,Infantojuvenil,nao
+L00794,The Baby-Sitters Club,Ann M. Martin,1989,Infantojuvenil,sim
+L00795,Caps for Sale,Esphyr Slobodkina,1968,Infantojuvenil,sim
+L00796,The Wrong Mirror,Emma Darcy,1986,Infantojuvenil,nao
+L00797,I am not going to get up today!,Dr. Seuss,1987,Infantojuvenil,sim
+L00798,When we were very young,A. A. Milne,1924,Infantojuvenil,sim
+L00799,Where is the green sheep?,Mem Fox,2004,Infantojuvenil,sim
+L00800,The Magician's Nephew,C. S. Lewis,1955,Infantojuvenil,sim
+L00801,Wings of Fire,A. P. J. Abdul Kalam,1999,Biografia,nao
+L00802,The Diary of a Young Girl- Anne Frank,Anne Frank,2001,Biografia,sim
+L00803,Autobiography of a Yogi,Yogananda Paramahansa,1946,Biografia,sim
+L00804,I'm Glad My Mom Died,Jennette McCurdy,2022,Biografia,nao
+L00805,Fear and Loathing in Las Vegas,Hunter S. Thompson,1971,Biografia,sim
+L00806,Educated,Tara Westover,2018,Biografia,nao
+L00807,The worldly philosophers,Robert L. Heilbroner,1953,Biografia,sim
+L00808,Persepolis 1 & 2,Marjane Satrapi,2003,Biografia,sim
+L00809,Narrative of the life of Frederick Douglass,Frederick Douglass,1845,Biografia,sim
+L00810,走ることについて語るときに僕の語ること,村上春樹,2006,Biografia,sim
+L00811,Just Kids,Patti Smith,2006,Biografia,nao
+L00812,Born a Crime,Trevor Noah,2016,Biografia,sim
+L00813,Pimp,Iceberg Slim,1967,Biografia,sim
+L00814,Gifted hands,Ben Carson,1990,Biografia,sim
+L00815,"Girl, interrupted",Susanna Kaysen,1993,Biografia,nao
+L00816,When Breath Becomes Air,Paul Kalanithi,2016,Biografia,nao
+L00817,Elon Musk,Ashlee Vance,2013,Biografia,sim
+L00818,All Creatures Great and Small (All Creatures Great and Small #1-2),James Herriot,1972,Biografia,sim
+L00819,Papillon,Henri Charrière,1969,Biografia,sim
+L00820,On Writing,Stephen King,1999,Biografia,sim
+L00821,Livro do Desassossego,Fernando Pessoa,1982,Biografia,nao
+L00822,Elvis and me,Priscilla Beaulieu Presley,1985,Biografia,sim
+L00823,Kitchen Confidential,Anthony Bourdain,2000,Biografia,sim
+L00824,I Know Why the Caged Bird Sings,Maya Angelou,1969,Biografia,sim
+L00825,The Man Who Loved Only Numbers,Paul Hoffman,1998,Biografia,sim
+L00826,Leonardo da Vinci,Walter Isaacson,2017,Biografia,nao
+L00827,The Woman in Me,Britney Spears,2023,Biografia,sim
+L00828,Tagebücher,Franz Kafka,1937,Biografia,sim
+L00829,Can't Hurt Me,David Goggins,2018,Biografia,sim
+L00830,Einstein,Walter Isaacson,2007,Biografia,sim
+L00831,I am Malala,Malala Yousafzai,2012,Biografia,nao
+L00832,Twelve against the gods,William Bolitho,1929,Biografia,sim
+L00833,The Story of Philosophy,Will Durant,1926,Biografia,sim
+L00834,Maybe You Should Talk to Someone,Lori Gottlieb,2019,Biografia,sim
+L00835,How to sell anything to anybody,Joe Girard,1977,Biografia,sim
+L00836,"The life of Olaudah Equiano, or Gustavus Vassa, the African",Olaudah Equiano,1789,Biografia,nao
+L00837,The night stalker,Philip Carlo,1996,Biografia,nao
+L00838,Confessions of a video vixen,Karrine Steffans,2005,Biografia,sim
+L00839,Wild,Cheryl Strayed,1767,Biografia,sim
+L00840,Rizal without the overcoat,Ambeth R. Ocampo,1990,Biografia,sim
+L00841,Just for fun,Linus Torvalds,2001,Biografia,nao
+L00842,Trump,Tony Schwartz,1987,Biografia,sim
+L00843,Messi,Guillem Balague,2013,Biografia,sim
+L00844,"""Surely You're Joking, Mr. Feynman""",Richard Phillips Feynman,1984,Biografia,sim
+L00845,Prozac nation,Elizabeth Wurtzel,1994,Biografia,sim
+L00846,My Frozen Turbulence in Kashmir,Jagmohan,1991,Biografia,nao
+L00847,Ball Four,Jim Bouton,1970,Biografia,sim
+L00848,Cider with Rosie,Laurie Lee,1959,Biografia,nao
+L00849,The 100,Michael H. Hart,1978,Biografia,sim
+L00850,A Beautiful Mind,Sylvia Nasar,1998,Biografia,sim
+L00851,Christians with courage,Ruth Johnson Jay,1968,Biografia,nao
+L00852,Autobiography,John Stuart Mill,1873,Biografia,sim
+L00853,Travels with Charley,John Steinbeck,1962,Biografia,sim
+L00854,Shoe Dog,Phil Knight,2014,Biografia,sim
+L00855,Persepolis 1,Marjane Satrapi,2003,Biografia,sim
+L00856,Open,Andre Agassi,2009,Biografia,nao
+L00857,Life among the savages,Shirley Jackson,1953,Biografia,sim
+L00858,"A child called ""it""",David J. Pelzer,1987,Biografia,sim
+L00859,In the Dream House,Carmen Maria Machado,2019,Biografia,nao
+L00860,Revelaciones,Karina Yapor,2001,Biografia,sim
+L00861,Madame Curie,Eve Curie,1937,Biografia,nao
+L00862,Boy,Roald Dahl,1984,Biografia,sim
+L00863,Grinding It Out,Ray Kroc,1977,Biografia,sim
+L00864,Shadow of the Almighty,Elisabeth Elliot,1958,Biografia,sim
+L00865,Memorabilia,Xenophon,1650,Biografia,sim
+L00866,Dictionary of National Biography,George Murray Smith,1885,Biografia,nao
+L00867,Alan Turing,Andrew Hodges,1983,Biografia,sim
+L00868,The Stranger Beside Me,Ann Rule,1980,Biografia,sim
+L00869,Chinese Cinderella,Adeline Yen Mah,1999,Biografia,sim
+L00870,The Autobiography of Benjamin Franklin,Benjamin Franklin,1791,Biografia,nao
+L00871,Chronicles,Bob Dylan,2004,Biografia,nao
+L00872,Terre des hommes,Antoine de Saint-Exupéry,1936,Biografia,sim
+L00873,Confieso que he vivido,Pablo Neruda,1974,Biografia,sim
+L00874,A princess remembers,Gayatri Devi,1976,Biografia,sim
+L00875,Les confessions,Jean-Jacques Rousseau,1782,Biografia,sim
+L00876,Masters of Doom,David Kushner,2003,Biografia,nao
+L00877,The Girl with Seven Names,Hyeonseo Lee,2015,Biografia,sim
+L00878,Autobiography,Bertrand Russell,1944,Biografia,sim
+L00879,The Basketball diaries,Jim Carroll,1978,Biografia,sim
+L00880,The color of water,James McBride,1995,Biografia,sim
+L00881,A chance to die,Elisabeth Elliot,1987,Biografia,nao
+L00882,A severe mercy,Sheldon Vanauken,1977,Biografia,sim
+L00883,When I was Puerto Rican,Esmeralda Santiago,1993,Biografia,sim
+L00884,Let my people go surfing,Yvon Chouinard,2005,Biografia,sim
+L00885,Tuesdays with Morrie,Mitch Albom,1994,Biografia,sim
+L00886,Persepolis 1-4,Marjane Satrapi,2000,Biografia,nao
+L00887,Cristiano Ronaldo,Guillem Balague,2016,Biografia,sim
+L00888,Mercury and me,Jim Hutton,1994,Biografia,sim
+L00889,Sam Walton,Sam Walton,1900,Biografia,sim
+L00890,A Piece of Cake,Cupcake Brown,2005,Biografia,sim
+L00891,Jose Rizal,Gregorio F. Zaide,1984,Biografia,nao
+L00892,Don't Panic,Neil Gaiman,1988,Biografia,nao
+L00893,Moonwalk,Michael Jackson,1988,Biografia,sim
+L00894,How to Build a Car,Adrian Newey,2017,Biografia,sim
+L00895,Steve Jobs,Walter Isaacson,2011,Biografia,sim
+L00896,God's tribesman,James C. Hefley,1974,Biografia,nao
+L00897,A Distant Mirror,Barbara Tuchman,1600,Biografia,sim
+L00898,Crying in H Mart,Michelle Zauner,2020,Biografia,sim
+L00899,The minds of Billy Milligan,Daniel Keyes,1981,Biografia,sim
+L00900,Longitude,Dava Sobel,1995,Biografia,sim
+L00901,Debt,David Graeber,2011,Historia,nao
+L00902,A People's History of the United States,Howard Zinn,1980,Historia,sim
+L00903,Ringkasan sejarat filsafat,K. Bertens,1975,Historia,nao
+L00904,The great conversation,Norman Melchert,1991,Historia,sim
+L00905,Mga gunita ng himagsikan,Emilio Aguinaldo,1998,Historia,sim
+L00906,The Lessons of History,Will Durant,1968,Historia,nao
+L00907,Freedom at Midnight,Dominique Lapierre,1975,Historia,sim
+L00908,The Art of War,孙武 (Sun Tzu),1900,Historia,sim
+L00909,Sapiens,Yuval Noah Harari,2011,Historia,sim
+L00910,The Rise and Fall of the Third Reich,William L. Shirer,1901,Historia,sim
+L00911,Capitalist Realism,Mark Fisher,2009,Historia,nao
+L00912,The story of art,E. H. Gombrich,1950,Historia,sim
+L00913,The Age of Revolution,Eric Hobsbawm,1962,Historia,sim
+L00914,Bumi Manusia,Pramoedya Ananta Toer,1972,Historia,nao
+L00915,A history of the modern world,R. R. Palmer,1950,Historia,sim
+L00916,21 Lessons for the 21st Century,Yuval Noah Harari,2018,Historia,nao
+L00917,Art,Frederick Hartt,1969,Historia,sim
+L00918,The Unfinished Nation,Alan Brinkley,1993,Historia,sim
+L00919,The discovery of India,Jawaharlal Nehru,1946,Historia,sim
+L00920,Art history,Marilyn Stokstad,1995,Historia,sim
+L00921,Letters from a father to his daughter,Jawaharlal Nehru,1930,Historia,nao
+L00922,Postwar,Tony Judt,2005,Historia,sim
+L00923,The Enduring Vision,Paul S. Boyer,1987,Historia,sim
+L00924,A history of the English-speaking peoples,Winston S. Churchill,1950,Historia,sim
+L00925,History of art,H. W. Janson,1962,Historia,nao
+L00926,The Dawn of Everything,David Graeber,2021,Historia,nao
+L00927,An echo in the darkness,Francine Rivers,1994,Historia,sim
+L00928,Traditions & encounters,Jerry H. Bentley,1999,Historia,sim
+L00929,A History of Western Philosophy,Bertrand Russell,1945,Historia,sim
+L00930,A Room of One's Own,Virginia Woolf,1929,Historia,sim
+L00931,ההיסטוריה של המחר,Yuval Noah Harari,2015,Historia,nao
+L00932,Letters on demonology and witchcraft,Sir Walter Scott,1830,Historia,sim
+L00933,"History of Egypt, Chaldea, Syria, Babylonia, And Assyria",Gaston Maspero,1901,Historia,sim
+L00934,La conquête du pain,Peter Kropotkin,1892,Historia,sim
+L00935,Ioannis Zonarae Annales,"Zonaras, Joannes",1841,Historia,sim
+L00936,The Mother Tongue,Bill Bryson,1656,Historia,nao
+L00937,Der Untergang des Abendlandes,Oswald Spengler,1918,Historia,sim
+L00938,The Silk Roads,Peter Frankopan,2015,Historia,sim
+L00939,History of Africa,Kevin Shillington,1989,Historia,sim
+L00940,History of the Filipino People,Teodoro A. Agoncillo,1969,Historia,sim
+L00941,Ἱστορίαι,Ἡρόδοτος,1494,Historia,nao
+L00942,A Walk in the Woods,Bill Bryson,1997,Historia,sim
+L00943,Tragedy and hope,Carroll Quigley,1966,Historia,sim
+L00944,The Eagle of the Ninth. 1400 Grundwörter.,Rosemary Sutcliff,1954,Historia,sim
+L00945,Manifest der Kommunistischen Partei,Karl Marx,1848,Historia,sim
+L00946,Sleep walkers,Arthur Koestler,1959,Historia,nao
+L00947,Lies My Teacher Told Me,James W. Loewen,1994,Historia,nao
+L00948,The Emperor of All Maladies,Siddhartha Mukherjee,2010,Historia,sim
+L00949,A Study of History,Arnold J. Toynbee,1900,Historia,sim
+L00950,The Outline of History,H. G. Wells,1919,Historia,sim
+L00951,What happened in history,V. Gordon Childe,1942,Historia,nao
+L00952,Documentary sources of Philippine history,Gregorio F. Zaide,1990,Historia,sim
+L00953,America,Mary Lynn Rampolla,1998,Historia,sim
+L00954,1776,David McCullough,2006,Historia,sim
+L00955,History of the Decline and Fall of the Roman Empire Complete and Unabridged,Edward Gibbon,1776,Historia,sim
+L00956,Islam,Karen Armstrong,2000,Historia,nao
+L00957,"Guns, germs, and steel",Jared M. Diamond,1997,Historia,sim
+L00958,The Destruction of black civilisation,Chancellor Williams,1971,Historia,nao
+L00959,A short history of chemistry,Isaac Asimov,1965,Historia,sim
+L00960,Discovering Classical Music,Ian Christians,1991,Historia,sim
+L00961,"The influence of sea power upon history, 1660-1783",Alfred Thayer Mahan,1890,Historia,nao
+L00962,The Great Transformation,Karl Polanyi,1944,Historia,sim
+L00963,The world of William Penn,Genevieve Foster,1973,Historia,sim
+L00964,A history of India,Romila Thapar,1965,Historia,sim
+L00965,A history of Western architecture,David Watkin,1986,Historia,sim
+L00966,"The Muqaddimah, an introduction to history",Ibn Khaldūn,1858,Historia,nao
+L00967,Twelve years a slave,Solomon Northup,1853,Historia,sim
+L00968,The Story of Civilization I,Will Durant,1935,Historia,sim
+L00969,A short history of nearly everything,Bill Bryson,2003,Historia,nao
+L00970,"Ancient, Medieval, and Non-European Art",Helen Gardner,1980,Historia,sim
+L00971,America,George Brown Tindall,1984,Historia,nao
+L00972,Siete breves lecciones de física,Carlo Rovelli,2014,Historia,sim
+L00973,Tragedy of Hyderabad,Mir Laik Ali,1962,Historia,sim
+L00974,Give Me Liberty!,Eric Foner,2004,Historia,sim
+L00975,Prehispanic source materials for the study of Philippine history,William Henry Scott,1984,Historia,sim
+L00976,The ascent of money,Niall Ferguson,2008,Historia,nao
+L00977,America,David E. Shi,2000,Historia,sim
+L00978,American Odyssey,Gary B. Nash,1991,Historia,sim
+L00979,After the fact,James West Davidson,1981,Historia,sim
+L00980,Anak Semua Bangsa,Pramoedya Ananta Toer,1973,Historia,nao
+L00981,Philippine history and government,Gregorio F. Zaide,1938,Historia,nao
+L00982,La dame de Monsoreau,Alexandre Dumas,1840,Historia,sim
+L00983,"Götter, Gräber und Gelehrte",C. W. Ceram,1949,Historia,sim
+L00984,The Art of Seduction,Robert Greene,2001,Historia,sim
+L00985,Abraham Lincoln,Carl Sandburg,1926,Historia,sim
+L00986,Osman's Dream,Caroline Finkel,2005,Historia,nao
+L00987,Killers of the Flower Moon,David Grann,2017,Historia,sim
+L00988,On Tyranny,Timothy Snyder,2017,Historia,sim
+L00989,Before the Mayflower,Lerone Bennett,1960,Historia,sim
+L00990,Mara Daughter of the Nile,Eloise Jarvis McGraw,1953,Historia,sim
+L00991,Aspects of the novel,E. M. Forster,1927,Historia,nao
+L00992,Las venas abiertas de América Latina,Eduardo Galeano,1971,Historia,sim
+L00993,Western Civilization,Jackson J. Spielvogel,1900,Historia,sim
+L00994,Heimskringla; Lives/Saga of the Norse Kings,Snorri Sturluson,1633,Historia,sim
+L00995,The Warmth of Other Suns,Isabel Wilkerson,2010,Historia,sim
+L00996,From slavery to freedom,John Hope Franklin,1947,Historia,nao
+L00997,The history of witchcraft and demonology,Montague Summers,1926,Historia,sim
+L00998,Rubicon,Tom Holland,2003,Historia,sim
+L00999,The Second Common Reader,Virginia Woolf,1925,Historia,sim
+L01000,Glimpses of world history,Jawaharlal Nehru,1934,Historia,sim
+L01001,Jenseits von Gut und Böse,Friedrich Nietzsche,1885,Filosofia,nao
+L01002,Le mythe de Sisyphe,Albert Camus,1941,Filosofia,nao
+L01003,The Myth of Sisyphus and Other Essays,Albert Camus,1955,Filosofia,sim
+L01004,Ἀπολογία Σωκράτους,Πλάτων,1675,Filosofia,sim
+L01005,The Wisdom of Insecurity,Alan Watts,1951,Filosofia,sim
+L01006,Meditations,Marcus Aurelius,2006,Filosofia,nao
+L01007,The Problems of Philosophy,Bertrand Russell,1900,Filosofia,sim
+L01008,Why I am an atheist,Bhagat Singh,2008,Filosofia,sim
+L01009,Discours de la méthode,René Descartes,1644,Filosofia,sim
+L01010,Sistematika filsafat,Sidi Gazalba,1973,Filosofia,sim
+L01011,The Tao of Physics,Fritjof Capra,1975,Filosofia,nao
+L01012,Der Antichrist,Friedrich Nietzsche,1895,Filosofia,sim
+L01013,Think,Simon Blackburn,1999,Filosofia,nao
+L01014,Φαίδων,Plato,1713,Filosofia,sim
+L01015,Also sprach Zarathustra,Friedrich Nietzsche,1883,Filosofia,sim
+L01016,The 48 Laws of Power,Robert Greene,1998,Filosofia,nao
+L01017,The Four Agreements,Don Miguel Ruiz,1997,Filosofia,sim
+L01018,Introduction to logic,Irving Marmer Copi,1953,Filosofia,sim
+L01019,The theory of everything,Stephen Hawking,2002,Filosofia,sim
+L01020,12 Rules for Life,Jordan B. Peterson,2015,Filosofia,sim
+L01021,Indian philosophy,Sarvepalli Radhakrishnan,1923,Filosofia,nao
+L01022,Sofies verden,Jostein Gaarder,1991,Filosofia,sim
+L01023,A theory of justice,John Rawls,1971,Filosofia,sim
+L01024,The complete works of Friedrich Nietzsche,Friedrich Nietzsche,1909,Filosofia,nao
+L01025,Bluets,Maggie Nelson,2009,Filosofia,sim
+L01026,Philosophische Untersuchungen,Ludwig Wittgenstein,1953,Filosofia,nao
+L01027,The Open Society and Its Enemies (1+2),Karl Popper,1945,Filosofia,sim
+L01028,Wille zur Macht,Friedrich Nietzsche,1909,Filosofia,sim
+L01029,Tractatus logico-philosophicus,Ludwig Wittgenstein,1921,Filosofia,sim
+L01030,The Kybalion,Three Initiates,1912,Filosofia,sim
+L01031,The pig that wants to be eaten,Julian Baggini,2005,Filosofia,nao
+L01032,Questions that matter,"Miller, Ed. L.",1984,Filosofia,sim
+L01033,"Nature, Man,& Woman",Alan Watts,1958,Filosofia,sim
+L01034,Συμπόσιον,Plato,1559,Filosofia,sim
+L01035,Los Cuatro Acuerdos,Don Miguel Ruiz,2003,Filosofia,nao
+L01036,Die Welt als Wille und Vorstellung,Arthur Schopenhauer,1819,Filosofia,nao
+L01037,Physics and philosophy,Werner Heisenberg,1958,Filosofia,sim
+L01038,Pengantar ilmu hukum,Tuty Saleh,1963,Filosofia,sim
+L01039,Pedagogia do Oprimido,Paulo Freire,1967,Filosofia,sim
+L01040,Justice,Michael J. Sandel,2007,Filosofia,sim
+L01041,The guide of the perplexed of Maimonides,Moses Maimonides,1473,Filosofia,nao
+L01042,Nursing,Dorothea E. Orem,1971,Filosofia,sim
+L01043,Fröhliche Wissenschaft,Friedrich Nietzsche,1960,Filosofia,sim
+L01044,Sein und Zeit,Martin Heidegger,1927,Filosofia,sim
+L01045,Philosophy and living,Olaf Stapledon,1935,Filosofia,sim
+L01046,The concept of law,H. L. A. Hart,1961,Filosofia,nao
+L01047,The Human Condition,Hannah Arendt,1958,Filosofia,sim
+L01048,"Be Water, My Friend",Shannon Lee,2020,Filosofia,sim
+L01049,The Structure of Scientific Revolutions,Thomas S. Kuhn,1955,Filosofia,sim
+L01050,What is history?,Edward Hallet Carr,1961,Filosofia,sim
+L01051,The four agreements companion book,Don Miguel Ruiz,2000,Filosofia,nao
+L01052,The Holographic Universe,Michael Talbot,1991,Filosofia,sim
+L01053,The Nature of the Physical World,Arthur Stanley Eddington,1928,Filosofia,sim
+L01054,How to Be a Stoic,Massimo Pigliucci,2017,Filosofia,sim
+L01055,Historia de la filosofía,Julián Marías,1943,Filosofia,sim
+L01056,Plato and Platonism,Walter Pater,1893,Filosofia,nao
+L01057,Tree of Yoga,B. K. S. Iyengar,1988,Filosofia,nao
+L01058,"Menschliches, Allzumenschliches",Friedrich Nietzsche,1878,Filosofia,sim
+L01059,Chto takoe iskusstvo? / What is art?,Лев Толстой,1898,Filosofia,sim
+L01060,Great Dialogues of Plato,Πλάτων,1956,Filosofia,sim
+L01061,Κρίτων / Φαίδων / Ἀπολογία Σωκράτους,Plato,1834,Filosofia,nao
+L01062,Εὐθύφρων / Κρίτων / Μένων / Φαίδων / Ἀπολογία Σωκράτους,Πλάτων,1981,Filosofia,sim
+L01063,The consolations of philosophy,Alain De Botton,2000,Filosofia,sim
+L01064,The structure of science,Ernest Nagel,1961,Filosofia,sim
+L01065,Philosophy,Samuel Enoch Stumpf,1976,Filosofia,sim
+L01066,Μένων,Plato,1869,Filosofia,nao
+L01067,De l'inconvénient d'être né,Emil Cioran,1973,Filosofia,sim
+L01068,Big Panda and Tiny Dragon,James Norbury,2021,Filosofia,nao
+L01069,First principles,Herbert Spencer,1860,Filosofia,sim
+L01070,Zur Genealogie der Moral,Friedrich Nietzsche,1887,Filosofia,sim
+L01071,"History, its theory and method",B. Sheikh Ali,1978,Filosofia,nao
+L01072,Πρωταγόρας,Plato,1828,Filosofia,sim
+L01073,Philosophy,Louis P. Pojman,1989,Filosofia,sim
+L01074,Experience and education,John Dewey,1938,Filosofia,sim
+L01075,La tentation d'exister,Emil Cioran,1956,Filosofia,sim
+L01076,Différence et répétition,Gilles Deleuze,1968,Filosofia,nao
+L01077,101 Essays That Will Change The Way You Think,Brianna Wiest,2018,Filosofia,sim
+L01078,Metaphors We Live By,George Lakoff,1980,Filosofia,sim
+L01079,Die Geburt der Tragödie,Friedrich Nietzsche,1872,Filosofia,nao
+L01080,La Chute,Albert Camus,1917,Filosofia,sim
+L01081,Philosophical essays,Bertrand Russell,1910,Filosofia,nao
+L01082,Core Questions in Philosophy,Elliott Sober,1991,Filosofia,sim
+L01083,"Psychotherapy, East and West",Alan Watts,1961,Filosofia,sim
+L01084,The Art of Loving,Erich Fromm,1956,Filosofia,sim
+L01085,The stoic philosophy of Seneca,Seneca the Younger,1958,Filosofia,sim
+L01086,Operating manual for spaceship earth,R. Buckminster Fuller,1969,Filosofia,nao
+L01087,Eastern wisdom and Western thought,Purvezji Jamshedji Saher,1969,Filosofia,sim
+L01088,What does it all mean?,Thomas Nagel,1987,Filosofia,sim
+L01089,Utilitarianism,John Stuart Mill,1863,Filosofia,sim
+L01090,Misère de la philosophie,Karl Marx,1847,Filosofia,nao
+L01091,The Prince,Niccolò Machiavelli,1515,Filosofia,nao
+L01092,Πολιτικά (Politiká),Aristotle,1492,Filosofia,sim
+L01093,Unpopular Essays,Bertrand Russell,1901,Filosofia,sim
+L01094,State and Revolution,Vladimir Il’ich Lenin,1900,Filosofia,sim
+L01095,The conquest of happiness,Bertrand Russell,1930,Filosofia,sim
+L01096,Democracy and Education,John Dewey,1916,Filosofia,nao
+L01097,The dilemma of Muslim psychologists,Malik B. Badri,1979,Filosofia,sim
+L01098,An introduction to philosophical analysis,John Hospers,1953,Filosofia,sim
+L01099,Does the center hold?,Donald Palmer,1991,Filosofia,sim
+L01100,The Obstacle is the Way,Ryan Holiday,2013,Filosofia,sim
+L01101,I Don't Love You Anymore,Rithvik Singh,2024,Poesia,nao
+L01102,Thank You for Leaving,Rithvik Singh,2025,Poesia,sim
+L01103,The Raven,Edgar Allan Poe,1845,Poesia,sim
+L01104,Veinte poemas de amor y una canción desesperada,Pablo Neruda,1924,Poesia,sim
+L01105,"Howl, and Other Poems",Allen Ginsberg,1956,Poesia,sim
+L01106,the sun and her flowers,Rupi Kaur,2017,Poesia,nao
+L01107,The Odyssey,Όμηρος,1946,Poesia,sim
+L01108,Pillow thoughts,Courtney Peppernell,2016,Poesia,sim
+L01109,Poems,William Butler Yeats,1895,Poesia,sim
+L01110,Milk and Honey,Rupi Kaur,2014,Poesia,sim
+L01111,Love Is a Dog from Hell,Charles Bukowski,1977,Poesia,nao
+L01112,Poems,William Wordsworth,1807,Poesia,nao
+L01113,Ariel,Sylvia Plath,1965,Poesia,sim
+L01114,Revolting rhymes,Roald Dahl,1982,Poesia,sim
+L01115,Leaves of Grass,Walt Whitman,1855,Poesia,sim
+L01116,Falling Up,Shel Silverstein,1996,Poesia,nao
+L01117,Paradise Lost,John Milton,1667,Poesia,sim
+L01118,The Night Before Christmas,Clement Clarke Moore,1857,Poesia,sim
+L01119,The princess saves herself in this one,Amanda Lovelace,2016,Poesia,sim
+L01120,A Child's Garden of Verses,Robert Louis Stevenson,1885,Poesia,sim
+L01121,Poems and Prose,Edgar Allan Poe,1995,Poesia,nao
+L01122,Old Possum's Book of Practical Cats,T. S. Eliot,1939,Poesia,sim
+L01123,The poetical works of Sir Walter Scott,Sir Walter Scott,1800,Poesia,nao
+L01124,Halloween Howls,Lee B. Hopkins,2005,Poesia,sim
+L01125,Ars Amatoria,Ovid,1494,Poesia,sim
+L01126,Meghadūta,Kālidāsa,1813,Poesia,nao
+L01127,Save me an orange,Hayley Grace,2024,Poesia,sim
+L01128,Dirty Beasts,Roald Dahl,1983,Poesia,sim
+L01129,A Light in the Attic,Shel Silverstein,1981,Poesia,sim
+L01130,The complete poetical works,Robert Burns,1786,Poesia,sim
+L01131,Poems,Robert Frost,1923,Poesia,nao
+L01132,The Song of Hiawatha and Other Poems,Henry Wadsworth Longfellow,1800,Poesia,sim
+L01133,The Poems of Emily Dickinson Volume II,Emily Dickinson,1890,Poesia,sim
+L01134,Gitanjali (song offerings),Rabindranath Tagore,1910,Poesia,nao
+L01135,The Strength in Our Scars,Bianca Sparacino,2018,Poesia,sim
+L01136,Poems,William Cowper,1782,Poesia,nao
+L01137,Night sky with exit wounds,Ocean Vuong,2016,Poesia,sim
+L01138,Struwwelpeter,Heinrich Hoffmann,1865,Poesia,sim
+L01139,Poems,Elizabeth Barrett Browning,1844,Poesia,sim
+L01140,The Colossus and Other Poems,Sylvia Plath,1960,Poesia,sim
+L01141,The Last Night of the Earth Poems,Charles Bukowski,1992,Poesia,nao
+L01142,Poems,William Blake,1783,Poesia,sim
+L01143,Crush,Richard Siken,2004,Poesia,sim
+L01144,Faerie queene,Edmund Spenser,1590,Poesia,sim
+L01145,A Poetry Handbook,Mary Oliver,1994,Poesia,nao
+L01146,La Divina Commedia,Dante Alighieri,1472,Poesia,nao
+L01147,Sound and sense,Laurence Perrine,1956,Poesia,sim
+L01148,The Ballad of Reading Gaol,Oscar Wilde,1896,Poesia,sim
+L01149,Poems,Matthew Arnold,1853,Poesia,sim
+L01150,The essential Rumi,Rumi (Jalāl ad-Dīn Muḥammad Balkhī),1995,Poesia,sim
+L01151,Lays of ancient Rome,Thomas Babington Macaulay,1800,Poesia,nao
+L01152,The bad child's book of beasts,Hilaire Belloc,1875,Poesia,sim
+L01153,Now we are six,A. A. Milne,1925,Poesia,sim
+L01154,Poema de mio Cid,Anonymous,1868,Poesia,sim
+L01155,Poems,Nizār Qabbānī,1993,Poesia,sim
+L01156,"Collected Poems, 1909-1962",T. S. Eliot,1963,Poesia,nao
+L01157,Bilbo's Last Song (At the Grey Havens),J.R.R. Tolkien,1974,Poesia,sim
+L01158,Poems and Fragments,Sappho,1915,Poesia,sim
+L01159,The Epic of Gilgamesh,N. K. Sandars,1960,Poesia,sim
+L01160,"Diary of a Romantica, Vol. I",Celia Martínez,2023,Poesia,sim
+L01161,'Twas the Night before Christmas,Clement Clarke Moore,1912,Poesia,nao
+L01162,The Complete Book of Flower Fairies,Cicely Mary Barker,1997,Poesia,sim
+L01163,Collected Poems,Sylvia Plath,1963,Poesia,sim
+L01164,Aeneis,Publius Vergilius Maro,1592,Poesia,sim
+L01165,The Canterbury Tales,Geoffrey Chaucer,1478,Poesia,sim
+L01166,"Poems by Currer, Ellis, and Acton Bell",Charlotte Brontë,1846,Poesia,nao
+L01167,"El amor, las mujeres y la vida",Mario Benedetti,1995,Poesia,nao
+L01168,"Burning in water, drowning in flame",Charles Bukowski,1974,Poesia,sim
+L01169,Theogony,Hesiod,1953,Poesia,sim
+L01170,The Rose That Grew From Concrete,Tupac Shakur,1999,Poesia,sim
+L01171,Poems,Oscar Wilde,1881,Poesia,nao
+L01172,Night thoughts,Edward Young,1742,Poesia,sim
+L01173,Casey At the Bat,Ernest Lawrence Thayer,1901,Poesia,sim
+L01174,A Shropshire lad,A. E. Housman,1896,Poesia,sim
+L01175,Os Lusíadas,Luís de Camões,1572,Poesia,sim
+L01176,"Animals, animals",Eric Carle,1989,Poesia,nao
+L01177,Love Her Wild,Atticus,2017,Poesia,sim
+L01178,Sappho,Sappho,1887,Poesia,nao
+L01179,The Adventures of Tom Bombadil and Other Verses from the Red Book,J.R.R. Tolkien,1962,Poesia,sim
+L01180,Lullabies,Lang Leav,2014,Poesia,sim
+L01181,The way I feel,Janan Cain,2000,Poesia,nao
+L01182,Understanding poetry,Cleanth Brooks,1938,Poesia,sim
+L01183,You get so alone at times that it just makes sense,Charles Bukowski,1986,Poesia,sim
+L01184,An introduction to poetry,X. J. Kennedy,1966,Poesia,sim
+L01185,Departmental ditties and other verses,Rudyard Kipling,1800,Poesia,sim
+L01186,Jabberwocky,Lewis Carroll,1881,Poesia,nao
+L01187,"A Coney Island of the mind, poems",Lawrence Ferlinghetti,1958,Poesia,sim
+L01188,Seuss-isms,Dr. Seuss,1997,Poesia,sim
+L01189,Favorite poems old and new,Helen Ferris,1957,Poesia,nao
+L01190,Poems,Mary Oliver,1992,Poesia,sim
+L01191,The Butterfly's Burden,Mahmud Darwish,2006,Poesia,nao
+L01192,Commotion in the ocean,Giles Andreae,1998,Poesia,sim
+L01193,The prelude,William Wordsworth,1850,Poesia,sim
+L01194,Don Juan,Lord Byron,1819,Poesia,sim
+L01195,Poems by John Keats,John Keats,1800,Poesia,sim
+L01196,The grave,Robert Blair,1743,Poesia,nao
+L01197,An essay on man,Alexander Pope,1733,Poesia,sim
+L01198,Funhouse,Diane Hoh,1990,Poesia,sim
+L01199,"Collected Poems, 1934-1952",Dylan Thomas,1952,Poesia,sim
+L01200,The New Kid on the Block,Jack Prelutsky,1984,Poesia,nao
+L01201,Harry Potter and the Cursed Child,Jack Thorne,2001,Drama,nao
+L01202,"The Alchemist, 1612",Ben Jonson,1612,Drama,sim
+L01203,Romeo and Juliet,William Shakespeare,1597,Drama,sim
+L01204,Pygmalion,George Bernard Shaw,1912,Drama,sim
+L01205,The Tempest,William Shakespeare,1611,Drama,sim
+L01206,A Doll's House,Henrik Ibsen,1889,Drama,nao
+L01207,Faust,Johann Wolfgang von Goethe,1800,Drama,sim
+L01208,Hamlet,William Shakespeare,1603,Drama,sim
+L01209,King Lear,William Shakespeare,1608,Drama,sim
+L01210,Οἰδίπους Τύραννος (Oidípous Týrannos),Sophocles,1715,Drama,sim
+L01211,Julius Caesar,William Shakespeare,1656,Drama,nao
+L01212,Who's Afraid of Virginia Woolf?,Edward Albee,1962,Drama,sim
+L01213,The Glass Menagerie,Tennessee Williams,1945,Drama,sim
+L01214,The Taming of the Shrew,William Shakespeare,1631,Drama,sim
+L01215,All's Well That Ends Well,William Shakespeare,1734,Drama,sim
+L01216,Death of a Salesman,Arthur Miller,1940,Drama,nao
+L01217,The Crucible,Arthur Miller,1953,Drama,sim
+L01218,The Merchant of Venice,William Shakespeare,1600,Drama,sim
+L01219,Coriolanus,William Shakespeare,1734,Drama,sim
+L01220,The Comedy of Errors,William Shakespeare,1734,Drama,sim
+L01221,A Midsummer Night's Dream,William Shakespeare,1600,Drama,nao
+L01222,R.U.R. and The insect play,Karel Čapek,1920,Drama,nao
+L01223,A Streetcar Named Desire,Tennessee Williams,1947,Drama,sim
+L01224,The Importance of Being Earnest,Oscar Wilde,1893,Drama,sim
+L01225,Doctor Faustus,Christopher Marlowe,1662,Drama,sim
+L01226,Winter's Tale,William Shakespeare,1735,Drama,nao
+L01227,Cat on a Hot Tin Roof,Tennessee Williams,1944,Drama,sim
+L01228,Antony and Cleopatra,William Shakespeare,1734,Drama,sim
+L01229,Salomé,Oscar Wilde,1893,Drama,sim
+L01230,Our husband has gone mad again,Ola Rotimi,1977,Drama,sim
+L01231,Buzani Kubawo,W.K. Tamsanqa,1991,Drama,nao
+L01232,Rosencrantz & Guildenstern are dead,Tom Stoppard,1967,Drama,sim
+L01233,Macbeth,William Shakespeare,1508,Drama,nao
+L01234,Measure for Measure,William Shakespeare,1700,Drama,sim
+L01235,Man and Superman,George Bernard Shaw,1903,Drama,sim
+L01236,His Dark Materials,Philip Pullman,2000,Drama,nao
+L01237,Caligula,Albert Camus,1961,Drama,sim
+L01238,A Raisin in the Sun,Lorraine Hansberry,1958,Drama,sim
+L01239,The marriage of Anansewa,Efua Theodora Sutherland,1975,Drama,sim
+L01240,King Richard II,William Shakespeare,1597,Drama,sim
+L01241,An Inspector Calls,J. B. Priestley,1945,Drama,nao
+L01242,"Henry IV, Part 2",William Shakespeare,1600,Drama,sim
+L01243,How I learned to drive,Paula Vogel,1997,Drama,sim
+L01244,A Woman of No Importance,Oscar Wilde,1893,Drama,nao
+L01245,Дядя Ваня,Антон Павлович Чехов,1897,Drama,sim
+L01246,En attendant Godot,Samuel Beckett,1952,Drama,nao
+L01247,"Twelfth Night, or What You Will",William Shakespeare,1734,Drama,sim
+L01248,Summer and smoke,Tennessee Williams,1948,Drama,sim
+L01249,Blues For Mister Charlie,James Baldwin,1964,Drama,sim
+L01250,A View from the Bridge,Arthur Miller,1955,Drama,sim
+L01251,The Diary of Anne Frank,Frances Goodrich,1956,Drama,nao
+L01252,Antigone,Sophocles,1581,Drama,sim
+L01253,The gods are not to blame,Ola Rotimi,1971,Drama,sim
+L01254,"Philadelphia, here I come!",Brian Friel,1965,Drama,sim
+L01255,King Henry VIII,William Shakespeare,1670,Drama,nao
+L01256,Two Gentlemen of Verona,William Shakespeare,1632,Drama,nao
+L01257,"Henry IV, Part 1",William Shakespeare,1598,Drama,sim
+L01258,Richard III,William Shakespeare,1597,Drama,sim
+L01259,Plaza suite,Neil Simon,1969,Drama,sim
+L01260,"The school for scandal, 1780",Richard Brinsley Sheridan,1778,Drama,sim
+L01261,Cymbeline,William Shakespeare,1734,Drama,nao
+L01262,My children! My Africa!,Athol Fugard,1990,Drama,sim
+L01263,The burdens,John Ruganda,1972,Drama,sim
+L01264,As You Like It,William Shakespeare,1734,Drama,sim
+L01265,Much Ado About Nothing,William Shakespeare,1600,Drama,sim
+L01266,Medea,Euripides,1703,Drama,nao
+L01267,Fences,August Wilson,1986,Drama,sim
+L01268,Going Postal,Terry Pratchett,2004,Drama,sim
+L01269,Twelve angry men,Reginald Rose,1955,Drama,sim
+L01270,Look Back in Anger,John Osborne,1957,Drama,sim
+L01271,Our town,Thornton Wilder,1938,Drama,nao
+L01272,Aku,Sjumandjaya,1987,Drama,sim
+L01273,The Lion and the Jewel,Wole Soyinka,1962,Drama,sim
+L01274,The little foxes,Lillian Hellman,1939,Drama,sim
+L01275,The Foxhole Court,Nora Sakavic,2013,Drama,sim
+L01276,After the Fall,Arthur Miller,1964,Drama,nao
+L01277,Woyzeck,Georg Büchner,1900,Drama,nao
+L01278,A handbook for the study of drama,Lynn Altenbernd,1966,Drama,sim
+L01279,Candida,George Bernard Shaw,1905,Drama,sim
+L01280,The Miracle Worker,William Gibson,1956,Drama,sim
+L01281,Et dukkehjem,Henrik Ibsen,1879,Drama,nao
+L01282,The Way of the World,William Congreve,1700,Drama,sim
+L01283,Peer Gynt,Henrik Ibsen,1867,Drama,sim
+L01284,Othello,William Shakespeare,1622,Drama,sim
+L01285,King Henry V,William Shakespeare,1600,Drama,sim
+L01286,King Henry VI. Part 2,William Shakespeare,1600,Drama,nao
+L01287,The night of the iguana,Tennessee Williams,1939,Drama,sim
+L01288,Вишневый сад,Антон Павлович Чехов,1918,Drama,nao
+L01289,Major Barbara,George Bernard Shaw,1909,Drama,sim
+L01290,How to write a play,Lajos Egri,1942,Drama,sim
+L01291,"Henry VI, Part 3",William Shakespeare,1600,Drama,nao
+L01292,The Mousetrap,Agatha Christie,1954,Drama,sim
+L01293,An Ideal Husband,Oscar Wilde,1899,Drama,sim
+L01294,Pericles,William Shakespeare,1609,Drama,sim
+L01295,Betrayal in the city,F. D. Imbuga,1976,Drama,sim
+L01296,Cato,Joseph Addison,1713,Drama,nao
+L01297,Bygmester Solness,Henrik Ibsen,1860,Drama,sim
+L01298,Le Balcon,Jean Genet,1956,Drama,sim
+L01299,Laughing wild,Christopher Durang,1988,Drama,nao
+L01300,Love for Love,William Congreve,1695,Drama,sim
+L01301,The Dragonet Prophecy,Tui T. Sutherland,2012,Aventura,nao
+L01302,Iceberg,Clive Cussler,1975,Aventura,sim
+L01303,Voyage au Centre de la Terre,Jules Verne,1867,Aventura,sim
+L01304,The Sea of Monsters,Rick Riordan,2005,Aventura,sim
+L01305,They Both Die at the End,Adam Silvera,2017,Aventura,sim
+L01306,Neverseen,Shannon Messenger,2015,Aventura,nao
+L01307,Il Fate del Nevi,Elisabetta Dami,2013,Aventura,sim
+L01308,Deep Six,Clive Cussler,1984,Aventura,sim
+L01309,The Hidden Kingdom,Tui Sutherland,2012,Aventura,sim
+L01310,Winter Turning,Tui T. Sutherland,2015,Aventura,nao
+L01311,Five Go Adventuring Again,Enid Blyton,1943,Aventura,nao
+L01312,Sign of the Moon,Erin Hunter,2011,Aventura,sim
+L01313,The Mysterious Benedict Society (The Mysterious Benedict Society #1),Trenton Lee Stewart,2007,Aventura,sim
+L01314,Swallows and Amazons,Arthur Michell Ransome,1930,Aventura,sim
+L01315,Outcast,Erin Hunter,2008,Aventura,sim
+L01316,Lord of the Flies,William Golding,1954,Aventura,nao
+L01317,Inca Gold,Clive Cussler,1994,Aventura,sim
+L01318,"Arsène Lupin, gentleman-cambrioleur",Maurice Leblanc,1907,Aventura,sim
+L01319,Il Fate del Lago,Elisabetta Dami,2012,Aventura,sim
+L01320,Darkstalker,Tui T. Sutherland,2016,Aventura,sim
+L01321,The Book Of Three,Lloyd Alexander,1964,Aventura,nao
+L01322,Treasure,Clive Cussler,1988,Aventura,sim
+L01323,The Cat of Bubastes,G. A. Henty,1888,Aventura,sim
+L01324,The Ship of the Dead,Rick Riordan,2017,Aventura,sim
+L01325,Dog Man and Cat Kid,Dav Pilkey,2017,Aventura,sim
+L01326,School's Out Forever,James Patterson,2006,Aventura,nao
+L01327,The Angel Experiment,James Patterson,2001,Aventura,sim
+L01328,The Miraculous Journey of Edward Tulane,Kate DiCamillo,2000,Aventura,sim
+L01329,The Sight,Erin Hunter,2007,Aventura,sim
+L01330,Fading Echoes,Erin Hunter,2010,Aventura,sim
+L01331,The Last Hope,Erin Hunter,2012,Aventura,nao
+L01332,Five Go to Smuggler's Top,Enid Blyton,1945,Aventura,nao
+L01333,The Famous Five,Enid Blyton,1981,Aventura,sim
+L01334,Robin Hood,Howard Pyle,1883,Aventura,sim
+L01335,Congo,Michael Crichton,1980,Aventura,sim
+L01336,Atlantis Found,Clive Cussler,1999,Aventura,nao
+L01337,Into the Wild,Erin Hunter,2003,Aventura,sim
+L01338,The hidden kingdom [graphic novel],Barry Deutsch,2000,Aventura,sim
+L01339,Treasure Island,Robert Louis Stevenson,1880,Aventura,sim
+L01340,Escaping Peril,Tui T. Sutherland,2015,Aventura,sim
+L01341,The Poison Jungle,Tui T. Sutherland,2019,Aventura,nao
+L01342,Il segreto delle fate degli oceani,Elisabetta Dami,2015,Aventura,sim
+L01343,The Dangerous Gift,Tui T. Sutherland,2020,Aventura,nao
+L01344,Legacy (Keeper of the Lost Cities #8),Shannon Messenger,2019,Aventura,sim
+L01345,The Girl Who Loved Tom Gordon,Stephen King,1999,Aventura,sim
+L01346,Dark River,Erin Hunter,2007,Aventura,nao
+L01347,Eclipse,Erin Hunter,2008,Aventura,sim
+L01348,The Hammer of Thor,Rick Riordan,2016,Aventura,sim
+L01349,L'Île mystérieuse,Jules Verne,1870,Aventura,sim
+L01350,The Final Warning,James Patterson,1998,Aventura,sim
+L01351,Kidnapped,Robert Louis Stevenson,1886,Aventura,nao
+L01352,Black Wind,Clive Cussler,2004,Aventura,sim
+L01353,The Dark Secret,Tui T. Sutherland,2013,Aventura,sim
+L01354,Night Whispers,Erin Hunter,2010,Aventura,nao
+L01355,Sunrise,Erin Hunter,2009,Aventura,sim
+L01356,The Thief,Megan Whalen Turner,1996,Aventura,nao
+L01357,The Castle of Adventure,Enid Blyton,1946,Aventura,sim
+L01358,The Secret Island,Enid Blyton,1938,Aventura,sim
+L01359,The Hidden Oracle,Rick Riordan,2016,Aventura,sim
+L01360,Dog Man,Dav Pilkey,2015,Aventura,sim
+L01361,The Chalice of the Gods,Rick Riordan,2023,Aventura,nao
+L01362,Fang,James Patterson,1998,Aventura,sim
+L01363,The Hive Queen,Tui T. Sutherland,2018,Aventura,sim
+L01364,The Secret Seven,Enid Blyton,1949,Aventura,sim
+L01365,The Adventures of Tom Sawyer,Mark Twain,1817,Aventura,nao
+L01366,The Merchant of Death (Pendragon #1),D. J. MacHale,2002,Aventura,nao
+L01367,El misterio del ojo esmeralda,Elisabetta Dami,2000,Aventura,sim
+L01368,Anansi Boys,Neil Gaiman,2005,Aventura,sim
+L01369,The Eternal Enemy,Christopher Pike,1993,Aventura,sim
+L01370,Cyclops,Clive Cussler,1986,Aventura,sim
+L01371,Unlocked,Shannon Messenger,2020,Aventura,nao
+L01372,Into the Wild,Jon Krakauer,1996,Aventura,sim
+L01373,Ark Angel,Anthony Horowitz,2005,Aventura,sim
+L01374,Redwall,Brian Jacques,1986,Aventura,sim
+L01375,Lodestar,Shannon Messenger,2016,Aventura,sim
+L01376,Saving the World and Other Extreme Sports,James Patterson,1998,Aventura,nao
+L01377,Long Shadows,Erin Hunter,2008,Aventura,sim
+L01378,Tercer viaje al reino de la fantasía,Elisabetta Dami,2008,Aventura,sim
+L01379,The Forgotten Warrior,Erin Hunter,2011,Aventura,sim
+L01380,The Island of Adventure,Enid Blyton,1944,Aventura,sim
+L01381,Keeper of the Lost Cities,Shannon Messenger,2012,Aventura,nao
+L01382,The Whipping Boy,Sid Fleischman,1986,Aventura,sim
+L01383,Vingt mille lieues sous les mers,Jules Verne,1870,Aventura,sim
+L01384,Allan Quatermain,H. Rider Haggard,1887,Aventura,sim
+L01385,Segreto delle Fate delle Nuvole,Elisabetta Dami,2000,Aventura,sim
+L01386,Artemis Fowl and the Eternity Code,Eoin Colfer,2003,Aventura,nao
+L01387,The Wolves of Willoughby Chase (Wolves #1),Joan Aiken,1911,Aventura,nao
+L01388,Watership Down,Richard Adams,1972,Aventura,sim
+L01389,Renegades,Marissa Meyer,2017,Aventura,sim
+L01390,The Fourth Apprentice,Erin Hunter,2009,Aventura,sim
+L01391,Quinto viaje al reino de la fantasía,Elisabetta Dami,2009,Aventura,nao
+L01392,Hyper Focus,Autum Wind,2023,Aventura,sim
+L01393,Séptimo viaje al reino de la fantasía,Elisabetta Dami,2011,Aventura,sim
+L01394,Archenemies,Marissa Meyer,2014,Aventura,sim
+L01395,Replay,Ken Grimwood,1986,Aventura,sim
+L01396,King of Scars,Leigh Bardugo,2019,Aventura,nao
+L01397,Forest of Secrets,Erin Hunter,2003,Aventura,sim
+L01398,The Recruit (CHERUB #1),Robert Muchamore,1993,Aventura,nao
+L01399,Wereworld (Rise of the Wolf),Curtis Jobling,2011,Aventura,sim
+L01400,To Build a Fire,Jack London,1960,Aventura,sim
+L01401,Can We Be Strangers Again?,Shrijeet Shandilya,2024,Jovem adulto,nao
+L01402,"Good Girl, Bad Blood",Holly Jackson,2020,Jovem adulto,sim
+L01403,One Of Us Is Lying,Karen M. McManus,2017,Jovem adulto,sim
+L01404,The Inheritance Games,Jennifer Lynn Barnes,2020,Jovem adulto,sim
+L01405,A Good Girl's Guide to Murder,Holly Jackson,2019,Jovem adulto,sim
+L01406,Midnight Sun,Stephenie Meyer,2020,Jovem adulto,nao
+L01407,Loveless,Alice Oseman,2020,Jovem adulto,sim
+L01408,The Hawthorne Legacy,Jennifer Lynn Barnes,2021,Jovem adulto,sim
+L01409,One of us is next,Karen M. McManus,2020,Jovem adulto,nao
+L01410,The Hate U Give,Angie Thomas,2017,Jovem adulto,sim
+L01411,The Love Hypothesis,Ali Hazelwood,2021,Jovem adulto,nao
+L01412,Ready Player One,Ernest Cline,2008,Jovem adulto,sim
+L01413,Tower of Dawn,Sarah J. Maas,2017,Jovem adulto,sim
+L01414,All the Bright Places,Jennifer Niven,2014,Jovem adulto,sim
+L01415,Crooked Kingdom,Leigh Bardugo,2016,Jovem adulto,sim
+L01416,The Ballad of Songbirds and Snakes,Suzanne Collins,2020,Jovem adulto,nao
+L01417,Radio Silence,Alice Oseman,2016,Jovem adulto,sim
+L01418,Grumpy Darling,Alexandra Moody,2025,Jovem adulto,sim
+L01419,This Winter,Alice Oseman,2015,Jovem adulto,sim
+L01420,Starsight,Brandon Sanderson,2019,Jovem adulto,nao
+L01421,Kingdom of the Wicked,Kerri Maniscalco,2020,Jovem adulto,nao
+L01422,Fearless,Lauren Roberts,2025,Jovem adulto,sim
+L01423,A Court of Thorns and Roses,Sarah J. Maas,2013,Jovem adulto,sim
+L01424,Six of Crows,Leigh Bardugo,2015,Jovem adulto,sim
+L01425,As Long As the Lemon Trees Grow,Zoulfa Katouh,2022,Jovem adulto,sim
+L01426,Legendary,Stephanie Garber,2018,Jovem adulto,nao
+L01427,If You Could See the Sun,Ann Liang,2022,Jovem adulto,sim
+L01428,Skyward,Brandon Sanderson,2018,Jovem adulto,sim
+L01429,Legendborn,Tracy Deonn,2020,Jovem adulto,sim
+L01430,Children of Blood and Bone,Tomi Adeyemi,2017,Jovem adulto,sim
+L01431,Cinder,Marissa Meyer,2011,Jovem adulto,nao
+L01432,The Knife of Never Letting Go,Patrick Ness,2008,Jovem adulto,sim
+L01433,"Heartstopper, Volume 2",Alice Oseman,2019,Jovem adulto,sim
+L01434,Heartless,Marissa Meyer,2000,Jovem adulto,sim
+L01435,"Heartstopper, Volume 1",Alice Oseman,2018,Jovem adulto,sim
+L01436,Culpa Tuya,Mercedes Ron,2016,Jovem adulto,nao
+L01437,Simon vs. the Homo Sapiens Agenda,Becky Albertalli,2015,Jovem adulto,sim
+L01438,Girl in Pieces,Kathleen Glasgow,2000,Jovem adulto,sim
+L01439,Broken Throne,Victoria Aveyard,2019,Jovem adulto,sim
+L01440,Turtles All the Way Down,John Green,2017,Jovem adulto,sim
+L01441,Shadow and Bone,Leigh Bardugo,2012,Jovem adulto,nao
+L01442,Thunderhead,Neal Shusterman,2018,Jovem adulto,nao
+L01443,The Stolen Heir,Holly Black,2023,Jovem adulto,sim
+L01444,Solitaire,Alice Oseman,2014,Jovem adulto,sim
+L01445,A Thousand Boy Kisses,Tillie Cole,2016,Jovem adulto,sim
+L01446,Fetch (Five Nights at Freddy’s,Scott Cawthon,2020,Jovem adulto,nao
+L01447,The Reappearance of Rachel Price,Holly Jackson,2024,Jovem adulto,sim
+L01448,I Was Born for This,Alice Oseman,2018,Jovem adulto,sim
+L01449,Glass Sword,Victoria Aveyard,2016,Jovem adulto,sim
+L01450,Crier's War,Nina Varela,2019,Jovem adulto,sim
+L01451,Hollow City,Ransom Riggs,2013,Jovem adulto,nao
+L01452,You've Reached Sam,Dustin Thao,2021,Jovem adulto,sim
+L01453,Into the Pit (Five Nights at Freddy’s,Scott Cawthon,2019,Jovem adulto,nao
+L01454,Our Fault,Mercedes Ron,2014,Jovem adulto,sim
+L01455,To All the Boys I've Loved Before,Jenny Han,2014,Jovem adulto,sim
+L01456,The Woman Who Rides Like a Man,Tamora Pierce,1986,Jovem adulto,nao
+L01457,The Way I Used To Be,Amber Smith,2016,Jovem adulto,sim
+L01458,This Woven Kingdom,Tahereh Mafi,2022,Jovem adulto,sim
+L01459,Some Girls Do,Jennifer Dugan,2012,Jovem adulto,sim
+L01460,Red Queen,Victoria Aveyard,2015,Jovem adulto,sim
+L01461,A Curse for True Love,Stephanie Garber,2023,Jovem adulto,nao
+L01462,The Silver Eyes (Five Nights At Freddy's #1),Scott Cawthon,2001,Jovem adulto,sim
+L01463,Lightlark,Alex Aster,2022,Jovem adulto,sim
+L01464,Scythe,Neal Shusterman,2016,Jovem adulto,nao
+L01465,Rule of Wolves,Leigh Bardugo,2021,Jovem adulto,sim
+L01466,Check & Mate,Ali Hazelwood,2023,Jovem adulto,nao
+L01467,Serpent and Dove,Shelby Mahurin,2019,Jovem adulto,sim
+L01468,The Summer of Broken Rules,K. L. Walther,2021,Jovem adulto,sim
+L01469,Paper Towns,John Green,2008,Jovem adulto,sim
+L01470,"Matched (Matched Trilogy, Book 1)",Ally Condie,2010,Jovem adulto,sim
+L01471,Step Closer (Five Nights at Freddy’s Fazbear Frights #4),Scott Cawthon,2020,Jovem adulto,nao
+L01472,The Conference of the Birds,Ransom Riggs,2020,Jovem adulto,sim
+L01473,Keeping 13,Chloe Walsh,2020,Jovem adulto,sim
+L01474,Carry On,Rainbow Rowell,2015,Jovem adulto,sim
+L01475,Looking for Alaska,John Green,2005,Jovem adulto,nao
+L01476,Cemetery Boys,Aiden Thomas,2020,Jovem adulto,nao
+L01477,Murtagh,Christopher Paolini,2023,Jovem adulto,sim
+L01478,An Abundance of Katherines,John Green,2006,Jovem adulto,sim
+L01479,Eleanor & Park,Rainbow Rowell,2012,Jovem adulto,sim
+L01480,Fangirl,Rainbow Rowell,2001,Jovem adulto,sim
+L01481,Felix Ever After,Kacen Callender,2020,Jovem adulto,nao
+L01482,Divine Rivals,Rebecca Ross,2023,Jovem adulto,sim
+L01483,The Sun and the Star,Rick Riordan,2023,Jovem adulto,sim
+L01484,1:35 AM (Five Nights at Freddy's,Scott Cawthon,2020,Jovem adulto,sim
+L01485,Invisible,Eloy Moreno,2020,Jovem adulto,sim
+L01486,The Betrothed,Kiera Cass,2020,Jovem adulto,nao
+L01487,Wilder Girls,Rory Power,2019,Jovem adulto,sim
+L01488,"Again, but Better",Christine Riccio,2019,Jovem adulto,sim
+L01489,Chain of Gold,Cassandra Clare,2019,Jovem adulto,sim
+L01490,Crush,Tracy Wolff,2020,Jovem adulto,sim
+L01491,Una corte de niebla y furia,Sarah J. Maas,2014,Jovem adulto,nao
+L01492,On The Come Up,Angie Thomas,2019,Jovem adulto,sim
+L01493,Firekeeper's Daughter,Angeline Boulley,2021,Jovem adulto,sim
+L01494,How the King of Elfhame Learned to Hate Stories,Holly Black,2020,Jovem adulto,sim
+L01495,Family of Liars,E. Lockhart,2022,Jovem adulto,sim
+L01496,We Were Liars,E. Lockhart,2014,Jovem adulto,nao
+L01497,Thirteen reasons why,Jay Asher,2007,Jovem adulto,nao
+L01498,The gravity of us,Phil Stamper,2019,Jovem adulto,sim
+L01499,Nightbane,Alex Aster,2022,Jovem adulto,sim
+L01500,Concrete Rose,Angie Thomas,2021,Jovem adulto,sim
+L01501,A Murder Is Announced,Agatha Christie,1950,Detetive,nao
+L01502,1st to Die,James Patterson,2001,Detetive,sim
+L01503,The Maltese Falcon,Dashiell Hammett,1929,Detetive,sim
+L01504,Death on the Nile,Agatha Christie,1937,Detetive,sim
+L01505,The Return of Sherlock Holmes,Arthur Conan Doyle,1903,Detetive,sim
+L01506,A Caribbean Mystery,Agatha Christie,1964,Detetive,nao
+L01507,Postmortem,Patricia Cornwell,1990,Detetive,sim
+L01508,Nate The Great (Nate The Great),Marjorie Weinman Sharmat,1972,Detetive,nao
+L01509,The No. 1 Ladies' Detective Agency,Alexander McCall Smith,1997,Detetive,sim
+L01510,Third Girl,Agatha Christie,1966,Detetive,sim
+L01511,The Murders in the Rue Morgue,Edgar Allan Poe,1841,Detetive,nao
+L01512,Dirk Gently’s Holistic Detective Agency,Douglas Adams,1987,Detetive,sim
+L01513,The Mysterious Affair at Styles,Agatha Christie,1920,Detetive,sim
+L01514,Glory in Death,Nora Roberts,1995,Detetive,sim
+L01515,Towards Zero,Agatha Christie,1944,Detetive,sim
+L01516,The Old Man in the Corner,Emma Orczy,1908,Detetive,nao
+L01517,The Double Traitor,Edward Phillips Oppenheim,1915,Detetive,sim
+L01518,The Invisible Intruder,Carolyn Keene,1969,Detetive,sim
+L01519,The Haunted Bookshop,Christopher Morley,1919,Detetive,nao
+L01520,The mystery at the ski jump,Carolyn Keene,1952,Detetive,sim
+L01521,The Surgeon,Tess Gerritsen,2001,Detetive,nao
+L01522,Last Act,Christopher Pike,1988,Detetive,sim
+L01523,The Floating Admiral,The Detection Club,1931,Detetive,sim
+L01524,The Black Box,Edward Phillips Oppenheim,1915,Detetive,sim
+L01525,3rd Degree,James Patterson,2004,Detetive,sim
+L01526,The Lone Wolf,Louis Joseph Vance,1914,Detetive,nao
+L01527,They Came to Baghdad,Agatha Christie,1951,Detetive,sim
+L01528,The Bungalow Mystery,Carolyn Keene,1930,Detetive,sim
+L01529,I'll Be Seeing You,Mary Higgins Clark,1993,Detetive,sim
+L01530,Four to score,Janet Evanovich,1998,Detetive,nao
+L01531,The Wisdom of Father Brown,Gilbert Keith Chesterton,1913,Detetive,nao
+L01532,The Silence of the Lambs,Thomas Harris,1988,Detetive,sim
+L01533,Seven keys to Baldpate,Earl Derr Biggers,1913,Detetive,sim
+L01534,Immortal in death,Nora Roberts,1960,Detetive,sim
+L01535,Cause of Death,Patricia Cornwell,1995,Detetive,sim
+L01536,The Secret of Terror Castle,Robert Arthur,1964,Detetive,nao
+L01537,Hot Six,Janet Evanovich,2000,Detetive,sim
+L01538,Raven Black,Ann Cleeves,2006,Detetive,sim
+L01539,The Stepsister,Robert Lawrence Stine,1990,Detetive,sim
+L01540,Dead Men's Money,Joseph Smith Fletcher,1920,Detetive,sim
+L01541,"Miss Marple, the complete short stories",Agatha Christie,1985,Detetive,nao
+L01542,Vengeance in Death,Nora Roberts,1997,Detetive,sim
+L01543,The Daughter of Time,Josephine Tey,1951,Detetive,sim
+L01544,Hickory Dickory Death,Agatha Christie,1952,Detetive,sim
+L01545,Tripwire,Lee Child,1999,Detetive,sim
+L01546,In the Woods,Tana French,2001,Detetive,nao
+L01547,Rules of Prey (Lucas Davenport Mysteries),John Sandford,1989,Detetive,sim
+L01548,61 hours,Lee Child,2010,Detetive,sim
+L01549,The enemy,Lee Child,2004,Detetive,sim
+L01550,The Mystery of the Stuttering Parrot,Robert Arthur,1964,Detetive,sim
+L01551,Parker Pyne Investigates,Agatha Christie,1933,Detetive,nao
+L01552,High Five (A Stephanie Plum Novel),Janet Evanovich,1999,Detetive,nao
+L01553,The Bat,Mary Roberts Rinehart,1926,Detetive,sim
+L01554,Tell No One,Harlan Coben,2000,Detetive,sim
+L01555,Jack & Jill,James Patterson,1714,Detetive,sim
+L01556,The Hard Way,Lee Child,2006,Detetive,nao
+L01557,Blind Date,Robert Lawrence Stine,1986,Detetive,sim
+L01558,Murder Must Advertise,Dorothy L. Sayers,1933,Detetive,sim
+L01559,Bury Me Deep,Christopher Pike,1991,Detetive,sim
+L01560,Strong Poison,Dorothy L. Sayers,1930,Detetive,sim
+L01561,The case of the velvet claws,Erle Stanley Gardner,1933,Detetive,nao
+L01562,The house of the four winds,John Buchan,1935,Detetive,sim
+L01563,Seven Up,Janet Evanovich,2001,Detetive,nao
+L01564,Le dossier no. 113,Émile Gaboriau,1868,Detetive,sim
+L01565,Psychology,Carole Wade,1987,Detetive,sim
+L01566,The Adventure of the Christmas Pudding,Agatha Christie,1960,Detetive,nao
+L01567,One Shot,Lee Child,2005,Detetive,sim
+L01568,Nancy's Mysterious Letter,Carolyn Keene,1932,Detetive,sim
+L01569,Ceremony in Death,Nora Roberts,1997,Detetive,sim
+L01570,L'affaire Lerouge,Émile Gaboriau,1800,Detetive,sim
+L01571,Passenger to Frankfurt,Agatha Christie,1970,Detetive,nao
+L01572,The Nine Tailors,Dorothy L. Sayers,1934,Detetive,sim
+L01573,The golden goblet,Eloise Jarvis McGraw,1961,Detetive,sim
+L01574,Fear Street - Into The Dark,Robert Lawrence Stine,1997,Detetive,nao
+L01575,Cruel & Unusual,Patricia Cornwell,1993,Detetive,sim
+L01576,Bad Luck and Trouble,Lee Child,1984,Detetive,nao
+L01577,A Man Lay Dead,Ngaio Marsh,1934,Detetive,sim
+L01578,Beekeeper's Apprentice,Laurie R. King,1994,Detetive,sim
+L01579,From Potter's Field,Patricia Cornwell,1995,Detetive,sim
+L01580,4th of July,James Patterson,1947,Detetive,sim
+L01581,2nd Chance,James Patterson,2002,Detetive,nao
+L01582,Never Go Back,Lee Child,2013,Detetive,sim
+L01583,Persuader,Lee Child,2003,Detetive,sim
+L01584,Murder in the Mews,Agatha Christie,1955,Detetive,sim
+L01585,The Hollow Boy,Jonathan Stroud,2015,Detetive,nao
+L01586,The House on Hackman's Hill,Joan Lowery Nixon,1985,Detetive,nao
+L01587,Die Trying,Lee Child,1998,Detetive,sim
+L01588,Blood Rites,Jim Butcher,2004,Detetive,sim
+L01589,Three to Get Deadly,Janet Evanovich,1997,Detetive,sim
+L01590,The Mystery of the Green Ghost,Robert Arthur,1965,Detetive,sim
+L01591,An Unsuitable Job for a Woman,P. D. James,1972,Detetive,nao
+L01592,Red Dragon,Thomas Harris,1981,Detetive,sim
+L01593,Saving the Devil,Sophie Weston,1994,Detetive,sim
+L01594,The unexpected guest,Agatha Christie,1958,Detetive,sim
+L01595,The Terror,Arthur Machen,1917,Detetive,sim
+L01596,The Red Thumb Mark,R. Austin Freeman,1907,Detetive,nao
+L01597,Partners in Crime,Agatha Christie,1929,Detetive,sim
+L01598,Body of Evidence,Patricia Cornwell,1990,Detetive,sim
+L01599,Spy the lie,Philip Houston,2012,Detetive,sim
+L01600,The clue of the velvet mask,Carolyn Keene,1953,Detetive,sim
+L01601,Me Talk Pretty One Day,David Sedaris,2000,Humor,nao
+L01602,The Devil's Dictionary,Ambrose Bierce,1840,Humor,sim
+L01603,Dress Your Family in Corduroy and Denim,David Sedaris,2004,Humor,sim
+L01604,Three Men in a Boat (to say nothing of the dog),Jerome Klapka Jérôme,1889,Humor,sim
+L01605,Idle Thoughts of an Idle Fellow,Jerome Klapka Jérôme,1880,Humor,sim
+L01606,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",Judith Viorst,1972,Humor,nao
+L01607,Attack of the Deranged Mutant Killer Monster Snow Goons,Bill Watterson,1992,Humor,nao
+L01608,Five Point Someone,Chetan Bhagat,2004,Humor,sim
+L01609,Raising Steam,Terry Pratchett,2013,Humor,sim
+L01610,Diary of a Wimpy Kid,Jeff Kinney,2007,Humor,sim
+L01611,Infinite Jest,David Foster Wallace,1996,Humor,nao
+L01612,"Novels (Hitch Hiker's Guide to the Galaxy / Restaurant at the End of the Universe / Life, the Universe and Everything / So Long, and Thanks for All the Fish)",Douglas Adams,1979,Humor,sim
+L01613,Reaper Man,Terry Pratchett,1991,Humor,sim
+L01614,The Ersatz Elevator,Lemony Snicket,2001,Humor,sim
+L01615,Freckle Juice,Judy Blume,1971,Humor,sim
+L01616,Maskerade,Terry Pratchett,1995,Humor,nao
+L01617,The Cheat Sheet,Sarah Adams,2021,Humor,sim
+L01618,Thief of Time,Terry Pratchett,2001,Humor,nao
+L01619,Soul Music,Terry Pratchett,1994,Humor,sim
+L01620,Poor Charlie's Almanack,Charles T. Munger,2005,Humor,sim
+L01621,Bunny,Mona Awad,2019,Humor,nao
+L01622,When You Are Engulfed in Flames,David Sedaris,2007,Humor,sim
+L01623,Dork Diaries,Rachel Renée Russell,2009,Humor,sim
+L01624,Motel of the mysteries,David Macaulay,1979,Humor,sim
+L01625,1066 and All That,Walter Carruthers Sellar,1930,Humor,sim
+L01626,"Is sex necessary?, or, why you always feel the way you do",James Thurber,1929,Humor,nao
+L01627,Tales of a Fourth Grade Nothing,Judy Blume,1972,Humor,sim
+L01628,The Zombie Survival Guide,Max Brooks,2003,Humor,sim
+L01629,Die 13 ½ Leben des Käpt’n Blaubär,Walter Moers,1998,Humor,nao
+L01630,A supposedly fun thing I'll never do again,David Foster Wallace,1997,Humor,sim
+L01631,Making Money,Terry Pratchett,2007,Humor,nao
+L01632,Holidays on Ice,David Sedaris,1997,Humor,sim
+L01633,Night Watch,Terry Pratchett,2002,Humor,sim
+L01634,"Teach Us, Amelia Bedelia",Peggy Parish,1977,Humor,sim
+L01635,Dog Days,Jeff Kinney,2007,Humor,sim
+L01636,In the Beginning...Was the Command Line,Neal Stephenson,1999,Humor,nao
+L01637,The Calvin and Hobbes tenth anniversary book,Bill Watterson,1989,Humor,sim
+L01638,Let's Explore Diabetes with Owls,David Sedaris,1960,Humor,sim
+L01639,The Miserable Mill,Lemony Snicket,2000,Humor,sim
+L01640,Another roadside attraction,Tom Robbins,1971,Humor,nao
+L01641,Can You Keep A Secret?,Sophie Kinsella,2003,Humor,nao
+L01642,Ella Minnow Pea,Mark Dunn,2001,Humor,sim
+L01643,The Last Continent,Terry Pratchett,1998,Humor,sim
+L01644,Мастер и Маргарита,Михаил Афанасьевич Булгаков,1966,Humor,sim
+L01645,Bridget Jones's Diary,Helen Fielding,1996,Humor,sim
+L01646,xkcd,Randall Munroe,2009,Humor,nao
+L01647,The Long Haul,Jeff Kinney,2014,Humor,sim
+L01648,Creepy Susie,Angus Oblong,1999,Humor,sim
+L01649,America (the book),Jon Stewart,2004,Humor,sim
+L01650,John Dies at the End,David Wong,2007,Humor,sim
+L01651,Chocolate Fever,Robert Kimmel Smith,1972,Humor,nao
+L01652,Charlie and the Great Glass Elevator,Roald Dahl,1972,Humor,sim
+L01653,The Wide Window,Lemony Snicket,2000,Humor,sim
+L01654,Isaac Asimov's treasury of humor,Isaac Asimov,1971,Humor,sim
+L01655,The Colour of Magic,Terry Pratchett,1983,Humor,sim
+L01656,Men at Arms,Terry Pratchett,1993,Humor,nao
+L01657,The Amazing Maurice and His Educated Rodents,Terry Pratchett,2001,Humor,sim
+L01658,The Indispensable Calvin and Hobbes,Bill Watterson,1992,Humor,sim
+L01659,La Guia Facil del Sexo for Dummies,Ruth K. Westheimer,1995,Humor,sim
+L01660,Snuff,Terry Pratchett,2011,Humor,sim
+L01661,Position of the day,Emma Taylor,2003,Humor,nao
+L01662,Big Nate flips out,Lincoln Peirce,2013,Humor,nao
+L01663,The Growing Pains of Adrian Mole,Sue Townsend,1984,Humor,sim
+L01664,The Last Kids on Earth,Max Brallie,2015,Humor,sim
+L01665,The Gospel of the Flying Spaghetti Monster,Bobby Henderson,2006,Humor,sim
+L01666,The Long Dark Tea-Time of the Soul,Douglas Adams,1988,Humor,nao
+L01667,Barrel Fever,David Sedaris,1994,Humor,sim
+L01668,Squirrel Seeks Chipmunk,David Sedaris,2010,Humor,sim
+L01669,Headlong Hall,Thomas Love Peacock,1816,Humor,sim
+L01670,"Right Ho, Jeeves",P. G. Wodehouse,1934,Humor,sim
+L01671,"Thank You, Amelia Bedelia",Peggy Parish,1964,Humor,nao
+L01672,The Bad Beginning,Lemony Snicket,1999,Humor,sim
+L01673,Don't Let the Pigeon Drive the Bus!,Mo Willems,2003,Humor,nao
+L01674,All My Friends Are Dead,Avery Monsen,2010,Humor,sim
+L01675,Uno siempre cambia al amor de su vida,Amalia Andrade Arango,2013,Humor,sim
+L01676,Thud!,Terry Pratchett,2005,Humor,nao
+L01677,How to Date Men When You Hate Men,Blythe Roberson,2019,Humor,sim
+L01678,Hyperbole and a Half,Allie Brosh,1900,Humor,sim
+L01679,The Deeper Meaning of Liff,Douglas Adams,1990,Humor,sim
+L01680,Big Nate - Payback Time!,Lincoln Pierce,2014,Humor,sim
+L01681,The Far Side Gallery 5,Gary Larson,1982,Humor,nao
+L01682,Choke,Chuck Palahniuk,2001,Humor,sim
+L01683,Herland,Charlotte Perkins Gilman,1915,Humor,sim
+L01684,The End,Lemony Snicket,2006,Humor,nao
+L01685,The Fifth Elephant,Terry Pratchett,1999,Humor,sim
+L01686,Brain Droppings,George Carlin,1997,Humor,nao
+L01687,En man som heter Ove,Fredrik Backman,2012,Humor,sim
+L01688,Cloudy with a chance of meatballs,Judi Barrett,1978,Humor,sim
+L01689,"Dance first, think later",Kathryn Petras,2011,Humor,sim
+L01690,Cat's Cradle,Kurt Vonnegut,1963,Humor,sim
+L01691,Witz und seine Beziehung zum Unbewussten,Sigmund Freud,1916,Humor,nao
+L01692,The Diary of a Nobody,George Grossmith,1921,Humor,sim
+L01693,"Ramona Quimby, Age 8",Beverly Cleary,1981,Humor,sim
+L01694,The Robber Bride,Margaret Atwood,1993,Humor,sim
+L01695,"Carry On, Jeeves",P. G. Wodehouse,1925,Humor,nao
+L01696,Mostly Harmless,Douglas Adams,1991,Humor,nao
+L01697,Literary Lapses [42 Stories],Stephen Leacock,1900,Humor,sim
+L01698,Le petit Nicolas,Jean-Jacques Sempé,1960,Humor,sim
+L01699,I Capture the Castle,Dodie Smith,1948,Humor,sim
+L01700,A Confederacy of Dunces,John Kennedy Toole,1980,Humor,sim
+L01701,Delta of Venus,Anaïs Nin,1969,Contos,nao
+L01702,The Bazaar of Bad Dreams,Stephen King,2015,Contos,sim
+L01703,Welcome to the Monkey House,Kurt Vonnegut,1950,Contos,sim
+L01704,Nine Stories,J. D. Salinger,1948,Contos,sim
+L01705,What We Talk About When We Talk About Love,Raymond Carver,1981,Contos,sim
+L01706,Runaway,Alice Munro,2004,Contos,nao
+L01707,Bestiario,Julio Cortázar,1951,Contos,sim
+L01708,The King in Yellow,Robert W. Chambers,1895,Contos,sim
+L01709,Белые ночи,Фёдор Михайлович Достоевский,1848,Contos,sim
+L01710,The State of the Art,Iain Banks,1989,Contos,sim
+L01711,Swords and Deviltry,Fritz Leiber,1970,Contos,nao
+L01712,Tenth of December,George Saunders,2012,Contos,sim
+L01713,Exhalation,Ted Chiang,2014,Contos,sim
+L01714,Little Birds,Anaïs Nin,1979,Contos,sim
+L01715,Sideways Stories from Wayside School,Louis Sachar,1978,Contos,sim
+L01716,The Boss's Valentine,Lynne Graham,2008,Contos,nao
+L01717,Just So Stories,Rudyard Kipling,1922,Contos,nao
+L01718,Trial for Murder,Charles Dickens,2008,Contos,sim
+L01719,The Wonderful Story of Henry Sugar and Six More,Roald Dahl,1977,Contos,sim
+L01720,The October Country,Ray Bradbury,1955,Contos,sim
+L01721,Men Without Women,Ernest Hemingway,1927,Contos,nao
+L01722,A Regency Christmas Feast,Mary Balogh,1996,Contos,sim
+L01723,Wag lang di makaraos,Eros S. Atalia,2011,Contos,sim
+L01724,No One Belongs Here More Than You,Miranda July,2007,Contos,sim
+L01725,Just After Sunset,Stephen King,2008,Contos,sim
+L01726,"My father, Sun-Sun Johnson",C. Everard Palmer,1974,Contos,nao
+L01727,Short stories,Franz Kafka,1946,Contos,sim
+L01728,Bad behavior,Mary Gaitskill,1988,Contos,nao
+L01729,Fragile Things,Neil Gaiman,2006,Contos,sim
+L01730,Stories of Your Life and Others,Ted Chiang,2002,Contos,sim
+L01731,Doce cuentos peregrinos,Gabriel García Márquez,1992,Contos,nao
+L01732,Todos los fuegos el fuego,Julio Cortázar,1966,Contos,sim
+L01733,"In a Dark, Dark Room and Other Scary Stories",Alvin Schwartz,1984,Contos,sim
+L01734,Scary!,Peter Haining,1998,Contos,sim
+L01735,Winter Dreams,F. Scott Fitzgerald,2004,Contos,sim
+L01736,The Lottery,Shirley Jackson,1983,Contos,nao
+L01737,A good man is hard to find,Flannery O'Connor,1955,Contos,sim
+L01738,"Other Voices, Other Vistas",Barbara H. Solomon,1992,Contos,sim
+L01739,Magic for beginners,Kelly Link,2005,Contos,nao
+L01740,White Nights and other stories [7 stories],Фёдор Михайлович Достоевский,1848,Contos,sim
+L01741,9 From the Nine Worlds,Rick Riordan,2018,Contos,nao
+L01742,I Sing the Body Electric!,Ray Bradbury,1969,Contos,sim
+L01743,El Aleph,Jorge Luis Borges,1949,Contos,sim
+L01744,Cathedral,Raymond Carver,1983,Contos,sim
+L01745,Tales to Give You Goosebumps,Robert Lawrence Stine,1994,Contos,sim
+L01746,Blind to Love,Emma Goldrick,1988,Contos,nao
+L01747,The Short Stories of Ernest Hemingway,Ernest Hemingway,1930,Contos,sim
+L01748,50 great short stories,Milton Crane,1952,Contos,sim
+L01749,"The Lottery, or The Adventures of James Harris",Shirley Jackson,1949,Contos,sim
+L01750,Smoke and Mirrors,Neil Gaiman,1998,Contos,nao
+L01751,Best Russian short stories,Thomas Seltzer,1917,Contos,nao
+L01752,Drown,Junot Díaz,1996,Contos,sim
+L01753,Los peligros de fumar en la cama,Mariana Enríquez,2009,Contos,sim
+L01754,キッチン,吉本 ばなな,1988,Contos,sim
+L01755,A Regency Christmas III,Mary Jo Putney,1991,Contos,sim
+L01756,The Happy Prince and other tales,Oscar Wilde,1888,Contos,nao
+L01757,The Thing Around Your Neck,Chimamanda Ngozi Adichie,2009,Contos,sim
+L01758,Final del juego,Julio Cortázar,1956,Contos,sim
+L01759,Tales from Earthsea,Ursula K. Le Guin,2001,Contos,sim
+L01760,Switch Bitch,Roald Dahl,1974,Contos,sim
+L01761,A Quiver Full of Arrows,Jeffrey Archer,1980,Contos,nao
+L01762,The Wind's Twelve Quarters,Ursula K. Le Guin,1975,Contos,sim
+L01763,Stories,Neil Gaiman,2010,Contos,sim
+L01764,The Things They Carried,Tim O'Brien,1990,Contos,sim
+L01765,El Arroyo De LA Llorona,Sandra Cisneros,1991,Contos,sim
+L01766,A Regency Christmas,Copyright Paperback Collection (Library of Congress),1993,Contos,nao
+L01767,Homesick For Another World,Ottessa Moshfegh,2017,Contos,sim
+L01768,Children of the Frost,Jack London,1800,Contos,sim
+L01769,No sweetness here and other stories,Ama Ata Aidoo,1970,Contos,sim
+L01770,The Cricket on the Hearth,Charles Dickens,1846,Contos,sim
+L01771,Ficciones,Jorge Luis Borges,1945,Contos,nao
+L01772,Las cosas que perdimos en el fuego,Mariana Enríquez,2016,Contos,nao
+L01773,20th Century Ghosts,Joe Hill,2007,Contos,sim
+L01774,Points of View,James Moffett,1960,Contos,sim
+L01775,Twice-Told Tales,Nathaniel Hawthorne,1800,Contos,sim
+L01776,The Lonely Voice,Frank O'Connor,1963,Contos,nao
+L01777,Interpreter of Maladies,Jhumpa Lahiri,1999,Contos,sim
+L01778,The Pit and the Pendulum,Edgar Allan Poe,1907,Contos,sim
+L01779,Ford County,John Grisham,2009,Contos,sim
+L01780,Tales of space and time,H. G. Wells,1899,Contos,sim
+L01781,めくらやなぎと眠る女,村上春樹,2006,Contos,nao
+L01782,South Sea Tales,Jack London,1911,Contos,sim
+L01783,A Place So Foreign and 8 More,Cory Doctorow,2003,Contos,nao
+L01784,A Gift of love,Jude Deveraux,1995,Contos,sim
+L01785,Oblivion,David Foster Wallace,2004,Contos,sim
+L01786,HOUSE OF HUNGER,Dambudzo Marechera,1978,Contos,nao
+L01787,Nightmares & Dreamscapes,Stephen King,1993,Contos,sim
+L01788,L'exil et le royaume,Albert Camus,1951,Contos,sim
+L01789,Scary stories to tell in the dark,Alvin Schwartz,1981,Contos,sim
+L01790,Upon A Midnight Clear,Mariah Stewart,1997,Contos,sim
+L01791,Franny and Zooey,J. D. Salinger,1961,Contos,nao
+L01792,Trigger Warning,Neil Gaiman,2001,Contos,sim
+L01793,Minority Report,Philip K. Dick,1998,Contos,sim
+L01794,Brief Interviews With Hideous Men,David Foster Wallace,1999,Contos,nao
+L01795,The  stories of John Cheever,John Cheever,1978,Contos,sim
+L01796,M Is for Magic,Neil Gaiman,2001,Contos,nao
+L01797,Wilderness Tips,Margaret Atwood,1991,Contos,sim
+L01798,"Encyclopedia Brown, Boy Detective",Donald J. Sobol,1963,Contos,sim
+L01799,The Snows of Kilimanjaro and Other Stories,Ernest Hemingway,1927,Contos,sim
+L01800,Her Body and Other Parties,Carmen Maria Machado,2017,Contos,sim
+L01801,Hello world,Hannah Fry,2018,Tecnologia,nao
+L01802,Digital Minimalism,Cal Newport,2019,Tecnologia,sim
+L01803,The Circle,Dave Eggers,2013,Tecnologia,sim
+L01804,All Tomorrow's Parties,William Gibson,1999,Tecnologia,sim
+L01805,Transactions on Engineering Technologies,Sio-Iong Ao,2013,Tecnologia,nao
+L01806,Crossing the Chasm,Geoffrey A. Moore,1991,Tecnologia,nao
+L01807,Small Is Beautiful,E. F. Schumacher,1905,Tecnologia,sim
+L01808,Zodiac,Neal Stephenson,1988,Tecnologia,sim
+L01809,Industrial Society and Its Future,Theodore Kaczynski,1995,Tecnologia,sim
+L01810,The Book,Hungry Minds,2022,Tecnologia,sim
+L01811,Profiles of the future,Arthur C. Clarke,1962,Tecnologia,nao
+L01812,What technology wants,Kevin Kelly,2010,Tecnologia,sim
+L01813,Life 3.0,Max Tegmark,2017,Tecnologia,sim
+L01814,Inspired,Marty Cagan,2008,Tecnologia,sim
+L01815,Red Storm Rising,Tom Clancy,1983,Tecnologia,sim
+L01816,Techno-Feudalism,Yanis Varoufakis,2023,Tecnologia,nao
+L01817,The Innovators,Walter Isaacson,2014,Tecnologia,sim
+L01818,Computer Concepts and Management Information Systems,C. P. Gupta,2020,Tecnologia,sim
+L01819,How to Do Nothing,Jenny Odell,2019,Tecnologia,sim
+L01820,Connections,"Burke, James",1978,Tecnologia,sim
+L01821,The nature and properties of soils,Nyle C. Brady,1974,Tecnologia,nao
+L01822,Human Anatomy,Elaine Nicpon Marieb,1992,Tecnologia,sim
+L01823,"CGEIT Review Manual, 8th Edition",Isaca,2020,Tecnologia,sim
+L01824,Teaching and learning with technology,Judy Lever-Duffy,2002,Tecnologia,sim
+L01825,The Future Is Faster Than You Think,Peter H. Diamandis,2020,Tecnologia,sim
+L01826,"La era de la información, Vol. 1",Manuel Castells,1996,Tecnologia,nao
+L01827,Timeline,Michael Crichton,1999,Tecnologia,nao
+L01828,Packaging design,Marianne R. Klimchuk,2006,Tecnologia,sim
+L01829,The processes of technological innovation,Louis G. Tornatzky,1990,Tecnologia,sim
+L01830,Machine design,Aaron D. Deutschman,1975,Tecnologia,sim
+L01831,Introduction to Fluid Power,James L Johnson,2001,Tecnologia,nao
+L01832,Indistractable,Nir Eyal,2019,Tecnologia,sim
+L01833,"Science, technology, and society",Robert E. McGinn,1991,Tecnologia,sim
+L01834,Computer Confluence,George Beekman,1997,Tecnologia,sim
+L01835,Demon Seed,Dean Koontz,1973,Tecnologia,sim
+L01836,Who Owns the Future?,Jaron Lanier,2013,Tecnologia,nao
+L01837,"Post harvest technology of cereals, pulses and oilseeds",Amalendu Chakraverty,1988,Tecnologia,sim
+L01838,Novacene,James Lovelock,2019,Tecnologia,nao
+L01839,Rainbow six,Tom Clancy,1998,Tecnologia,sim
+L01840,Nexus,Yuval Noah Harari,2024,Tecnologia,sim
+L01841,Bad Blood,John Carreyrou,2018,Tecnologia,nao
+L01842,Grunch of giants,R. Buckminster Fuller,1983,Tecnologia,sim
+L01843,"Fall; or, Dodge in Hell",Neal Stephenson,2019,Tecnologia,sim
+L01844,Jejak pemikiran B.J. Habibie,B. J. Habibie,2010,Tecnologia,sim
+L01845,Abundance,Peter H. Diamandis,2012,Tecnologia,sim
+L01846,The Technological Society,Jacques Ellul,1964,Tecnologia,nao
+L01847,Managing engineering and technology,Lucy Morse,2006,Tecnologia,sim
+L01848,"Engineering Mechanics, Statics & Dynamics",R. C. Hibbeler,1974,Tecnologia,sim
+L01849,The Day the Universe Changed,"Burke, James",1985,Tecnologia,nao
+L01850,Toyota Production System,Taiichi Ohno,1988,Tecnologia,sim
+L01851,Digital Electronics,William Kleitz,1987,Tecnologia,nao
+L01852,Rise of the Robots,Martin Ford,1708,Tecnologia,sim
+L01853,The Way Things Work,David Macaulay,1988,Tecnologia,sim
+L01854,Soonish,Kelly Weinersmith,2017,Tecnologia,sim
+L01855,Power hydraulics,Michael J. Pinches,1988,Tecnologia,sim
+L01856,Ignited Minds,A. P. J. Abdul Kalam,2012,Tecnologia,nao
+L01857,The Right Stuff,Tom Wolfe,1979,Tecnologia,sim
+L01858,Technopoly,Neil Postman,1992,Tecnologia,sim
+L01859,The Knowledge,Lewis Dartnell,2014,Tecnologia,sim
+L01860,Building a Second Brain,Tiago Forte,2022,Tecnologia,nao
+L01861,The Gutenberg Galaxy,Marshall McLuhan,1962,Tecnologia,nao
+L01862,Scientific and technical translation explained,Jody Byrne,2012,Tecnologia,sim
+L01863,Book of CODESYS,Gary Pratt,2021,Tecnologia,sim
+L01864,The real world of technology,Ursula M. Franklin,1990,Tecnologia,sim
+L01865,Inviting Disaster,James R. Chiles,2001,Tecnologia,sim
+L01866,The fourth industrial revolution,Klaus Schwab,2017,Tecnologia,nao
+L01867,ICT,Chris Abbott,2000,Tecnologia,sim
+L01868,Soil mechanics,R. F. Craig,1978,Tecnologia,sim
+L01869,Fluid mechanics,Pijush K. Kundu,1990,Tecnologia,sim
+L01870,How to Invent Everything: A Survival Guide for the Stranded Time Traveler,Ryan North,1999,Tecnologia,sim
+L01871,Wastewater treatment plants,Syed R. Qasim,1985,Tecnologia,nao
+L01872,Engines that move markets,Alasdair G. M. Nairn,2002,Tecnologia,sim
+L01873,Democratizing innovation,Eric von Hippel,2005,Tecnologia,sim
+L01874,Networking for dummies,Doug Lowe,1994,Tecnologia,sim
+L01875,Understanding automotive electronics,William B. Ribbens,1982,Tecnologia,sim
+L01876,Stellar origins human ways,Genejane M. Adarlo,2011,Tecnologia,nao
+L01877,Extreme Privacy,Michael Bazzell,2019,Tecnologia,sim
+L01878,You are not a gadget,Jaron Lanier,2010,Tecnologia,sim
+L01879,"ITIL Foundation, ITIL",The Stationery Office,2020,Tecnologia,sim
+L01880,Sensory evaluation techniques,Morten Meilgaard,1987,Tecnologia,sim
+L01881,Introduction to electric circuits,Herbert W. Jackson,1959,Tecnologia,nao
+L01882,Design Is a Job,Mike Monteiro,2012,Tecnologia,nao
+L01883,Mixing Engineer's Handbook - 5th Edition,Bobby Owsinski,2022,Tecnologia,sim
+L01884,Plastics materials,J. A. Brydson,1966,Tecnologia,sim
+L01885,Digital electronics,James Bignell,1985,Tecnologia,sim
+L01886,Only the paranoid survive,Andrew S. Grove,1996,Tecnologia,nao
+L01887,Information Technology for Management,Efraim Turban,2002,Tecnologia,sim
+L01888,Fluid power with applications,Anthony Esposito,1980,Tecnologia,sim
+L01889,Engineering tribology,G. W. Stachowiak,1993,Tecnologia,sim
+L01890,Medical laboratory technology,Matthew J. Lynch,1963,Tecnologia,sim
+L01891,The existential pleasures of engineering,Samuel C. Florman,1975,Tecnologia,nao
+L01892,Modern Engineering Mathematics,Glyn James,1920,Tecnologia,sim
+L01893,A history of technology,Charles Joseph Singer,1954,Tecnologia,nao
+L01894,House of Stairs,William Sleator,1974,Tecnologia,sim
+L01895,The pentagon of power,Lewis Mumford,1970,Tecnologia,sim
+L01896,New Dark Age,James Bridle,2018,Tecnologia,nao
+L01897,Understanding Media,Marshall McLuhan,1964,Tecnologia,sim
+L01898,I seem to be a verb,R. Buckminster Fuller,1970,Tecnologia,sim
+L01899,Technically Wrong,Sara Wachter-Boettcher,2017,Tecnologia,sim
+L01900,Agency,William Gibson,2020,Tecnologia,sim
+L01901,Biology,Neil Alexander Campbell,1987,Ciencia,nao
+L01902,Microbiology,Gerard J. Tortora,1982,Ciencia,sim
+L01903,What If?,Randall Munroe,1980,Ciencia,sim
+L01904,Astrophysics for People in a Hurry,Neil deGrasse Tyson,2017,Ciencia,nao
+L01905,The Demon-Haunted World,Carl Sagan,1995,Ciencia,sim
+L01906,Brief Answers to the Big Questions,Stephen Hawking,2014,Ciencia,nao
+L01907,Principles of Anatomy and Physiology,Gerard J. Tortora,1975,Ciencia,sim
+L01908,Shards of Honor,Lois McMaster Bujold,1986,Ciencia,sim
+L01909,Discrete Mathematics with Applications,Susanna S. Epp,1990,Ciencia,sim
+L01910,Geography,Harm J. de Blij,1971,Ciencia,sim
+L01911,Kongres futurologiczny,Stanisław Lem,1974,Ciencia,nao
+L01912,The Gods Themselves,Isaac Asimov,1972,Ciencia,sim
+L01913,International Review of Cell and Molecular Biology,Kwang W. Jeon,2008,Ciencia,sim
+L01914,The Science Fiction Hall of Fame -- Volume One,Robert Silverberg,1970,Ciencia,sim
+L01915,Why We Sleep,Matthew P. Walker,2017,Ciencia,nao
+L01916,A Briefer History of Time,Stephen Hawking,2005,Ciencia,nao
+L01917,Cosmos,Carl Sagan,1980,Ciencia,sim
+L01918,Protector,Larry Niven,1973,Ciencia,sim
+L01919,The player of games,Iain Banks,1988,Ciencia,sim
+L01920,Broken Angels,Richard K. Morgan,2003,Ciencia,sim
+L01921,Diaspora,Greg Egan,1997,Ciencia,nao
+L01922,Green Mars,Kim Stanley Robinson,1993,Ciencia,sim
+L01923,On Basilisk Station,David Weber,1993,Ciencia,sim
+L01924,A Brief History of Time,Stephen Hawking,1988,Ciencia,sim
+L01925,Billions and billions,Carl Sagan,1997,Ciencia,sim
+L01926,The Last Question,Isaac Asimov,2007,Ciencia,nao
+L01927,Three by Heinlein,Robert A. Heinlein,1951,Ciencia,sim
+L01928,Tiamat's Wrath,James S. A. Corey,2018,Ciencia,sim
+L01929,Assignment in Eternity,Robert A. Heinlein,1953,Ciencia,sim
+L01930,Leviathan,Thomas Hobbes,1651,Ciencia,sim
+L01931,2061,Arthur C. Clarke,1987,Ciencia,nao
+L01932,Blood Music,Greg Bear,1985,Ciencia,sim
+L01933,Excession,Iain Banks,1996,Ciencia,sim
+L01934,"Flow my tears, the policeman said",Philip K. Dick,1974,Ciencia,sim
+L01935,The cat who walks through walls,Robert A. Heinlein,1985,Ciencia,sim
+L01936,La planète des singes,Pierre Boulle,1963,Ciencia,nao
+L01937,Valis,Philip K. Dick,1981,Ciencia,nao
+L01938,World of Ptavvs,Larry Niven,1966,Ciencia,sim
+L01939,The forge of God,Greg Bear,1987,Ciencia,sim
+L01940,The Demolished Man,Alfred Bester,1951,Ciencia,sim
+L01941,The integral trees,Larry Niven,1983,Ciencia,nao
+L01942,Research Design,John W. Creswell,1994,Ciencia,sim
+L01943,On the Beach,Nevil Shute,1957,Ciencia,sim
+L01944,The Space Merchants,Frederik Pohl,1952,Ciencia,sim
+L01945,Tunnel in the sky,Robert A. Heinlein,1955,Ciencia,sim
+L01946,Geology,Stanley Chernicoff,1957,Ciencia,nao
+L01947,Cibola burn,James S. A. Corey,2014,Ciencia,sim
+L01948,Children of Time,Adrian Tchaikovsky,2015,Ciencia,nao
+L01949,The past through tomorrow,Robert A. Heinlein,1967,Ciencia,sim
+L01950,De la terre à la lune,Jules Verne,1865,Ciencia,sim
+L01951,Citizen of the Galaxy,Robert A. Heinlein,1957,Ciencia,nao
+L01952,Hyperion,Dan Simmons,1989,Ciencia,sim
+L01953,Footfall,Larry Niven,1985,Ciencia,sim
+L01954,La Nuit des temps,Jean M. Auel,1968,Ciencia,sim
+L01955,Armada,Ernest Cline,2015,Ciencia,sim
+L01956,Binti,Nnedi Okorafor,2015,Ciencia,nao
+L01957,Eon,Greg Bear,1985,Ciencia,sim
+L01958,The three stigmata of Palmer Eldritch,Philip K. Dick,1965,Ciencia,sim
+L01959,Fundamentals of ecology,Eugene Pleasants Odum,1953,Ciencia,nao
+L01960,Implementing public policy,George C. Edwards III,1980,Ciencia,sim
+L01961,A Fall of Moondust,Arthur C. Clarke,1961,Ciencia,nao
+L01962,Wild Cards,George R. R. Martin,1986,Ciencia,sim
+L01963,Dell'Arte della Guerra,Niccolò Machiavelli,1540,Ciencia,sim
+L01964,"Again, Dangerous Visions",Harlan Ellison,1967,Ciencia,sim
+L01965,Red Mars,Kim Stanley Robinson,1992,Ciencia,sim
+L01966,Learning Python,Mark Lutz,1999,Ciencia,nao
+L01967,The Sixth Extinction,Elizabeth Kolbert,2014,Ciencia,sim
+L01968,A world out of time,Larry Niven,1976,Ciencia,sim
+L01969,How To,Randall Munroe,2019,Ciencia,sim
+L01970,The Citadel of the Autarch,Gene Wolfe,1982,Ciencia,nao
+L01971,Bad Science,Ben Goldacre,2008,Ciencia,nao
+L01972,Sixth Column,Robert A. Heinlein,1657,Ciencia,sim
+L01973,Slan,A. E. van Vogt,1946,Ciencia,sim
+L01974,Children of the Mind,Orson Scott Card,1996,Ciencia,sim
+L01975,Against a Dark Background,Iain Banks,1993,Ciencia,sim
+L01976,Redshirts,John Scalzi,2012,Ciencia,nao
+L01977,The Sword of the Lictor,Gene Wolfe,1981,Ciencia,sim
+L01978,Childhood’s End,Arthur C. Clarke,1952,Ciencia,sim
+L01979,Forward the Foundation,Isaac Asimov,1993,Ciencia,sim
+L01980,The food of the gods and how it came to earth,H. G. Wells,1900,Ciencia,sim
+L01981,Power and Choice,W. Phillips Shively,1987,Ciencia,nao
+L01982,Earth science,Edward J. Tarbuck,1976,Ciencia,sim
+L01983,Nine tomorrows,Isaac Asimov,1959,Ciencia,sim
+L01984,Down and out in the Magic Kingdom,Cory Doctorow,2001,Ciencia,sim
+L01985,"Waldo and Magic, Inc",Robert A. Heinlein,1950,Ciencia,sim
+L01986,The Bicentennial Man and Other Stories [12 works],Isaac Asimov,1976,Ciencia,nao
+L01987,A maze of death,Philip K. Dick,1970,Ciencia,sim
+L01988,"Akira, Vol. 1",Katsuhiro Ōtomo,1984,Ciencia,sim
+L01989,Lord of Light,Roger Zelazny,1967,Ciencia,sim
+L01990,The Hydrogen Sonata,Iain Banks,2012,Ciencia,sim
+L01991,Farnham's Freehold,Robert A. Heinlein,1964,Ciencia,nao
+L01992,Starman Jones,Robert A. Heinlein,1953,Ciencia,nao
+L01993,Chasm City,Alastair Reynolds,2001,Ciencia,sim
+L01994,Double Star,Robert A. Heinlein,1956,Ciencia,sim
+L01995,Invisible Women,Caroline Criado Perez,2019,Ciencia,sim
+L01996,The human division,John Scalzi,2013,Ciencia,nao
+L01997,Environment,Jay H. Withgott,2004,Ciencia,sim
+L01998,Fantastic Voyage,Isaac Asimov,1966,Ciencia,sim
+L01999,Stand on Zanzibar,John Brunner,1968,Ciencia,sim
+L02000,The Pleasure of Finding Things Out,Richard Phillips Feynman,1999,Ciencia,sim
+L02001,Introductory Mathematical Analysis,Ernest F. Haeussler,1973,Matematica,nao
+L02002,What is mathematics?,Richard Courant,1941,Matematica,sim
+L02003,Algorithms to Live By,Brian Christian,2016,Matematica,nao
+L02004,Calculus,James Stewart,1986,Matematica,sim
+L02005,How to Lie with Statistics,Darrell Huff,1954,Matematica,sim
+L02006,How to solve it,George Pólya,1945,Matematica,nao
+L02007,"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",Aurélien Géron,2019,Matematica,sim
+L02008,Humble Pi,Matt Parker,2019,Matematica,sim
+L02009,"Applied mathematics for business, economics, and the social sciences",Frank S. Budnick,1979,Matematica,sim
+L02010,The Joy of X,Steven H. Strogatz,2012,Matematica,sim
+L02011,How Not to Be Wrong,Jordan Ellenberg,2014,Matematica,nao
+L02012,Heinemann Mathematics,Scottish Primary Mathematics Group,1983,Matematica,sim
+L02013,Mathematics,Raymond Toolsie,1996,Matematica,sim
+L02014,Mathematics for the million,Lancelot Thomas Hogben,1936,Matematica,nao
+L02015,Mathematical structures for computer science,Judith L. Gersting,1982,Matematica,sim
+L02016,Mathematics,McGraw-Hill,1998,Matematica,nao
+L02017,Algebra 1,Ron Larson,1993,Matematica,sim
+L02018,Advanced Engineering Mathematics,Erwin Kreyszig,1957,Matematica,sim
+L02019,Discrete Mathematics and Its Applications,Kenneth H. Rosen,1988,Matematica,sim
+L02020,Mathematical statistics,John E. Freund,1962,Matematica,sim
+L02021,Engineering mathematics,"Bird, J. O.",1989,Matematica,nao
+L02022,Using and understanding mathematics,Jeffrey O. Bennett,1998,Matematica,sim
+L02023,Mathematics; with applications in management and economics,Earl K. Bowen,1963,Matematica,sim
+L02024,Mathematical Methods in the Physical Sciences,Mary L. Boas,1966,Matematica,sim
+L02025,The fractal geometry of nature,Benoît B. Mandelbrot,1982,Matematica,nao
+L02026,Elements,Euclid,1482,Matematica,nao
+L02027,The Mathematical Experience,Philip J. Davis,1980,Matematica,sim
+L02028,A Course of Pure Mathematics,G. H. Hardy,1908,Matematica,sim
+L02029,Principia mathematica,Alfred North Whitehead,1910,Matematica,sim
+L02030,Calculus Made Easy,Silvanus Phillips Thompson,1914,Matematica,sim
+L02031,Understanding Symbolic Logic,Virginia Klenk,1983,Matematica,nao
+L02032,Philosophiae naturalis principia mathematica,Sir Isaac Newton,1687,Matematica,sim
+L02033,Mathematics and plausible reasoning,George Pólya,1954,Matematica,sim
+L02034,Spectrum Maths,Dave Kirkby,1989,Matematica,sim
+L02035,College algebra,Jerome E. Kaufmann,1987,Matematica,sim
+L02036,Solutions manual to accompany Applied mathematics and modeling for chemical engineers,Richard G. Rice,1996,Matematica,nao
+L02037,Introduction to Probability and Statistics,William Mendenhall,1967,Matematica,sim
+L02038,An introduction to mathematics,Alfred North Whitehead,1911,Matematica,sim
+L02039,Everything You Need to Ace Math in One Big Fat Notebook,Workman Publishing Company Staff,2016,Matematica,sim
+L02040,Calculus with analytic geometry,Murray H. Protter,1967,Matematica,sim
+L02041,Saxon Math 8/7,Stephen Hake,2003,Matematica,nao
+L02042,Precalculus With Limits,Ron Larson,1993,Matematica,sim
+L02043,Data Science,Tiffany-Anne Timbers,2022,Matematica,sim
+L02044,Intermediate algebra,Charles P. McKeague,1979,Matematica,sim
+L02045,Mathematical ideas,Charles David Miller,1973,Matematica,sim
+L02046,Business mathematics,Nelda W. Roueche,1969,Matematica,nao
+L02047,Calculus,Howard Anton,1980,Matematica,nao
+L02048,Principles of Mathematical Analysis,Walter Rudin,1953,Matematica,sim
+L02049,Thinking Mathematically,Robert Blitzer,1999,Matematica,sim
+L02050,Basic College Mathematics,Richard N. Aufmann,1991,Matematica,sim
+L02051,The concepts of the calculus,Carl B. Boyer,1939,Matematica,nao
+L02052,Introduction to mathematical statistics,Robert V. Hogg,1959,Matematica,sim
+L02053,Access to Math,Globe Fearon,1808,Matematica,sim
+L02054,Laws of UX,Jon Yablonski,2020,Matematica,sim
+L02055,Mathematical Statistics with Applications,Richard L. Scheaffer,2007,Matematica,sim
+L02056,Functional analysis,P. K Jain,1995,Matematica,nao
+L02057,Alex's Adventures In Numberland,Alex Bellos,2010,Matematica,sim
+L02058,Basic technical mathematics with calculus,Allyn J. Washington,1964,Matematica,nao
+L02059,Mathematics,Andrei Nikolaevich Kolmogorov,1962,Matematica,sim
+L02060,Addison-Wesley Mathematics,Robert E. Eicholz,1985,Matematica,sim
+L02061,The Pentester BluePrint,Phillip L. Wylie,2020,Matematica,nao
+L02062,Zero,Charles Seife,2000,Matematica,sim
+L02063,"Algebra, the easy way",Douglas Downing,1983,Matematica,sim
+L02064,The music of the primes,Marcus du Sautoy,2003,Matematica,sim
+L02065,Mathematics and the Imagination,Edward Kasner,1940,Matematica,sim
+L02066,Mathematical methods for physicists,George B. Arfken,1966,Matematica,nao
+L02067,The Drunkard's Walk,Leonard Mlodinow,2008,Matematica,sim
+L02068,The Math of Life and Death,Kit Yates,2019,Matematica,sim
+L02069,Modern elementary statistics,John E. Freund,1952,Matematica,nao
+L02070,Mathematics in Action - G.C.S.E.and Scottish Standard Grade (Mathematics in Action),Mathematics in Action Group,1986,Matematica,sim
+L02071,Elementary Statistics,Robert Russell Johnson,1973,Matematica,nao
+L02072,Technical mathematics with calculus,Paul Calter,1984,Matematica,sim
+L02073,Basic mathematics,Serge Lang,1971,Matematica,sim
+L02074,Algèbre de la logique,Louis Couturat,1905,Matematica,sim
+L02075,Fooled by randomness,Nassim Nicholas Taleb,2001,Matematica,sim
+L02076,MathScape,McGraw-Hill,1997,Matematica,nao
+L02077,Mathematical techniques,D. W. Jordan,1994,Matematica,sim
+L02078,Mathematics for engineers and scientists,Alan Jeffrey,1969,Matematica,sim
+L02079,Principles and procedures of statistics,Robert George Douglas Steel,1960,Matematica,sim
+L02080,Weapons of Math Destruction,Cathy O'Neil,2016,Matematica,nao
+L02081,A Mind for Numbers,Barbara A. Oakley,2014,Matematica,nao
+L02082,Mathematical Circus,Martin Gardner,1979,Matematica,sim
+L02083,Journey Through Genius,William Dunham,1990,Matematica,sim
+L02084,Introduction to mathematical philosophy,Bertrand Russell,1920,Matematica,sim
+L02085,Numerology,Eric Temple Bell,1933,Matematica,sim
+L02086,Innumeracy,John Allen Paulos,1988,Matematica,nao
+L02087,Mathematical methods in chemical engineering,Victor George Jenson,1963,Matematica,sim
+L02088,Advanced Mathematics,Richard G. Brown,1975,Matematica,sim
+L02089,Mathematics for elementary teachers,Gary L. Musser,1988,Matematica,sim
+L02090,Eureka Math - a Story of Units,Great Minds,2014,Matematica,sim
+L02091,Introduction to probability and statistics for engineers and scientists,Sheldon M. Ross,1987,Matematica,nao
+L02092,STP Mathematics 7 Student Book 3rd Edition,Sue Chandler,2014,Matematica,sim
+L02093,Introduction to linear algebra,Gilbert Strang,1998,Matematica,sim
+L02094,Python Programming,Reema Thareja,2019,Matematica,sim
+L02095,Advanced engineering mathematics,"Jain, R. K.",2002,Matematica,sim
+L02096,Precalculus,Ron Larson,1900,Matematica,nao
+L02097,Heinemann Mathematics,Scottish Secondary Mathematics Group,1991,Matematica,sim
+L02098,Mathematical analysis,"Malik, S. C.",1984,Matematica,sim
+L02099,Calculus with analytic geometry,Howard Anton,1980,Matematica,sim
+L02100,Discrete mathematics,Richard Johnsonbaugh,1984,Matematica,sim
+L02101,Start with why,Simon Sinek,2009,Negocios,nao
+L02102,Atomic Habits,James Clear,2016,Negocios,nao
+L02103,Zero to One,Peter A. Thiel,2001,Negocios,sim
+L02104,$100M Offers,Alex Hormozi,2021,Negocios,sim
+L02105,Trading in the zone,Mark Douglas,2001,Negocios,sim
+L02106,The Hard Thing About Hard Things,Ben Horowitz,2014,Negocios,nao
+L02107,Think and Grow Rich,Napoleon Hill,1937,Negocios,sim
+L02108,Eat That Frog! 21 Great Ways to Stop Procrastinating and Get More Done in Less Time,Brian Tracy,2001,Negocios,sim
+L02109,Never Split the Difference,Chris Voss,2016,Negocios,sim
+L02110,Everybody Writes,Ann Handley,2014,Negocios,sim
+L02111,Entrepreneurship,Robert D. Hisrich,1989,Negocios,nao
+L02112,Deep Work,Cal Newport,2016,Negocios,sim
+L02113,Rework,Jason Fried,2010,Negocios,nao
+L02114,Beyond entrepreneurship,"Collins, James C.",1992,Negocios,sim
+L02115,"The art of money getting, or, Golden rules for money getting",P. T. Barnum,1880,Negocios,sim
+L02116,Drive,Daniel H. Pink,2009,Negocios,nao
+L02117,The Unicorn Project,Gene Kim,2019,Negocios,sim
+L02118,How to Make Money in Stocks,William J. O'Neil,1988,Negocios,sim
+L02119,Convince them in 90 seconds or less,Nicholas Boothman,2010,Negocios,sim
+L02120,The Dip,Seth Godin,2007,Negocios,sim
+L02121,The Millionaire Fastlane,M. J. DeMarco,2021,Negocios,nao
+L02122,Crucial Conversations,Kerry Patterson,2001,Negocios,sim
+L02123,Built to Last,"Collins, James C.",1994,Negocios,sim
+L02124,Show Your Work!,Austin Kleon,2014,Negocios,nao
+L02125,Thinking Like An Entrepreneur,Peter I. Hupalo,1999,Negocios,sim
+L02126,$100M Leads,Alex Hormozi,2023,Negocios,nao
+L02127,As a man thinketh,James Allen,1902,Negocios,sim
+L02128,Talk Like TED,Carmine Gallo,2014,Negocios,sim
+L02129,Effective business communications,Herta A. Murphy,1972,Negocios,sim
+L02130,Strategic management,Gregory G. Dess,1992,Negocios,sim
+L02131,"Think Faster, Talk Smarter",Matt Abrahams,2023,Negocios,nao
+L02132,Business essentials,Ronald J. Ebert,2002,Negocios,sim
+L02133,The personal MBA,Josh Kaufman,2010,Negocios,sim
+L02134,Improve Your Communication Skills,Alan Barker,2010,Negocios,sim
+L02135,The Dhandho Investor,Mohnish Pabrai,2007,Negocios,nao
+L02136,Corporate finance,Jonathan B. Berk,2006,Negocios,nao
+L02137,How to fail at almost everything and still win big,Scott Adams,2013,Negocios,sim
+L02138,Effective small business management,Norman M. Scarborough,1984,Negocios,sim
+L02139,The Visual MBA,Jason Barron,2019,Negocios,sim
+L02140,The Psychology of Everyday Things,Donald A. Norman,1988,Negocios,sim
+L02141,Manajemen bisnis,Adeng Kasmiri,2011,Negocios,nao
+L02142,Unlimited Memory,Kevin Horsley,2014,Negocios,sim
+L02143,I will teach you to be rich,Ramit Sethi,2009,Negocios,sim
+L02144,Company of One,Paul Jarvis,2019,Negocios,sim
+L02145,The Simple Path to Wealth,J. L. Collins,2000,Negocios,sim
+L02146,Secrets of Closing the Sale,Zig Ziglar,1984,Negocios,nao
+L02147,The E-myth revisited,Michael E. Gerber,1995,Negocios,sim
+L02148,Ego is the Enemy,Ryan Holiday,2016,Negocios,sim
+L02149,Small business management,Justin Gooderl Longenecker,1987,Negocios,sim
+L02150,Maximum Trading Gains with Anchored VWAP,Brian Shannon,2023,Negocios,sim
+L02151,BUILDING A STORY BRAND,Donald Miller,2018,Negocios,nao
+L02152,How to Get Rich,Felix Dennis,2006,Negocios,sim
+L02153,Business plans for dummies,Paul Tiffany,1997,Negocios,sim
+L02154,Fundamentals of financial management,Eugene F. Brigham,1978,Negocios,sim
+L02155,Etika bisnis,Franz Magnis-Suseno,1994,Negocios,sim
+L02156,The Innovator's Dilemma,Clayton M. Christensen,1997,Negocios,nao
+L02157,Pitch anything,Oren Klaff,2011,Negocios,nao
+L02158,Outliers,Malcolm Gladwell,2008,Negocios,sim
+L02159,Ultralearning,Scott Young,2019,Negocios,sim
+L02160,Research methods for business,Uma Sekaran,2003,Negocios,sim
+L02161,The 4-Hour Workweek,Timothy Ferriss,2006,Negocios,nao
+L02162,The 1-page marketing plan,Allan Dib,2016,Negocios,sim
+L02163,The Compound effect,Darren Hardy,2010,Negocios,sim
+L02164,Anything you want,Derek Sivers,2011,Negocios,sim
+L02165,New Psychology Of Money,Adrian Furnham,2014,Negocios,sim
+L02166,The Phoenix Project,Gene Kim,2013,Negocios,nao
+L02167,"If you want to be rich and happy, don't go to school?",Robert T. Kiyosaki,1991,Negocios,sim
+L02168,Strategic marketing,David W. Cravens,1982,Negocios,nao
+L02169,The magic of believing,Claude M. Bristol,1948,Negocios,sim
+L02170,The Law of Success,Napoleon Hill,1969,Negocios,sim
+L02171,Storytelling with Data,Cole Nussbaumer Knaflic,2015,Negocios,nao
+L02172,Confidential,John Nolan,1999,Negocios,sim
+L02173,Entrepreneurship,Donald F. Kuratko,1989,Negocios,sim
+L02174,The think and grow rich action pack,Napoleon Hill,1972,Negocios,sim
+L02175,12 Months to $1 Million,Ryan Daniel Moran,2020,Negocios,sim
+L02176,How to Get Rich,Donald Trump,1987,Negocios,nao
+L02177,Venture deals,Brad Feld,2011,Negocios,sim
+L02178,The Lean Startup,Eric Ries,2011,Negocios,sim
+L02179,Forgotten Lover,Carole Mortimer,1982,Negocios,nao
+L02180,Secrets of the Millionaire Mind,T. Harv Eker,2005,Negocios,sim
+L02181,Stormy Possession,Helen Bianchin,1979,Negocios,nao
+L02182,Bullshit Jobs,David Graeber,2018,Negocios,sim
+L02183,Girlboss,Sophia Amoruso,2014,Negocios,sim
+L02184,Business Advantage Upper-intermediate Teacher's Book,Jonathan Birkin,2012,Negocios,sim
+L02185,The Art of Strategy,Avinash K. Dixit,2008,Negocios,sim
+L02186,Financial Management,Eugene F. Brigham,1977,Negocios,nao
+L02187,Learn to Earn,Peter Lynch,1995,Negocios,sim
+L02188,Romancing the balance sheet,Anil Lamba,2016,Negocios,sim
+L02189,Stock Investing for Dummies,Paul Mladjenovic,2002,Negocios,sim
+L02190,Food for love,Rachel Lindsay,1974,Negocios,nao
+L02191,Modern business administration,Robert C. Appleby,1969,Negocios,nao
+L02192,Elon Musk,Robert Hanson,2020,Negocios,sim
+L02193,Side hustle,Chris Guillebeau,2017,Negocios,sim
+L02194,The art of persuasion,Bob Burg,2011,Negocios,sim
+L02195,B.O.S.S. Moves,Myron Golden,2021,Negocios,sim
+L02196,Microeconomics,Robert S. Pindyck,1988,Negocios,nao
+L02197,Expert secrets,Russell Brunson,2017,Negocios,sim
+L02198,The millionaire real estate agent,Gary Keller,2003,Negocios,sim
+L02199,Economic Facts and Fallacies,Thomas Sowell,2007,Negocios,sim
+L02200,The Ultimate Sales Machine,Chet Holmes,2007,Negocios,sim
+L02201,Why Nations Fail,Daron Acemoglu,2012,Economia,nao
+L02202,Basic economics,Thomas Sowell,2000,Economia,sim
+L02203,Your Next Five Moves,Patrick Bet-David,2020,Economia,sim
+L02204,Superfreakonomics,Steven D. Levitt,2009,Economia,sim
+L02205,Freakonomics,Steven D. Levitt,2005,Economia,sim
+L02206,Como Europa subdesarrollo a Africa,Walter Rodney,1972,Economia,nao
+L02207,Das Kapital,Karl Marx,1867,Economia,sim
+L02208,The Psychology of Money,Morgan Housel,2020,Economia,sim
+L02209,Economic development,Michael P. Todaro,1994,Economia,sim
+L02210,Economics,Richard G. Lipsey,1966,Economia,sim
+L02211,Manajemen pemasaran,Bambang Tri Cahyono,1994,Economia,nao
+L02212,"Economics, an introductory analysis",Paul Anthony Samuelson,1948,Economia,nao
+L02213,Pengantar ilmu ekonomi,J. Bunardhi,1965,Economia,sim
+L02214,The millionaire next door,Thomas J. Stanley,1996,Economia,sim
+L02215,Economics in One Lesson,Henry Hazlitt,1946,Economia,sim
+L02216,The Wealth of Nations,Adam Smith,1776,Economia,nao
+L02217,Development as Freedom,Amartya Sen,1999,Economia,sim
+L02218,Neoliberalisme,I. Wibowo,2003,Economia,sim
+L02219,Whatever Happened to Penny Candy?,Richard J. Maybury,1989,Economia,sim
+L02220,Predictably Irrational,Dan Ariely,2008,Economia,sim
+L02221,Economics,McGraw-Hill,1998,Economia,nao
+L02222,Million Dollar Weekend,Noah Kagan,2024,Economia,sim
+L02223,Lords of Easy Money,Christopher Leonard,2022,Economia,nao
+L02224,Understanding Business 13th Edition,William G. Nickels,2021,Economia,sim
+L02225,Human Action,Ludwig von Mises,1949,Economia,sim
+L02226,Nudge,Richard H. Thaler,2008,Economia,nao
+L02227,Talking to My Daughter About the Economy,Yanis Varoufakis,2017,Economia,sim
+L02228,Theory of games and economic behavior,John Von Neumann,1944,Economia,sim
+L02229,Microeconomic Theory,Walter Nicholson,1973,Economia,sim
+L02230,Indian Economy,Uma Kapila,2009,Economia,sim
+L02231,Naked Economics,Charles J. Wheelan,2002,Economia,nao
+L02232,Wirtschaft und Gesellschaft,Max Weber,1922,Economia,sim
+L02233,Misbehaving,Richard H. Thaler,2015,Economia,sim
+L02234,"Imperializm, kak vysshai͡a︡ stadii͡a︡ kapitalizma",Vladimir Il’ich Lenin,1900,Economia,nao
+L02235,Indian Economy Since Independence,Uma Kapila,1999,Economia,sim
+L02236,Ekonomi pembangunan,Mudrajad Kuncoro,1997,Economia,nao
+L02237,Changing World Order,Ray Dalio,2020,Economia,sim
+L02238,Managerial Economics & Business Strategy,Michael R. Baye,1994,Economia,sim
+L02239,Inquiry into the nature and causes of the wealth of nations,Adam Smith,1788,Economia,sim
+L02240,Managing Humans,Michael Lopp,2007,Economia,sim
+L02241,The affluent society,John Kenneth Galbraith,1958,Economia,nao
+L02242,Perekonomian Indonesia,Dumairy,1997,Economia,sim
+L02243,Thinking in systems,Donella H. Meadows,2008,Economia,sim
+L02244,Pengantar ilmu ekonomi,Jozef Winardi,1964,Economia,sim
+L02245,"Economics, organization, and management",Paul R. Milgrom,1992,Economia,nao
+L02246,Economics for dummies,Sean Masaki Flynn,2005,Economia,nao
+L02247,How Asia Works,Joe Studwell,2013,Economia,sim
+L02248,Source Code,Bill Gates,2025,Economia,sim
+L02249,The Power of Productivity,William W. Lewis,2004,Economia,sim
+L02250,Sustainability Principles and Practice,Margaret Robertson,2014,Economia,sim
+L02251,Principles of Political Economy,John Stuart Mill,1848,Economia,nao
+L02252,Change Your Life in an Hour,Laura Archer,2021,Economia,sim
+L02253,The Economic Consequences of the Peace (Twentieth-Century Classics),John Maynard Keynes,1919,Economia,sim
+L02254,Analisis ekonomi politik Indonesia,"Kwik, Kian Gie.",1994,Economia,sim
+L02255,The global business environment,Janet Morrison,2011,Economia,sim
+L02256,Leadership and Self Deception,The Arbinger Institute,2000,Economia,nao
+L02257,Business forecasting,John E. Hanke,1981,Economia,sim
+L02258,Macroeconomics,Richard T. Froyen,1993,Economia,sim
+L02259,Operations Management,William J. Stevenson,2004,Economia,sim
+L02260,Effective Executive,Peter F. Drucker,1967,Economia,sim
+L02261,Capitalism and freedom,Milton Friedman,1962,Economia,nao
+L02262,Theorie der wirtschaftlichen Entwicklung,Joseph Alois Schumpeter,1912,Economia,sim
+L02263,Integrated principles of zoology,Cleveland P. Hickman,1955,Economia,sim
+L02264,Macroeconomics,Andrew B. Abel,1992,Economia,sim
+L02265,Économie internationale,Paul R. Krugman,1987,Economia,sim
+L02266,"Fields, Factories, and Workshops",Peter Kropotkin,1899,Economia,nao
+L02267,"Address ... entitled Our ally, Japan",Oliver Bainbridge,1919,Economia,nao
+L02268,Neo-colonialism,Kwame Nkrumah,1965,Economia,sim
+L02269,A Brief History of Neoliberalism,David Harvey,2005,Economia,sim
+L02270,Doughnut Economics,Kate Raworth,2017,Economia,sim
+L02271,Research Methodology in Applied Economics,Don E. Ethridge,1995,Economia,nao
+L02272,38 Letters from J.D. Rockefeller to His Son,John D. Rockefeller,2023,Economia,sim
+L02273,Managerial economics,William F. Samuelson,1992,Economia,sim
+L02274,Managerial economics,Paul G. Keat,1992,Economia,sim
+L02275,Principles of Macroeconomics,N. Gregory Mankiw,1996,Economia,sim
+L02276,The Making of a Manager,Julie Zhuo,2019,Economia,nao
+L02277,Elliott wave principle,A. J. Frost,1978,Economia,sim
+L02278,Four Thousand Weeks,Oliver Burkeman,2021,Economia,nao
+L02279,Marketing research,Gilbert A. Churchill,1976,Economia,sim
+L02280,"Loonshots: How to Nurture the Crazy Ideas That Win Wars, Cure Diseases, and Transform Industries",Safi Bahcall,2019,Economia,sim
+L02281,The Undercover Economist,Tim Harford,2005,Economia,nao
+L02282,Administrasi pembangunan,Sondang P. Siagian,1972,Economia,sim
+L02283,Economic development in the Third World,Michael P. Todaro,1977,Economia,sim
+L02284,Technical analysis of stock trends,Robert D. Edwards,1964,Economia,sim
+L02285,Bad Samaritans,Ha-Joon Chang,1998,Economia,sim
+L02286,Le capital au XXIe siècle,Thomas Piketty,2013,Economia,nao
+L02287,Manajemen periklanan,Rhenald Kasali,1992,Economia,sim
+L02288,Cost management,Don R. Hansen,1995,Economia,sim
+L02289,How to live on 24 hours a day,Arnold Bennett,1900,Economia,nao
+L02290,Marketing,Roger A. Kerin,2002,Economia,sim
+L02291,The Minimalist Entrepreneur,Sahil Lavingia,2021,Economia,nao
+L02292,Customer Relationship Management,Francis Buttle,2003,Economia,sim
+L02293,The Road to Serfdom,Friedrich A. von Hayek,1944,Economia,sim
+L02294,"Ekologi, lingkungan hidup, dan pembangunan",Otto Soemarwoto,1983,Economia,sim
+L02295,Perencanaan pembangunan,Bintoro Tjokroamidjojo,1977,Economia,sim
+L02296,Microeconomics,William J. Baumol,1986,Economia,nao
+L02297,The Shock Doctrine,Naomi Klein,2007,Economia,sim
+L02298,Economy of Pakistan,Khawaja Amjad Saeed,1995,Economia,sim
+L02299,Leadership,Elesa Zehndorfer,2013,Economia,sim
+L02300,The big short,Michael Lewis,2009,Economia,nao
+L02301,Picasso,Pablo Picasso,1926,Arte,nao
+L02302,Ways of Seeing,John Berger,1972,Arte,sim
+L02303,Vincent van Gogh,Vincent van Gogh,1914,Arte,sim
+L02304,Paul Klee,Paul Klee,1930,Arte,sim
+L02305,Van Gogh,Federico Zeri,1937,Arte,sim
+L02306,Henry Moore,David Sylvester,1934,Arte,nao
+L02307,Homeport,Nora Roberts,1998,Arte,sim
+L02308,Public Speaking and Influencing Men in Business,Dale Carnegie,1926,Arte,sim
+L02309,Leonardo,Leonardo da Vinci,1946,Arte,sim
+L02310,"Vite de' più eccellenti pittori, scultori et architettori",Giorgio Vasari,1759,Arte,sim
+L02311,Andy Warhol,Andy Warhol,1967,Arte,nao
+L02312,Gorin no sho,Miyamoto Musashi,1963,Arte,sim
+L02313,Art & fear,David Bayles,1993,Arte,sim
+L02314,Art Through the Ages,Helen Gardner,1926,Arte,sim
+L02315,Die Gestalt des Menschen,Gottfried Bammes,1973,Arte,sim
+L02316,The Art of Public Speaking,Stephen E. Lucas,1983,Arte,nao
+L02317,Naturalis historia,Pliny the Elder,1469,Arte,sim
+L02318,The dot,Peter H. Reynolds,2003,Arte,sim
+L02319,Gardner's Art Through the Ages,Fred S. Kleiner,2009,Arte,sim
+L02320,Production for graphic designers,Alan Pipes,1992,Arte,sim
+L02321,Art and illusion,E. H. Gombrich,1960,Arte,nao
+L02322,Edvard Munch,Edvard Munch,1927,Arte,nao
+L02323,How to Talk to Anyone,Leil Lowndes,1999,Arte,sim
+L02324,Sozialgeschichte der Kunst und Literatur,Arnold Hauser,1951,Arte,sim
+L02325,"The Renaissance, Studies in Art and Poetry",Walter Pater,1873,Arte,sim
+L02326,Georg Baselitz,Georg Baselitz,1970,Arte,nao
+L02327,Graphic Design School,David Dabner,2004,Arte,sim
+L02328,Concepts of Modern Art,Nikos Stangos,1974,Arte,sim
+L02329,Janson's history of art,H. W. Janson,2006,Arte,sim
+L02330,By the Stage Door,Ada Patterson,2005,Arte,sim
+L02331,How to Master the Art of Selling,Tom Hopkins,1980,Arte,nao
+L02332,The History of Art : A Global View,Jean Robertson,2021,Arte,sim
+L02333,The Seven Lamps of Architecture,John Ruskin,1800,Arte,nao
+L02334,The art spirit,Robert Henri,1930,Arte,sim
+L02335,Concerning the spiritual in art,Wassily Kandinsky,1912,Arte,sim
+L02336,A history of Far Eastern art,Sherman E. Lee,1964,Arte,nao
+L02337,Pioneers of modern design from William Morris to Walter Gropius,Nikolaus Pevsner,1949,Arte,sim
+L02338,1000 Chairs,Charlotte Fiell,1997,Arte,sim
+L02339,The Stones of Venice,John Ruskin,1851,Arte,sim
+L02340,Rembrandt,Rembrandt Harmenszoon van Rijn,1900,Arte,sim
+L02341,The two paths,John Ruskin,1859,Arte,nao
+L02342,What great paintings say,Rose-Marie Hagen,1993,Arte,sim
+L02343,Art and revolution,John Berger,1969,Arte,sim
+L02344,Composition of outdoor painting,Edgar Alwin Payne,1941,Arte,nao
+L02345,Mornings in Florence,John Ruskin,1800,Arte,sim
+L02346,Rodin,Auguste Rodin,1924,Arte,nao
+L02347,The art of ancient Egypt,Gay Robins,1997,Arte,sim
+L02348,La tabla de Flandes,Arturo Pérez-Reverte,1990,Arte,sim
+L02349,Design basics,David A. Lauer,2002,Arte,sim
+L02350,Color and light,James Gurney,2010,Arte,sim
+L02351,Design as art,Bruno Munari,1971,Arte,nao
+L02352,Graphic design,Milton Glaser,1973,Arte,sim
+L02353,"Bauhaus, 1919-1933",Magdalena Droste,1990,Arte,sim
+L02354,Imaginative Realism,James Gurney,2009,Arte,sim
+L02355,About Looking,John Berger,1980,Arte,nao
+L02356,The dance of Shiva,Ananda Coomaraswamy,1817,Arte,nao
+L02357,Gateways to Art,Debra J. DeWitte,2011,Arte,sim
+L02358,Art since 1940,Jonathan David Fineberg,1995,Arte,sim
+L02359,Marc Chagall,Marc Chagall,1948,Arte,sim
+L02360,Indian art,Roy C. Craven,1976,Arte,sim
+L02361,Picasso,William S. Lieberman,1932,Arte,nao
+L02362,Kandinsky,Wassily Kandinsky,1947,Arte,sim
+L02363,A History of Art in Africa,Monica Blackmun Visonà,2000,Arte,sim
+L02364,A survey of Persian art from prehistoric times to the present,"Pope, Arthur Upham",1938,Arte,sim
+L02365,The nude,Kenneth Clark,1956,Arte,sim
+L02366,The Arts & Crafts of Ancient Egypt,W. M. Flinders Petrie,1909,Arte,nao
+L02367,Jim Dine,Jim Dine,1963,Arte,sim
+L02368,"Anatomy For Sculptors, Understanding the Human Figure",Uldis Zarins,2014,Arte,sim
+L02369,Ogilvy on advertising,David Ogilvy,1983,Arte,sim
+L02370,The art of Tantra,Philip S. Rawson,1973,Arte,sim
+L02371,The elements of drawing,John Ruskin,1819,Arte,nao
+L02372,Art et beauté dans l'esthétique médiévale,Umberto Eco,1986,Arte,sim
+L02373,The Philosophy of Modern Art,Herbert Edward Read,1649,Arte,sim
+L02374,Graphic design,Richard Hollis,1994,Arte,sim
+L02375,Egon Schiele,Egon Schiele,1957,Arte,sim
+L02376,Symbolic images,E. H. Gombrich,1972,Arte,nao
+L02377,Morpho : Simplified Forms,Michel Lauricella,2019,Arte,nao
+L02378,Études sur les arts du Moyen âge.,Prosper Mérimée,1967,Arte,sim
+L02379,Botero: La corrida,Fernando Botero,1970,Arte,sim
+L02380,Creative illustration,Andrew Loomis,1947,Arte,sim
+L02381,Islamic Art,David Talbot Rice,1965,Arte,nao
+L02382,The study of language,George Yule,1985,Arte,sim
+L02383,Drawing the head and hands,Andrew Loomis,1956,Arte,sim
+L02384,Gothic architecture and scholasticism,Erwin Panofsky,1951,Arte,sim
+L02385,Art as image and idea,Edmund Burke Feldman,1967,Arte,sim
+L02386,The Recognitions,William Gaddis,1955,Arte,nao
+L02387,Drácula,Bram Stoker,2017,Arte,sim
+L02388,Dinotopia,James Gurney,1992,Arte,nao
+L02389,Native North American art,Janet Catherine Berlo,1998,Arte,sim
+L02390,Art since 1900,Hal Foster,2004,Arte,sim
+L02391,Discovering art history,Gerald F. Brommer,1981,Arte,nao
+L02392,Surrealism,Patrick Waldberg,1962,Arte,sim
+L02393,The actor's art and craft,William Esper,2008,Arte,sim
+L02394,Art and myth in ancient Greece,Thomas H. Carpenter,1990,Arte,sim
+L02395,Kitsch,Gillo Dorfles,1969,Arte,sim
+L02396,History of Italian Renaissance art,Frederick Hartt,1969,Arte,nao
+L02397,The Humanistic Tradition,Gloria K. Fiero,1981,Arte,sim
+L02398,Origami Sea Life,John Montroll,1991,Arte,sim
+L02399,Renaissance and Modern Art,Helen Gardner,1986,Arte,nao
+L02400,FORTNITE,Epic Games,2018,Arte,sim
+L02401,Music,Roger Kamien,1976,Musica,nao
+L02402,No Man's Mistress,Roberta Leigh,1987,Musica,sim
+L02403,Musicophilia,Oliver Sacks,2007,Musica,sim
+L02404,Basic materials in music theory,Paul O. Harder,1965,Musica,sim
+L02405,The Enjoyment of Music,Kristine Forney,1996,Musica,sim
+L02406,Songwriting,Stephen Citron,1985,Musica,nao
+L02407,Music in theory and practice,Bruce Benward,1977,Musica,sim
+L02408,How Music Works,David Byrne,2012,Musica,sim
+L02409,The enjoyment of music,Joseph Machlis,1955,Musica,sim
+L02410,The Rest Is Noise,Alex Ross,2007,Musica,nao
+L02411,The music kit,Tom Manoff,1976,Musica,nao
+L02412,"Can't stop, won't stop",Jeff Chang,2005,Musica,sim
+L02413,The Lydian chromatic concept of tonal organization,George Russell,2001,Musica,sim
+L02414,Pirates of the Caribbean,Klaus Badelt,2007,Musica,sim
+L02415,Love Is a Mix Tape,Rob Sheffield,2007,Musica,sim
+L02416,Dear Evan Hansen,Steven Levenson,2017,Musica,nao
+L02417,Norton anthology of western music,Claude V. Palisca,1980,Musica,sim
+L02418,All You Need to Know About the Music Business,Donald S. Passman,1991,Musica,sim
+L02419,High Fidelity,Nick Hornby,1995,Musica,sim
+L02420,SOLO PLUS,Music Sales Corporation,1998,Musica,sim
+L02421,South Indian music,P Sambamoorthy,1954,Musica,nao
+L02422,BTS,Triumph Books,2005,Musica,sim
+L02423,Music therapy,Juliette Alvin,1966,Musica,sim
+L02424,What to Listen for in Music,Aaron Copland,1939,Musica,sim
+L02425,Music theory,George Thaddeus Jones,1974,Musica,sim
+L02426,The Vintage guide to classical music,Jan Swafford,1992,Musica,nao
+L02427,Orchestration,Cecil Forsyth,1914,Musica,sim
+L02428,Wicked,Stephen Schwartz,2000,Musica,sim
+L02429,Writing better lyrics,Pat Pattison,1995,Musica,sim
+L02430,"Guitarmaking, tradition and technology",William R. Cumpiano,1985,Musica,sim
+L02431,Listen,Joseph Kerman,1972,Musica,nao
+L02432,The Commitments,Roddy Doyle,1987,Musica,nao
+L02433,This Is Your Brain on Music,Daniel J. Levitin,2006,Musica,sim
+L02434,Sparring Partners,Elizabeth Oldfield,1989,Musica,sim
+L02435,Anthology for Musical Analysis,Charles Burkhart,1964,Musica,sim
+L02436,Gradus,Leo Kraft,1976,Musica,nao
+L02437,The sound of music and plants,Dorothy L. Retallack,1973,Musica,sim
+L02438,Die Zauberflöte,Wolfgang Amadeus Mozart,1794,Musica,sim
+L02439,Angry Blonde,Eminem,2000,Musica,sim
+L02440,Blues people,Amiri Baraka,1963,Musica,sim
+L02441,Beauty and the Beast,Alan Menken,1992,Musica,nao
+L02442,The splendour of South Indian music,P. T. Chelladurai,1991,Musica,sim
+L02443,"The Pop, Rock, and Soul Reader",David Brackett,2004,Musica,nao
+L02444,Harry Potter and the Chamber of Secrets,John Williams,2003,Musica,sim
+L02445,The Prestige,Christopher Priest,1901,Musica,sim
+L02446,Spanish Serenade,Mary Lyons,1984,Musica,nao
+L02447,The great rock discography,Martin C. Strong,1994,Musica,sim
+L02448,Listeners guide to musical understanding,Leon Dallin,1959,Musica,sim
+L02449,The Independent Musician’s Blueprint,MD Abdul Ahad Shanto,2025,Musica,sim
+L02450,Peanuts,Vince Guaraldi,2006,Musica,sim
+L02451,Please kill me,Legs McNeil,1997,Musica,nao
+L02452,Songwriting for dummies,Jim Peterik,2002,Musica,sim
+L02453,A history of western music,"Grout, Donald Jay.",1960,Musica,sim
+L02454,Essays in musical analysis,Sir Donald Francis Tovey,1935,Musica,nao
+L02455,Slash,Anthony Bozza,2007,Musica,sim
+L02456,Behind Bars,Elaine Gould,2011,Musica,nao
+L02457,Concise History of Western Music,Barbara Russano Hanning,1997,Musica,sim
+L02458,The heroin diaries,Nikki Sixx,2000,Musica,sim
+L02459,The jazz theory book,Mark Levine,1995,Musica,sim
+L02460,Miserables,Alain Boublil,1991,Musica,sim
+L02461,Music Theory for Dummies,Michael Pilhofer,2011,Musica,nao
+L02462,Classic Rock,Hal Leonard Corp.,1995,Musica,sim
+L02463,Versuch einer Anweisung die Flöte traversiere zu spielen,Johann Joachim Quantz,1752,Musica,sim
+L02464,Music notation,Gardner Read,1964,Musica,sim
+L02465,Crescendo,Charlotte Lamb,1980,Musica,nao
+L02466,The music of Africa,J. H. Kwabena Nketia,1974,Musica,nao
+L02467,Zin! Zin! Zin! a Violin,Lloyd Moss,1995,Musica,sim
+L02468,The art of strict musical composition,Johann Philipp Kirnberger,1982,Musica,sim
+L02469,Racionais MCs' Sobrevivendo No Inferno,Derek Pardue,2021,Musica,sim
+L02470,From Waif To His Wife,Lindsay Armstrong,2007,Musica,sim
+L02471,"Accent on Achievement, Book 1",Mark Williams,1997,Musica,nao
+L02472,This business of music,M. William Krasilovsky,1971,Musica,sim
+L02473,Who is Bugs Potter?,Gordon Korman,1980,Musica,sim
+L02474,Rockin' in time,David P. Szatmary,1987,Musica,sim
+L02475,Emotion and meaning in music,Leonard B. Meyer,1956,Musica,sim
+L02476,Picasso,Gertrude Stein,1938,Musica,nao
+L02477,Faust,Charles Gounod,1800,Musica,sim
+L02478,A creative approach to music fundamentals,William Duckworth,1981,Musica,sim
+L02479,Se Nao Eu Quem Vai Fazer Voce Feliz. Minha Historia de Amor com Chorao,[author not identified],2018,Musica,sim
+L02480,The Oxford companion to music,"Scholes, Percy Alfred",1938,Musica,sim
+L02481,Philippine folk dances,Francisca Reyes Aquino,1953,Musica,nao
+L02482,Carmen,Georges Bizet,1800,Musica,sim
+L02483,A Mouse Called Wolf,Dick King-Smith,1997,Musica,sim
+L02484,Correspondence,Wolfgang Amadeus Mozart,1865,Musica,sim
+L02485,German Hl Guitar Method  Book 1,Will Schmid,1970,Musica,sim
+L02486,Understanding Music,Jeremy Yudkin,1995,Musica,nao
+L02487,Music business handbook and career guide,David Baskerville,1979,Musica,nao
+L02488,How to listen to music,Henry Edward Krehbiel,1896,Musica,sim
+L02489,Twentieth-century Harmony,Vincent Persichetti,1961,Musica,sim
+L02490,Bob Dylan,Bob Dylan,1974,Musica,sim
+L02491,Polaroids from the Dead,Douglas Coupland,1996,Musica,nao
+L02492,Karnataka sangeeta sastra,A. S. Panchapakesa Ayyar,1989,Musica,sim
+L02493,Rhythmic Patterns,Joe Cusatis,1999,Musica,sim
+L02494,The Complete Musician,Steven G. Laitz,2003,Musica,sim
+L02495,Style and music,Leonard B. Meyer,1989,Musica,sim
+L02496,Musics of Latin America,"Moore, Robin",2012,Musica,nao
+L02497,Phantom of the Opera,Andrew Lloyd Webber,1989,Musica,sim
+L02498,Dork Diaries 7,Rachel Renée Russell,2014,Musica,nao
+L02499,Get in the Van,Henry Rollins,1994,Musica,sim
+L02500,6. [i.e. Sexto] concierto para dos instrumentos de tecla.,"Soler, Antonio",1962,Musica,sim
+L02501,The Power of Your Subconscious Mind,Joseph Murphy,1963,Psicologia,nao
+L02502,Mindset,Carol S. Dweck,2006,Psicologia,sim
+L02503,"Good Vibes, Good Life",Vex King,2015,Psicologia,sim
+L02504,The Laws of Human Nature,Robert Greene,2018,Psicologia,sim
+L02505,I Want to Die but I Want to Eat Tteokbokki,Baek Se-Hee [백세희],2022,Psicologia,sim
+L02506,"A Macat Analysis of Daniel Kahneman's Thinking, Fast and Slow",Jacqueline Allan,2018,Psicologia,nao
+L02507,Emotional Intelligence,Daniel Goleman,1995,Psicologia,sim
+L02508,The psychology of money,Henry Clay Lindgren,1991,Psicologia,sim
+L02509,Who Moved My Cheese?,Spencer Johnson,1998,Psicologia,nao
+L02510,Educational psychology,Anita Woolfolk Hoy,1987,Psicologia,sim
+L02511,Omgiven av Psykopater,Thomas Erikson,2020,Psicologia,nao
+L02512,Attached,Amir Levine,2010,Psicologia,sim
+L02513,Psycho-cybernetics,Maxwell Maltz,1960,Psicologia,sim
+L02514,The 7 Habits of Highly Effective People,Stephen R. Covey,1989,Psicologia,sim
+L02515,Games People Play,Eric Berne,1964,Psicologia,sim
+L02516,No More Mr. Nice Guy,Robert A. Glover,2001,Psicologia,nao
+L02517,The Secret,Rhonda Byrne,2000,Psicologia,sim
+L02518,The Diary of a CEO,Steven Bartlett,2023,Psicologia,sim
+L02519,The 5 a.m. Club,Robin S. Sharma,2018,Psicologia,sim
+L02520,Influence,Robert B. Cialdini,1983,Psicologia,nao
+L02521,The Secret Language of Birthdays,Gary Goldschneider,1992,Psicologia,nao
+L02522,Psychology,Robert A. Baron,1977,Psicologia,sim
+L02523,Breaking the habit of being yourself,Joe Dispenza,2012,Psicologia,sim
+L02524,The Art of Reading Minds,Henrik Fexeus,2019,Psicologia,sim
+L02525,The principles of psychology,William James,1890,Psicologia,sim
+L02526,How to Win Friends and Influence People,Dale Carnegie,1936,Psicologia,nao
+L02527,Outwitting the devil,Napoleon Hill,2011,Psicologia,sim
+L02528,Quiet,Susan Cain,2012,Psicologia,sim
+L02529,Read People Like a Book,Patrick King,2020,Psicologia,sim
+L02530,Psikologi remaja,Muhamad Mansur Abdullah,1988,Psicologia,sim
+L02531,Women Who Love Too Much,Robin Norwood,1985,Psicologia,nao
+L02532,Abnormal Psychology,Gerald C. Davison,1974,Psicologia,sim
+L02533,Psychology,Dennis Coon,2001,Psicologia,sim
+L02534,Antifragile,Nassim Nicholas Taleb,2012,Psicologia,sim
+L02535,Psychology,Wayne Weiten,1989,Psicologia,sim
+L02536,The game of life and how to play it,Florence Scovel Shinn,1925,Psicologia,nao
+L02537,Talking With Psychopaths and Savages,Christopher Berry-Dee,2019,Psicologia,sim
+L02538,"King, warrior, magician, lover","Moore, Robert L.",1989,Psicologia,sim
+L02539,Made to stick,Chip Heath,1998,Psicologia,sim
+L02540,Introduction to Psychology,Clifford Thomas Morgan,1956,Psicologia,sim
+L02541,Feminine Psychology,Karen Horney,1967,Psicologia,nao
+L02542,The world of psychology,Samuel E. Wood,1992,Psicologia,nao
+L02543,Surrounded by Idiots,Thomas Erikson,2014,Psicologia,sim
+L02544,The Silent Patient,Alex Michaelides,2018,Psicologia,sim
+L02545,The Secret Language of Relationships,Gary Goldschneider,1997,Psicologia,sim
+L02546,The Dictionary of Body Language,pierre dukan,2018,Psicologia,nao
+L02547,Unlimited power,Tony Robbins,1986,Psicologia,sim
+L02548,嫌われる勇気,Ichirō Kishimi,2013,Psicologia,sim
+L02549,The happiness advantage,Shawn Achor,2010,Psicologia,sim
+L02550,Awaken the giant within,Tony Robbins,1991,Psicologia,sim
+L02551,Chantaje Emocional/Emotional Blackmail,Susan Forward,1996,Psicologia,nao
+L02552,The Power of Habit,Charles Duhigg,2012,Psicologia,sim
+L02553,You Can Win,Shiv Khera,1998,Psicologia,nao
+L02554,Essentials of Psychology,Dennis Coon,1979,Psicologia,sim
+L02555,The Winner Effect,Ian H. Robertson,2012,Psicologia,sim
+L02556,... Trotzdem Ja zum Leben sagen,Viktor E. Frankl,1946,Psicologia,nao
+L02557,The now habit,Neil Fiore,1988,Psicologia,sim
+L02558,Ensaio Sobre a Cegueira,José Saramago,1995,Psicologia,sim
+L02559,Relentless,Tim Grover,2013,Psicologia,sim
+L02560,The art of thinking clearly,Rolf Dobelli,2013,Psicologia,sim
+L02561,Think Like a Monk,Jay Shetty,2020,Psicologia,nao
+L02562,The Road Less Traveled,M. Scott Peck,1978,Psicologia,sim
+L02563,The elephant in the brain,Kevin Simler,2018,Psicologia,sim
+L02564,Psychology of adjustment and human relationships,James F. Calhoun,1978,Psicologia,nao
+L02565,In sheep's clothing,George K. Simon,1996,Psicologia,sim
+L02566,Grit,Angela Duckworth,2016,Psicologia,nao
+L02567,The Name It and Claim It Game,Helen Hadsell,1971,Psicologia,sim
+L02568,"Goodbye, things",Fumio Sasaki,2013,Psicologia,sim
+L02569,Women Who Run with the Wolves,Clarissa Pinkola Estés,1982,Psicologia,sim
+L02570,The 7 habits of highly effective people personal workbook,Stephen R. Covey,2003,Psicologia,sim
+L02571,The highly sensitive person,Elaine N. Aron,1996,Psicologia,nao
+L02572,Man and His Symbols,Carl Gustav Jung,1964,Psicologia,sim
+L02573,Nonviolent Communication,Marshall B. Rosenberg,1999,Psicologia,sim
+L02574,Cognitive psychology,Robert L. Solso,1979,Psicologia,sim
+L02575,Procrastination,Jane B. Burka,1983,Psicologia,nao
+L02576,Psychology principles in practice,Spencer A. Rathus,1981,Psicologia,nao
+L02577,Man's search for himself,Rollo May,1953,Psicologia,sim
+L02578,The Gift of Fear,Gavin de Becker,1997,Psicologia,sim
+L02579,22 cells in Nuremberg,Douglas McGlashan Kelley,1947,Psicologia,sim
+L02580,The Magic of Thinking Big,David Joseph Schwartz,1900,Psicologia,sim
+L02581,The 5 Second Rule,Mel Robbins,2014,Psicologia,nao
+L02582,The Denial of Death,Ernest Becker,1973,Psicologia,sim
+L02583,Foundations of behavioral research,Fred N. Kerlinger,1964,Psicologia,sim
+L02584,The Tipping Point,Malcolm Gladwell,2000,Psicologia,sim
+L02585,The laws of human nature,"Wheeler, Raymond Holder",1931,Psicologia,sim
+L02586,Child development,John W. Santrock,1989,Psicologia,nao
+L02587,Life-span development,John W. Santrock,1983,Psicologia,sim
+L02588,Maps of Meaning,Jordan B. Peterson,1999,Psicologia,sim
+L02589,Anthem,Ayn Rand,1936,Psicologia,sim
+L02590,Psychology,Charles G. Morris,1973,Psicologia,sim
+L02591,The Definitive Book of Body Language,Allan Pease,2004,Psicologia,nao
+L02592,The top five regrets of the dying,Bronnie Ware,2011,Psicologia,sim
+L02593,Practising the Power of Now,Eckhart Tolle,1999,Psicologia,sim
+L02594,The Intelligence Trap,David Robson,2019,Psicologia,sim
+L02595,Who Will Cry When You Die?,Robin S. Sharma,1999,Psicologia,sim
+L02596,Introduction to psychology,Rod Plotnik,1986,Psicologia,nao
+L02597,The 33 Strategies of War,Robert Greene,1998,Psicologia,nao
+L02598,A Primer of Freudian Psychology,Calvin S. Hall,1954,Psicologia,sim
+L02599,Winning through enlightenment,Ron Smothermon,1997,Psicologia,sim
+L02600,"Act Like a Lady, Think Like a Man",Steve Harvey,2006,Psicologia,sim
+L02601,On Cooking,Sarah R. Labensky,1994,Culinaria,nao
+L02602,How to Cook Everything,Mark Bittman,1998,Culinaria,sim
+L02603,Boston Cooking-School cook book,Fannie Merritt Farmer,1896,Culinaria,sim
+L02604,Self Heal by Design,Barbara O'Neill,2014,Culinaria,sim
+L02605,Joy of Cooking,Irma S. Rombauer,1931,Culinaria,sim
+L02606,Cookbook,Betty Crocker,1969,Culinaria,nao
+L02607,"Salt, Fat, Acid, Heat",Samin Nosrat,2017,Culinaria,sim
+L02608,White Heat,Marco Pierre White,1990,Culinaria,nao
+L02609,Odd Thomas,Dean Koontz,2003,Culinaria,sim
+L02610,Betty Crocker's Picture Cook Book,Betty Crocker,1950,Culinaria,sim
+L02611,Le répertoire de la cuisine,Louis Saulnier,1914,Culinaria,nao
+L02612,"The art of cookery, made plain and easy",Hannah Glasse,1747,Culinaria,sim
+L02613,Guide culinaire,Auguste Escoffier,1903,Culinaria,sim
+L02614,A Book of Mediterranean Food,Elizabeth David,1950,Culinaria,sim
+L02615,Cooking Basics for Dummies,Bryan Miller,2004,Culinaria,sim
+L02616,The Professional Chef,Culinary Institute of America.,1962,Culinaria,nao
+L02617,Roald Dahl's Revolting Recipes,Josie Fison,1994,Culinaria,sim
+L02618,Betty Crocker Cookbook,Betty Crocker,2002,Culinaria,sim
+L02619,Chef Express,Trident Press International,2003,Culinaria,nao
+L02620,How to Be a Domestic Goddess,Nigella Lawson,2000,Culinaria,sim
+L02621,Odd Hours,Dean Koontz,2008,Culinaria,nao
+L02622,French Country Cooking (Cookery Library),Elizabeth David,1951,Culinaria,sim
+L02623,Panaderia y Reposteria para profesionales/Professional Baking,Wayne Gisslen,1985,Culinaria,sim
+L02624,Mastering the art of French cooking,Julia Child,1967,Culinaria,sim
+L02625,The food of Japan,Takayuki Kosaki,1995,Culinaria,sim
+L02626,The Curry Secret,Kris Dhillon,1989,Culinaria,nao
+L02627,Food Production Operations,Parvinder S. Bali,2009,Culinaria,sim
+L02628,Mujer 2000,Silvia Henríquez de Pou,1988,Culinaria,sim
+L02629,The I hate to cook book,Peg Bracken,1960,Culinaria,sim
+L02630,"French Chef Cookbook, The",Julia Child,1968,Culinaria,nao
+L02631,New York Times Cook Book,Craig Claiborne,1961,Culinaria,nao
+L02632,The Good housekeeping cook book,"Good Housekeeping Institute (New York, N.Y.)",1933,Culinaria,sim
+L02633,French provincial cooking,Elizabeth David,1960,Culinaria,sim
+L02634,The flavor bible,Karen Page,2008,Culinaria,sim
+L02635,The Alice B. Toklas Cook Book,Alice B. Toklas,1954,Culinaria,sim
+L02636,Original White House Cookbook,Hugo Ziemann,1887,Culinaria,nao
+L02637,The Virginia house-wife,Mary Randolph,1824,Culinaria,sim
+L02638,Everything but Espresso,Scott Rao,2010,Culinaria,sim
+L02639,The all new all purpose joy of cooking,Irma S. Rombauer,1997,Culinaria,sim
+L02640,Ma cuisine,Auguste Escoffier,1934,Culinaria,sim
+L02641,The Food Lab,J. Kenji López-Alt,2015,Culinaria,nao
+L02642,A Gentle Awakening,Betty Neels,1988,Culinaria,sim
+L02643,Let's cook it right.,Adelle Davis,1947,Culinaria,sim
+L02644,Julie and Julia,Julie Powell,2001,Culinaria,sim
+L02645,The Fannie Farmer cookbook,Marion Cunningham,1983,Culinaria,sim
+L02646,Flour Water Salt Yeast,Ken Forkish,2012,Culinaria,nao
+L02647,Kitchen Witch's Cookbook,Patricia Telesco,1994,Culinaria,sim
+L02648,The Nancy Drew cookbook,Carolyn Keene,1973,Culinaria,sim
+L02649,A bird in the hand,Ann Cleeves,1986,Culinaria,sim
+L02650,English Bread and Yeast Cookery (Cookery Library),Elizabeth David,1977,Culinaria,sim
+L02651,Frugal housewife,Lydia Maria Child,1829,Culinaria,nao
+L02652,The Apprentice,Jacques Pépin,2003,Culinaria,nao
+L02653,Old Cookery Books and Ancient Cuisine,William Carew Hazlitt,1886,Culinaria,sim
+L02654,Knave of hearts,Stacy Absalom,1983,Culinaria,sim
+L02655,Tender at the bone,Ruth Reichl,1998,Culinaria,sim
+L02656,Home cooking,Laurie Colwin,1988,Culinaria,nao
+L02657,Consider the fork,Bee Wilson,2012,Culinaria,sim
+L02658,My life in France,Julia Child,2006,Culinaria,sim
+L02659,50 Great Curries of India,Camellia Panjabi,1994,Culinaria,sim
+L02660,How to Cook Everything - The Basics,Mark Bittman,2003,Culinaria,sim
+L02661,Nourishing traditions,Sally Fallon,1995,Culinaria,nao
+L02662,Heat,Bill Buford,2006,Culinaria,sim
+L02663,Everybody Cooks Rice,Norah Dooley,1992,Culinaria,nao
+L02664,The back to Eden cookbook,Jethro Kloss,1974,Culinaria,sim
+L02665,The art of eating,M. F. K. Fisher,1954,Culinaria,sim
+L02666,Step-By-Step Practical Recipes,Gina Steer,2015,Culinaria,nao
+L02667,The fireside cook book,James Beard,1949,Culinaria,sim
+L02668,The Little House Cookbook,Barbara M. Walker,1979,Culinaria,sim
+L02669,Pennsylvania Dutch cook book of fine old recipes,Culinary Arts Institute.,1960,Culinaria,sim
+L02670,The Italian bakery,Lee Mangione Cirillo,1982,Culinaria,sim
+L02671,The classic Italian cook book,Marcella Hazan,1973,Culinaria,nao
+L02672,The Way to Cook,Julia Child,1985,Culinaria,sim
+L02673,The Silver Palate cookbook,Julee Rosso,1982,Culinaria,sim
+L02674,New Cook Book,Better Homes and Gardens,2003,Culinaria,nao
+L02675,Leone's Italian cookbook,Gene Leone,1967,Culinaria,sim
+L02676,Polish cookbook,Culinary Arts Institute.,1976,Culinaria,nao
+L02677,Land of plenty,Fuchsia Dunlop,2003,Culinaria,sim
+L02678,Ultimate Cook Book,Richard Carroll,2000,Culinaria,sim
+L02679,The silver spoon,Phaidon Press,2005,Culinaria,sim
+L02680,Bread,Jeffrey Hamelman,2004,Culinaria,sim
+L02681,Nuskha-e-Shahjahani,Salma Husain,2004,Culinaria,nao
+L02682,The apple pie tree,Zoe Hall,1996,Culinaria,sim
+L02683,The Doorbell Rang,Pat Hutchins,1986,Culinaria,sim
+L02684,An Everlasting Meal,Tamar Adler,2011,Culinaria,sim
+L02685,Italian food,Elizabeth David,1954,Culinaria,nao
+L02686,Summer Cooking (Cookery Library),Elizabeth David,1955,Culinaria,nao
+L02687,The Essential Asian Cookbook,Whitecap Books,1997,Culinaria,sim
+L02688,I'm Just Here for the Food,Alton Brown,2002,Culinaria,sim
+L02689,La Gara Dei Supercuochi,Elisabetta Dami,2012,Culinaria,sim
+L02690,Cooking for Geeks,Jeff Potter,2010,Culinaria,sim
+L02691,Mastering the art of French cooking Volume I,Julia Child,1971,Culinaria,nao
+L02692,All-time favorites,Betty Crocker,1971,Culinaria,sim
+L02693,Good and easy cookbook,Betty Crocker,1954,Culinaria,sim
+L02694,Month of Meals,American Diabetes Association,1998,Culinaria,sim
+L02695,Vegan with a Vengeance,Isa Chandra Moskowitz,2005,Culinaria,sim
+L02696,The I Hate to Housekeep Book,Peg Bracken,1962,Culinaria,nao
+L02697,The Chinese cookbook,Craig Claiborne,1972,Culinaria,sim
+L02698,The thousand recipe Chinese cookbook,Gloria Bley Miller,1966,Culinaria,sim
+L02699,Shake It Up!,Oona Van Den Breg,1997,Culinaria,sim
+L02700,Feeding Hannibal,Janice Poon,2016,Culinaria,sim
+L02701,"Eat, Pray, Love",Elizabeth Gilbert,2001,Viagem,nao
+L02702,Notes from a small island,Bill Bryson,1995,Viagem,sim
+L02703,Wise and otherwise,Sudha Murti,2002,Viagem,sim
+L02704,Neither here nor there,Bill Bryson,1991,Viagem,sim
+L02705,A Time of Gifts,Patrick Leigh Fermor,1977,Viagem,sim
+L02706,Tracks,Robyn Davidson,1980,Viagem,nao
+L02707,Bieguni,Olga Tokarczuk,2007,Viagem,nao
+L02708,The Innocents Abroad,Mark Twain,1800,Viagem,sim
+L02709,Vagabonding,Rolf Potts,2002,Viagem,sim
+L02710,In Patagonia,Bruce Chatwin,1977,Viagem,sim
+L02711,The Travels of Marco Polo,Marco Polo,1818,Viagem,nao
+L02712,Voyage Out,Virginia Woolf,1915,Viagem,sim
+L02713,Roughing It,Mark Twain,1872,Viagem,sim
+L02714,Mickey7,Edward Ashton,2022,Viagem,sim
+L02715,Arabian sands,Wilfred Thesiger,1959,Viagem,sim
+L02716,"84, Charing Cross Road",Helene Hanff,1970,Viagem,nao
+L02717,Tuḥfat al-nuẓẓār fī gharāʾib al-amṣār wa-ʻajāʾib al-asfār,Ibn Batuta,1829,Viagem,sim
+L02718,"Old Patagonian Express, The",Paul Theroux,1979,Viagem,nao
+L02719,The Great Railway Bazaar,Paul Theroux,1975,Viagem,sim
+L02720,The Bean Trees Anniversary Edition,Barbara Kingsolver,1988,Viagem,sim
+L02721,A Short Walk in the Hindu Kush,Eric Newby,1958,Viagem,nao
+L02722,World cruising routes,Jimmy Cornell,1987,Viagem,sim
+L02723,The First Fifteen Lives of Harry August,Claire North,2014,Viagem,sim
+L02724,Test of the Twins,Margaret Weis,1986,Viagem,sim
+L02725,Cape Cod,Henry David Thoreau,1864,Viagem,sim
+L02726,Dark star safari,Paul Theroux,2002,Viagem,nao
+L02727,From Heaven Lake,Vikram Seth,1983,Viagem,sim
+L02728,Last Chance to See,Douglas Adams,1990,Viagem,sim
+L02729,The Lost Continent,Bill Bryson,1989,Viagem,nao
+L02730,Weisse Spinne,Heinrich Harrer,1959,Viagem,sim
+L02731,Down Under (In a Sunburned Country),Bill Bryson,2000,Viagem,nao
+L02732,Mask of Scars,Anne Mather,1973,Viagem,sim
+L02733,Time Cat,Lloyd Alexander,1963,Viagem,sim
+L02734,The Halloween Tree,Ray Bradbury,1972,Viagem,sim
+L02735,Before the Coffee Gets Cold,川口俊和,2019,Viagem,sim
+L02736,Zen and the Art of Motorcycle Maintenance,Robert M. Pirsig,1974,Viagem,nao
+L02737,The Path to Rome,Hilaire Belloc,1890,Viagem,sim
+L02738,The Algebraist,Iain Banks,2004,Viagem,sim
+L02739,Travels with my aunt,Graham Greene,1969,Viagem,sim
+L02740,The hitch hiker's guide to LCA,Henrikke Baumann,2004,Viagem,nao
+L02741,Turkish Delights,Anne Weale,1993,Viagem,nao
+L02742,Matahari,Tere Liye,2016,Viagem,sim
+L02743,Travels with a donkey in the Cevennes,Robert Louis Stevenson,1879,Viagem,sim
+L02744,The poetical works of Lord Byron,Lord Byron,1800,Viagem,sim
+L02745,Imperium,Ryszard Kapuściński,1993,Viagem,sim
+L02746,The Magic Tree House Collection #1,Mary Pope Osborne,1996,Viagem,nao
+L02747,The Girl on the Train,Paula Hawkins,2014,Viagem,sim
+L02748,AAA Essential Guide,AAA,2000,Viagem,sim
+L02749,The kingdom by the sea,Paul Theroux,1983,Viagem,sim
+L02750,The happy isles of Oceania,Paul Theroux,1992,Viagem,sim
+L02751,The Satanic Verses,Salman Rushdie,1988,Viagem,nao
+L02752,Cosmographia et geographia de Affrica,Leo Africanus,1556,Viagem,sim
+L02753,Tour thro' the whole island of Great Britain,Daniel Defoe,1724,Viagem,sim
+L02754,Dark music,Charlotte Lamb,1990,Viagem,sim
+L02755,Dinosaur Disaster,Elisabetta Dami,2013,Viagem,sim
+L02756,Into the heart of Borneo,Redmond O'Hanlon,1984,Viagem,nao
+L02757,The Old Ways,Robert Macfarlane,2012,Viagem,sim
+L02758,Tourism,Charles R. Goeldner,2003,Viagem,sim
+L02759,Miracle man,Joanna Mansell,1988,Viagem,sim
+L02760,Dawn,Erin Hunter,2005,Viagem,sim
+L02761,On the Way Home,Laura Ingalls Wilder,1962,Viagem,nao
+L02762,The Geography of Bliss,Eric Weiner,2008,Viagem,nao
+L02763,A Field Guide to Getting Lost,Rebecca Solnit,2005,Viagem,sim
+L02764,The Road,Cormac McCarthy,2006,Viagem,sim
+L02765,My Family and other Animals,Gerald Malcolm Durrell,1956,Viagem,sim
+L02766,The Sex Lives of Cannibals,J. Maarten Troost,2004,Viagem,nao
+L02767,Chasing the monsoon,Alexander Frater,1990,Viagem,sim
+L02768,Il principe di Atlantide,Elisabetta Dami,2010,Viagem,sim
+L02769,Full tilt,Dervla Murphy,1965,Viagem,sim
+L02770,Coming Into the Country,John McPhee,1976,Viagem,sim
+L02771,Ghost Rider,Neil Peart,2002,Viagem,nao
+L02772,Getting Stoned With Savages,J. Maarten Troost,2006,Viagem,sim
+L02773,Balkan Ghosts,Robert D. Kaplan,1993,Viagem,nao
+L02774,Stuart Little,E. B. White,1945,Viagem,sim
+L02775,Richard Halliburton's Complete book of marvels,Richard Halliburton,1941,Viagem,sim
+L02776,Round Ireland with a fridge,Tony Hawks,1998,Viagem,nao
+L02777,A Knight in Shining Armor,Jude Deveraux,1989,Viagem,sim
+L02778,Warrior race,Imran Khan,1993,Viagem,sim
+L02779,The Songlines,Bruce Chatwin,1987,Viagem,sim
+L02780,The Razor's Edge,William Somerset Maugham,1944,Viagem,sim
+L02781,From sea to sea; letters of travel,Rudyard Kipling,1889,Viagem,nao
+L02782,A Journey to the Western Islands of Scotland,Samuel Johnson,1775,Viagem,sim
+L02783,Journey Without Maps,Graham Greene,1936,Viagem,sim
+L02784,Blue Highways,William Least Heat Moon,1981,Viagem,nao
+L02785,Return to Tsugaru,太宰 治,1985,Viagem,sim
+L02786,Roadmarks,Roger Zelazny,1979,Viagem,nao
+L02787,The road to Oxiana,Robert Byron,1937,Viagem,sim
+L02788,A small place,Jamaica Kincaid,1988,Viagem,sim
+L02789,Many Waters (Time Quintet #4),Madeleine L'Engle,1986,Viagem,sim
+L02790,Night Owl,Anna Mae Yu Lamentillo,2021,Viagem,sim
+L02791,The Alhambra,Washington Irving,1800,Viagem,nao
+L02792,"I Survived the Sinking of the Titanic, 1912",Lauren Tarshis,2010,Viagem,sim
+L02793,Kitāb al-arḍ,Muʻīn Tawfīq Bisīsū,1970,Viagem,sim
+L02794,Bill Bryson African Diary,Bill Bryson,2002,Viagem,sim
+L02795,Mani,Patrick Leigh Fermor,1958,Viagem,nao
+L02796,Ein Winter auf Mallorca,George Sand,1869,Viagem,nao
+L02797,Maximum City,Suketu Mehta,2004,Viagem,sim
+L02798,The Frugal Wizard’s Handbook for Surviving Medieval England,Brandon Sanderson,2023,Viagem,sim
+L02799,The long earth,Terry Pratchett,2012,Viagem,sim
+L02800,A Map of Days,Ransom Riggs,2018,Viagem,sim
+L02801,Bible,Bible,1200,Religiao,nao
+L02802,God Is Not Great,Christopher Hitchens,2007,Religiao,sim
+L02803,The Power of Now,Eckhart Tolle,1997,Religiao,sim
+L02804,The Varieties of Religious Experience,William James,1817,Religiao,sim
+L02805,Invitation to world religions,Jeffrey Brodd,2012,Religiao,sim
+L02806,Anatomy of the Sacred,James C. Livingston,1989,Religiao,nao
+L02807,Bhagavad-Gita,Vyasa,1944,Religiao,sim
+L02808,When God Was a Woman,Merlin Stone,1976,Religiao,sim
+L02809,The Golden Bough,James George Frazer,1890,Religiao,sim
+L02810,Natural law in the spiritual world,Henry Drummond,1835,Religiao,sim
+L02811,Orthodoxy,Gilbert Keith Chesterton,1874,Religiao,nao
+L02812,Zukunft einer Illusion,Sigmund Freud,1928,Religiao,sim
+L02813,Coloring Book of Shadows,Amy Cesari,2016,Religiao,sim
+L02814,The perennial philosophy,Aldous Huxley,1945,Religiao,sim
+L02815,The God Delusion,Richard Dawkins,2001,Religiao,sim
+L02816,The Teachings of Don Juan,Carlos Castaneda,1968,Religiao,nao
+L02817,People of the lie,M. Scott Peck,1983,Religiao,nao
+L02818,God Is Not One,Stephen Prothero,2010,Religiao,sim
+L02819,"Are You There God? It's Me, Margaret.",Judy Blume,1970,Religiao,sim
+L02820,The Book of the Dead,E. A. Wallis Budge,1894,Religiao,sim
+L02821,The World's Religions,Huston Smith,1990,Religiao,nao
+L02822,Anatomy of the Sacred,James Livingston,2008,Religiao,sim
+L02823,Egyptian ideas of the future life,E. A. Wallis Budge,1899,Religiao,sim
+L02824,Saint Francis of Assisi,Gilbert Keith Chesterton,1923,Religiao,sim
+L02825,Histoire des croyances et des idées religieuses,Mircea Eliade,1976,Religiao,sim
+L02826,Egyptian magic,E. A. Wallis Budge,1899,Religiao,nao
+L02827,Beyond theology,Alan Watts,1964,Religiao,sim
+L02828,"The anthropology of religion, magic, and witchcraft",Philip L. Stein,2007,Religiao,nao
+L02829,The religions of man,Huston Smith,1958,Religiao,sim
+L02830,The religions of the ancient world,George Rawlinson,1880,Religiao,sim
+L02831,Code Name God,Mani Bhaumik,2005,Religiao,nao
+L02832,Miracles,C. S. Lewis,1947,Religiao,sim
+L02833,A Handbook of Spiritual Medicine,Ibn Daud,2022,Religiao,sim
+L02834,Ifa Divination,William Russell Bascom,1969,Religiao,sim
+L02835,Lapvona,Ottessa Moshfegh,2022,Religiao,sim
+L02836,Ways to the center,Denise Lardner Carmody,1981,Religiao,nao
+L02837,Breaking the spell,Daniel C. Dennett,2004,Religiao,sim
+L02838,The Language of God,Francis S. Collins,2006,Religiao,sim
+L02839,Witch Crafting,Phyllis Curott,2001,Religiao,nao
+L02840,Religions of the world,Lewis M. Hopfe,1976,Religiao,sim
+L02841,Gottesfinsternis,Martin Buber,1952,Religiao,nao
+L02842,Man's Search for Ultimate Meaning,Viktor E. Frankl,1997,Religiao,sim
+L02843,A concise introduction to world religions,Willard G. Oxtoby,2007,Religiao,sim
+L02844,Living Religions,Mary Pat Fisher,1991,Religiao,sim
+L02845,Mas̲navī,Rumi (Jalāl ad-Dīn Muḥammad Balkhī),1851,Religiao,sim
+L02846,World religions,Jeffrey Brodd,1998,Religiao,nao
+L02847,Custom and myth,Andrew Lang,1884,Religiao,sim
+L02848,The Power of Myth,Joseph Campbell,1988,Religiao,sim
+L02849,Karma,Acharya Prashant,2021,Religiao,sim
+L02850,The Miracle of Mindfulness,Thích Nhất Hạnh,1987,Religiao,nao
+L02851,The Satanic Bible,Anton Szandor LaVey,1969,Religiao,nao
+L02852,Become what you are,Alan Watts,1995,Religiao,sim
+L02853,The Age of Reason,Thomas Paine,1794,Religiao,sim
+L02854,Introduction to African religion,"Mbiti, John S.",1975,Religiao,sim
+L02855,African religions & philosophy,"Mbiti, John S.",1969,Religiao,sim
+L02856,The Book,Alan Watts,1966,Religiao,nao
+L02857,Journey to Ixtlan,Carlos Castaneda,1973,Religiao,sim
+L02858,Allah Loves,Omar Suleiman,2020,Religiao,sim
+L02859,UFO of GOD,Chris Bledsoe,2022,Religiao,sim
+L02860,Systematic Theology,Wayne Grudem,1994,Religiao,sim
+L02861,The world's religions,Ninian Smart,1989,Religiao,nao
+L02862,Greek mythology,John Pinsent,1969,Religiao,sim
+L02863,Traité d'histoire des religions,Mircea Eliade,1900,Religiao,sim
+L02864,Der unbewusste Gott,Viktor E. Frankl,1974,Religiao,sim
+L02865,World religions,S. A. Nigosian,1972,Religiao,sim
+L02866,Divine horsemen,Maya Deren,1953,Religiao,nao
+L02867,Where God Came Down,Joel P. Kramer,2020,Religiao,sim
+L02868,Fundamentals of the Yorùbá religion (Òrìṣà worship),Chief Fama,1993,Religiao,sim
+L02869,The Holy Qur'an,Abdullah Yusuf Ali,1977,Religiao,sim
+L02870,Understanding world religions,Irving Hexham,2011,Religiao,sim
+L02871,A Grief Observed,C. S. Lewis,1961,Religiao,nao
+L02872,"My Discovery of God, Islam & Judgement Day",Hamza Ali Abbasi,2024,Religiao,nao
+L02873,Tales of Power,Carlos Castaneda,1974,Religiao,sim
+L02874,Myths to live by,Joseph Campbell,1972,Religiao,sim
+L02875,Magic and religion,Andrew Lang,1901,Religiao,sim
+L02876,The Lesser Key of Solomon,Aleister Crowley,2016,Religiao,nao
+L02877,365 Days of Hoodoo,Stephanie Rose Bird,2018,Religiao,sim
+L02878,Stories of the Prophets,James Ross (Ras),1980,Religiao,sim
+L02879,The sacred Ifa oracle,Afolabi A. Epega,1995,Religiao,sim
+L02880,Summary of Dolores Cannon's the Custodians,Irb Media,2022,Religiao,sim
+L02881,Footprints Journal,Sararh M. Hupp,2004,Religiao,nao
+L02882,Risālah-yi dīnīyāt,Syed Abul ʻAla Maudoodi,1954,Religiao,sim
+L02883,The Universe in a Single Atom,His Holiness Tenzin Gyatso the XIV Dalai Lama,2005,Religiao,nao
+L02884,The day America told the truth,James Patterson,1991,Religiao,sim
+L02885,Pagan & Christian creeds,Edward Carpenter,1920,Religiao,sim
+L02886,Separate Reality,Carlos Castaneda,1971,Religiao,nao
+L02887,World religions,John Bowker,1997,Religiao,sim
+L02888,The wise heart,Jack Kornfield,2008,Religiao,sim
+L02889,The spiral dance,Starhawk,1979,Religiao,sim
+L02890,Experiencing the World's Religions,Michael Molloy,1998,Religiao,sim
+L02891,The End of Faith,Sam Harris,2004,Religiao,nao
+L02892,The great cosmic mother,Monica Sjöö,1987,Religiao,sim
+L02893,Philosophy of Religion,Michael Peterson,2014,Religiao,sim
+L02894,The portable atheist,Christopher Hitchens,2007,Religiao,nao
+L02895,A history of the warfare of science with theology in Christendom,Andrew Dickson White,1896,Religiao,sim
+L02896,Dynamics of faith,Paul Tillich,1956,Religiao,nao
+L02897,"Living Buddha, living Christ",Thích Nhất Hạnh,1995,Religiao,sim
+L02898,"Magic, witchcraft, and religion",Pamela Myers-Moro,2010,Religiao,sim
+L02899,The Book of Mormon,"Joseph Smith, Jr.",1948,Religiao,sim
+L02900,Immortality Key,Brian C. Muraresku,2020,Religiao,sim
+L02901,Manajemen keuangan,Rahmini Hadi,2011,Educacao,nao
+L02902,Ilmu pendidikan Islam,Zakiah Daradjat,1992,Educacao,sim
+L02903,The art of self-directed learning,Blake Boles,2014,Educacao,sim
+L02904,Educational research,L. R. Gay,1976,Educacao,sim
+L02905,The secret of childhood,Maria Montessori,1936,Educacao,nao
+L02906,Metodo della pedagogia scientifica,Maria Montessori,1912,Educacao,nao
+L02907,Pendidikan karakter,Agus Wibowo,2012,Educacao,sim
+L02908,The Spell Book for New Witches,Ambrosia Hawthorn,2020,Educacao,sim
+L02909,Make It Stick,Peter C. Brown,2014,Educacao,sim
+L02910,Deschooling Society,Ivan Illich,1970,Educacao,sim
+L02911,Word Power Made Easy,Norman Lewis,1949,Educacao,nao
+L02912,The absorbent mind,Maria Montessori,1949,Educacao,sim
+L02913,This is water,David Foster Wallace,2009,Educacao,sim
+L02914,Comprehensive classroom management,Vernon Jones,1986,Educacao,sim
+L02915,The mis-education of the Negro,Carter Godwin Woodson,1933,Educacao,sim
+L02916,Curriculum development,Jon Wiles,1979,Educacao,nao
+L02917,Up from Slavery,Booker T. Washington,1900,Educacao,sim
+L02918,Dumbing Us Down,John Taylor Gatto,1991,Educacao,sim
+L02919,Measurement and Assessment in Teaching,M. David Miller,2004,Educacao,sim
+L02920,Pedagogy of the Oppressed,Paulo Freire,1970,Educacao,sim
+L02921,NYC Quote,Booksource,2023,Educacao,nao
+L02922,Multicultural Education,James A. Banks,1988,Educacao,sim
+L02923,Children's missionary library,Vernon Linwood Howard,1949,Educacao,sim
+L02924,Emile or Education,Jean-Jacques Rousseau,1762,Educacao,sim
+L02925,Basic principles of curriculum and instruction,Ralph W. Tyler,1949,Educacao,sim
+L02926,Historical and Philosophical Foundations of Education,Gerald L. Gutek,1996,Educacao,nao
+L02927,Foundations of Bilingual Education and Bilingualism,Colin Baker,1996,Educacao,nao
+L02928,Official SAT Study Guide 2020 Edition,The College Board,2019,Educacao,sim
+L02929,Ilmu pendidikan  Islam,Ahmad Tafsir,1992,Educacao,sim
+L02930,Educational Psychology,Robert E. Slavin,1986,Educacao,sim
+L02931,Cooperative learning,Robert E. Slavin,1982,Educacao,nao
+L02932,"A taxonomy for learning, teaching, and assessing",Lorin W. Anderson,2000,Educacao,sim
+L02933,The Abolition of Man,C. S. Lewis,1943,Educacao,sim
+L02934,Educational research,Walter R. Borg,1963,Educacao,sim
+L02935,Education For Critical Consciousness (Continuum Impacts),Paulo Freire,1967,Educacao,sim
+L02936,Laskar Pelangi,Andrea Hirata,2005,Educacao,nao
+L02937,Nurtured by Love,Shinichi Suzuki,1969,Educacao,sim
+L02938,Wonder,R. J. Palacio,2001,Educacao,nao
+L02939,Pengantar Psikologi,Siti Azura,2018,Educacao,sim
+L02940,Educational administration,Frederick C. Lunenburg,1991,Educacao,sim
+L02941,Research in education,John W. Best,1959,Educacao,nao
+L02942,Strategic marketing for educational institutions,Philip Kotler,1985,Educacao,sim
+L02943,Old-time schools and school-books,Clifton Johnson,1904,Educacao,sim
+L02944,Kurikulum,Abu Bakar Nordin.,1991,Educacao,sim
+L02945,Measurement and evaluation in teaching,Norman Edward Gronlund,1965,Educacao,sim
+L02946,Introduction to counseling and guidance,Robert L. Gibson,1986,Educacao,nao
+L02947,Motivation and learning strategies for college success,Myron H. Dembo,2000,Educacao,sim
+L02948,The Pragmatic Programmer,Andy Hunt,1999,Educacao,sim
+L02949,Show me!,Will McBride,1975,Educacao,nao
+L02950,Research in education,James H. McMillan,1984,Educacao,sim
+L02951,How children learn,John Caldwell Holt,1967,Educacao,nao
+L02952,Landasan pendidikan,M. Sukardjo,2009,Educacao,sim
+L02953,Exceptional learners,Daniel P. Hallahan,1996,Educacao,sim
+L02954,The Brilliant World of Tom Gates,Liz Pichon,2011,Educacao,sim
+L02955,Enciklopedinis edukologijos žodynas,Leonas Jovaiša,2007,Educacao,sim
+L02956,The Freedom Writers Diary,Erin Gruwell,1999,Educacao,nao
+L02957,Early childhood education today,George S. Morrison,1976,Educacao,sim
+L02958,Psychologie et pédagogie,Jean Piaget,1969,Educacao,sim
+L02959,A Vindication of Rights of Woman,Mary Wollstonecraft,1792,Educacao,sim
+L02960,PMBOK Guide,Project Management Institute,2021,Educacao,nao
+L02961,Instructional technology and media for learning,Sharon E. Smaldino,2005,Educacao,nao
+L02962,Histoire de l'éducation dans l'antiquité,Henri-Irénée Marrou,1948,Educacao,sim
+L02963,How children fail,John Caldwell Holt,1964,Educacao,sim
+L02964,Learn Like a Pro,Barbara Oakley PhD PhD,2021,Educacao,sim
+L02965,Audio-visual methods in teaching,Edgar Dale,1946,Educacao,sim
+L02966,A Letter From Your Teacher,Shannon Olsen,2021,Educacao,nao
+L02967,Statistics of Education,Dept. of Education and Science Staff Great Britain,1968,Educacao,sim
+L02968,Pendidikan,Husni Thamrin,2009,Educacao,sim
+L02969,Self-regulated learning and academic achievement,Barry J. Zimmerman,2001,Educacao,sim
+L02970,Research methods in education,William Wiersma,1969,Educacao,sim
+L02971,Educational research,James H. McMillan,1991,Educacao,nao
+L02972,Curriculum,John D. McNeil,1715,Educacao,sim
+L02973,Three cups of tea,Greg Mortenson,2006,Educacao,sim
+L02974,Research Methods in Education,Louis Cohen,2000,Educacao,sim
+L02975,Educational planning,Adriano A. Arcelo,1994,Educacao,sim
+L02976,Maria Montessori,Rita Kramer,1976,Educacao,nao
+L02977,College Algebra,Ron Larson,1900,Educacao,sim
+L02978,We Want to Do More Than Survive,Bettina Love,2019,Educacao,sim
+L02979,Introduction to the profession of counseling,Frank A. Nugent,2000,Educacao,sim
+L02980,Eat That Frog! for Students,Brian Tracy,2020,Educacao,sim
+L02981,UWorld Rxprep 2025 NAPLEX Course Book,UWorld,2024,Educacao,nao
+L02982,History of education in America,John D. Pulliam,1968,Educacao,nao
+L02983,Educational research,Meredith D. Gall,1963,Educacao,sim
+L02984,Yardsticks,Chip Wood,1994,Educacao,sim
+L02985,How we think,John Dewey,1909,Educacao,sim
+L02986,One Child,Torey L Hayden,1980,Educacao,nao
+L02987,The Montessori Toddler,Simone Davies,2019,Educacao,sim
+L02988,Handbook in research and evaluation,Stephen Isaac,1971,Educacao,sim
+L02989,Advanced Educational Psychology,S.K. Mangal,2004,Educacao,sim
+L02990,Total Learning,Joanne Hendrick,1986,Educacao,sim
+L02991,"Adapted physical activity, recreation, and sport",Claudine Sherrill,1993,Educacao,nao
+L02992,Educating for character,Thomas Lickona,1991,Educacao,sim
+L02993,Who am I in the lives of children?,Stephanie Feeney,1978,Educacao,nao
+L02994,Membangun budaya literasi,Ilzamudin Ma'mur,2010,Educacao,sim
+L02995,Models of teaching,Bruce R. Joyce,2003,Educacao,sim
+L02996,Introductory plant biology,Kingsley R. Stern,1979,Educacao,nao
+L02997,Uncommon Sense Teaching,Barbara Oakley PhD,2021,Educacao,sim
+L02998,Baby Einstein,Julie Aigner-Clark,2001,Educacao,sim
+L02999,Developing the curriculum,Peter F. Oliva,1982,Educacao,sim
+L03000,Complete Nursing School Bundle®,Nurse In The Making,2024,Educacao,sim

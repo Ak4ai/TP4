@@ -1,0 +1,178 @@
+/* ==============================================================================
+   ESTILIZAÇÃO CSS CUSTOMIZADA (VISUAL PREMIUM MODO ESCURO)
+   ==============================================================================
+   Injetamos este CSS para customizar a interface geral do Streamlit,
+   incluindo o banner superior com gradiente linear, as métricas padrões e
+   outros elementos da aplicação.
+*/
+
+/* ------------------------------------------------------------------
+   1. BANNER DE CABEÇALHO SUPERIOR (GRADIENTE)
+   ------------------------------------------------------------------ */
+.main-header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    padding: 2.2rem;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+.main-header h1 {
+    margin: 0;
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.2rem;
+    letter-spacing: -0.025em;
+}
+.main-header p {
+    margin: 6px 0 0 0;
+    opacity: 0.9;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* ------------------------------------------------------------------
+   2. CUSTOMIZAÇÃO DE METRICAS PADRÃO DO STREAMLIT
+   ------------------------------------------------------------------ */
+/* Estilização customizada dos valores numéricos das Métricas */
+div[data-testid="stMetricValue"] {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+/* Estilização das legendas das Métricas */
+div[data-testid="stMetricLabel"] {
+    font-size: 0.95rem;
+    color: #475569;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* ------------------------------------------------------------------
+   3. GATILHOS E TOOLTIPS (CAPAS DE LIVROS)
+   ------------------------------------------------------------------ */
+/* Gatilho das Tooltips na Tabela (Link azul sutil para hover) */
+.tooltip-trigger {
+    position: relative;
+    cursor: pointer;
+    color: #60a5fa; 
+    font-weight: 500;
+}
+.tooltip-trigger:hover {
+    text-decoration: underline;
+    color: #93c5fd !important;
+}
+
+/* Caixa flutuante de Tooltip de Capas, Notas e Detalhes da obra */
+.book-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 125%;
+    left: 20px;
+    width: 280px;
+    background-color: rgb(28, 29, 37); /* Fundo cinza escuro harmonioso */
+    border: 1px solid rgb(62, 64, 76);
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    line-height: 1.4;
+    text-align: left;
+}
+.book-tooltip img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.book-tooltip strong {
+    display: block;
+    font-size: 0.95rem;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+/* Crachá de nota (rating) pessoal / MyAnimeList */
+.book-tooltip .tooltip-rating {
+    display: inline-block;
+    background-color: #854d0e;
+    color: #fef9c3;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+.book-tooltip p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    max-height: 90px;
+    overflow-y: auto;
+}
+.tooltip-trigger:hover .book-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Efeito Shimmer (esboço de carregamento animado para capas em carregamento assíncrono) */
+.tooltip-cover-placeholder {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.05) 25%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.05) 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+@keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ------------------------------------------------------------------
+   4. LAYOUT GERAL DE TABELAS CUSTOMIZADAS
+   ------------------------------------------------------------------ */
+.library-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    background-color: rgb(38, 39, 48);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(50, 52, 62);
+    border-radius: 8px;
+}
+.library-table thead tr:first-child th:first-child { border-top-left-radius: 8px; }
+.library-table thead tr:first-child th:last-child { border-top-right-radius: 8px; }
+.library-table tbody tr:last-child td:first-child { border-bottom-left-radius: 8px; }
+.library-table tbody tr:last-child td:last-child { border-bottom-right-radius: 8px; }
+
+.library-table th {
+    background-color: rgb(28, 29, 37);
+    color: #cbd5e1;
+    font-weight: 600;
+    padding: 14px 16px;
+    border-bottom: 2px solid rgb(50, 52, 62);
+    text-align: left;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.library-table td {
+    padding: 14px 16px;
+    color: #cbd5e1;
+    border-bottom: 1px solid rgb(50, 52, 62);
+    vertical-align: middle;
+}
+.library-table tbody tr:hover {
+    background-color: rgb(48, 50, 60) !important;
+}

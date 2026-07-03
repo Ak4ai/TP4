@@ -1,0 +1,2729 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Acadêmica - TP4 Biblioteca CEFET</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800;900&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: rgba(17, 24, 39, 0.65);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --primary-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --secondary-gradient: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+            --accent-purple: #a78bfa;
+            --accent-blue: #60a5fa;
+            --shadow-glow: 0 10px 30px -10px rgba(59, 130, 246, 0.3);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            background-image:
+                radial-gradient(circle at 5% 10%, rgba(59, 130, 246, 0.05) 0%, transparent 35%),
+                radial-gradient(circle at 95% 90%, rgba(139, 92, 246, 0.05) 0%, transparent 35%);
+        }
+
+        /* Container Principal ocupa 100% da tela */
+        .presentation-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Barra superior estilo Header do Sistema */
+        .window-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 40px;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(15, 23, 42, 0.6);
+        }
+
+        .window-dots {
+            display: flex;
+            gap: 8px;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .dot.red {
+            background-color: #ef4444;
+        }
+
+        .dot.yellow {
+            background-color: #f59e0b;
+        }
+
+        .dot.green {
+            background-color: #10b981;
+        }
+
+        .window-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .window-logo {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 1.1rem;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Slides Wrapper */
+        .slides-wrapper {
+            position: relative;
+            flex-grow: 1;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            /* Garante que tooltips que flutuam para fora não cortem */
+        }
+
+        /* Slide Base */
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            padding: 50px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: translateX(100px) scale(0.97);
+        }
+
+        .slide.active {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(0) scale(1);
+        }
+
+        .slide.prev {
+            transform: translateX(-100px) scale(0.97);
+        }
+
+        /* Layout Dividido 50/50 */
+        .slide-layout-split {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 60px;
+            align-items: center;
+            height: 100%;
+        }
+
+        .slide-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .slide-visual {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .slide-tag {
+            align-self: flex-start;
+            font-family: 'Outfit', sans-serif;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 30px;
+            background: rgba(139, 92, 246, 0.12);
+            color: var(--accent-purple);
+            border: 1px solid rgba(139, 92, 246, 0.25);
+            margin-bottom: 20px;
+        }
+
+        .slide h2 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 2.8rem;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #ffffff, #cbd5e1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .slide h2 span {
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .slide h3.slide-sub {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.25rem;
+            color: var(--accent-blue);
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .slide-desc {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        /* Listas de Tópicos */
+        .feature-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .feature-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent-blue);
+            font-weight: bold;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .feature-text strong {
+            color: #ffffff;
+            display: block;
+            font-size: 0.95rem;
+            margin-bottom: 2px;
+        }
+
+        .feature-text span {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+            display: block;
+        }
+
+        /* Mockup de Caixa de Código */
+        .code-block {
+            width: 100%;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.78rem;
+            color: #e2e8f0;
+            overflow-x: auto;
+            text-align: left;
+            box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5);
+            margin-top: 10px;
+        }
+
+        .code-keyword {
+            color: #f472b6;
+            font-weight: bold;
+        }
+
+        .code-comment {
+            color: #64748b;
+            font-style: italic;
+        }
+
+        .code-string {
+            color: #34d399;
+        }
+
+        .code-func {
+            color: #fbbf24;
+        }
+
+        .code-class {
+            color: #60a5fa;
+            font-weight: 500;
+        }
+
+        /* Mockup de Navegador para Mídia */
+        .browser-mockup {
+            width: 100%;
+            background: #1e293b;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            transform: perspective(1000px) rotateY(-3deg) rotateX(1deg);
+            transition: transform 0.5s ease;
+            overflow: visible;
+            /* Garante transbordo das tooltips */
+        }
+
+        .browser-mockup:hover {
+            transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+        }
+
+        .browser-bar {
+            height: 32px;
+            background: #0f172a;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            gap: 6px;
+            border-radius: 12px 12px 0 0;
+        }
+
+        .browser-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #475569;
+        }
+
+        .browser-address {
+            flex-grow: 1;
+            margin-left: 20px;
+            height: 18px;
+            background: #1e293b;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            font-family: monospace;
+        }
+
+        .browser-content {
+            padding: 8px;
+            background: #0f172a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0 0 12px 12px;
+        }
+
+        /* Slide 1 - Capa Custom */
+        .slide-cover {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slide-cover h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 4.2rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 15px;
+            background: linear-gradient(to right, #ffffff, #cbd5e1, #60a5fa, #c084fc);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradient-flow 6s linear infinite;
+        }
+
+        .slide-cover h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            margin-bottom: 24px;
+        }
+
+        .slide-cover p {
+            max-width: 700px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+        }
+
+        .start-btn {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 14px 40px;
+            border-radius: 50px;
+            border: none;
+            background: var(--primary-gradient);
+            color: white;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .start-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 24px rgba(59, 130, 246, 0.6);
+        }
+
+        /* Grid de Requisitos / Arquitetura */
+        .req-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .req-card {
+            background: rgba(30, 41, 59, 0.4);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .req-card:hover {
+            background: rgba(30, 41, 59, 0.6);
+            transform: translateY(-3px);
+            border-color: rgba(139, 92, 246, 0.3);
+        }
+
+        .req-card h4 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.05rem;
+            color: #ffffff;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .req-card p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        /* Mockup de Dashboard (Slide 5) */
+        .dashboard-mockup {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 12px;
+            background: #0f172a;
+            border-radius: 8px;
+        }
+
+        .metrics-mockup {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .metric-card-mock {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 10px 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .metric-lbl-mock {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .metric-val-mock {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            line-height: 1.1;
+        }
+
+        .metric-delta-mock {
+            font-size: 0.65rem;
+            margin-top: 4px;
+            font-weight: 500;
+        }
+
+        .metric-delta-mock.normal {
+            color: #10b981;
+        }
+
+        .metric-help-mock {
+            font-size: 0.65rem;
+            color: #64748b;
+            margin-top: 4px;
+        }
+
+        .chart-container-mock {
+            background: rgba(30, 41, 59, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .chart-header-mock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chart-title-mock {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .chart-select-mock {
+            font-size: 0.7rem;
+            background: #1e293b;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: var(--text-muted);
+            padding: 3px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .chart-select-mock option {
+            background: #0f172a;
+            color: #fff;
+        }
+
+        .bar-chart-mock {
+            display: flex;
+            gap: 10px;
+            height: 120px;
+            align-items: flex-end;
+            padding-bottom: 20px;
+            position: relative;
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .chart-y-axis-mock {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            font-size: 0.6rem;
+            color: #475569;
+            padding-right: 4px;
+            position: absolute;
+            left: -20px;
+            text-align: right;
+            width: 15px;
+        }
+
+        .chart-bars-mock {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            align-items: flex-end;
+            padding-left: 10px;
+        }
+
+        .chart-bar-mock {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 14%;
+            height: 100%;
+            justify-content: flex-end;
+            position: relative;
+        }
+
+        .bar-fill {
+            width: 100%;
+            height: var(--height);
+            background: linear-gradient(to top, #2563eb, #7c3aed);
+            border-radius: 3px 3px 0 0;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .bar-fill:hover {
+            filter: brightness(1.2);
+            transform: scaleX(1.05);
+        }
+
+        .bar-fill::after {
+            content: "";
+            position: absolute;
+            bottom: 105%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #fff;
+            color: #000;
+            font-size: 0.65rem;
+            padding: 2px 4px;
+            border-radius: 3px;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            pointer-events: none;
+            font-weight: bold;
+        }
+
+        .chart-bar-mock:nth-child(1) .bar-fill::after {
+            content: "12";
+        }
+
+        .chart-bar-mock:nth-child(2) .bar-fill::after {
+            content: "8";
+        }
+
+        .chart-bar-mock:nth-child(3) .bar-fill::after {
+            content: "6";
+        }
+
+        .chart-bar-mock:nth-child(4) .bar-fill::after {
+            content: "4";
+        }
+
+        .chart-bar-mock:nth-child(5) .bar-fill::after {
+            content: "2";
+        }
+
+        .bar-fill:hover::after {
+            opacity: 1;
+        }
+
+        .bar-label {
+            font-size: 0.45rem;
+            color: var(--text-muted);
+            margin-top: 6px;
+            position: absolute;
+            top: 100%;
+            white-space: nowrap;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
+        /* Variações do tipo de gráfico (Slide 5) */
+        .chart-type-line .bar-fill {
+            width: 2px !important;
+            background: rgba(59, 130, 246, 0.2);
+            border-radius: 0;
+            margin: 0 auto;
+        }
+
+        .chart-type-line .bar-fill::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #60a5fa;
+            border: 1px solid #fff;
+            box-shadow: 0 0 4px rgba(96, 165, 250, 0.8);
+            transition: all 0.3s ease;
+        }
+
+        .chart-type-area .bar-fill {
+            width: 100%;
+            background: linear-gradient(to top, rgba(37, 99, 235, 0.4), rgba(59, 130, 246, 0.05)) !important;
+            border-radius: 0;
+            border-top: 1px solid #60a5fa;
+        }
+
+        /* Mockup de Tabela (Slide 7) */
+        .table-mockup-container {
+            width: 100%;
+            padding: 12px;
+            background: #0f172a;
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .table-mock {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.75rem;
+            color: #e2e8f0;
+            text-align: left;
+        }
+
+        .table-mock th {
+            padding: 8px 10px;
+            background: #1e293b;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-size: 0.65rem;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .table-mock td {
+            padding: 14px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            vertical-align: middle;
+        }
+
+        .table-mock tr:hover td {
+            background-color: rgba(59, 130, 246, 0.05);
+        }
+
+        .badge {
+            font-size: 0.65rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .badge-green {
+            background: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+        }
+
+        .badge-blue {
+            background: rgba(59, 130, 246, 0.15);
+            color: #3b82f6;
+        }
+
+        .badge-yellow {
+            background: rgba(245, 158, 11, 0.15);
+            color: #f59e0b;
+        }
+
+        /* Efeito de expansão hover para os mockups da biblioteca Suwayomi */
+        .suwa-mockup-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            height: 100%;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .suwa-hover-mockup {
+            flex: 1 1 0;
+            min-height: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: flex 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+                        opacity 0.35s ease,
+                        box-shadow 0.35s ease,
+                        filter 0.35s ease;
+        }
+
+        /* browser-content fills card dynamically */
+        .suwa-mockup-stack .suwa-hover-mockup .browser-content {
+            flex: 1 !important;
+            height: auto !important;
+            min-height: 0 !important;
+            overflow: hidden !important;
+        }
+
+        /* When ANY mockup is hovered, shrink the others to small strips */
+        .suwa-mockup-stack:has(.suwa-hover-mockup:hover) .suwa-hover-mockup:not(:hover) {
+            flex: 0 0 38px;
+            opacity: 0.45;
+            filter: brightness(0.5);
+        }
+
+        /* Hovered mockup: expand to dominate the stack */
+        .suwa-hover-mockup:hover {
+            flex: 10 10 0;
+            z-index: 10;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.85);
+        }
+
+        /* Zoom the browser-content to fill the expanded card */
+        .suwa-hover-mockup:hover .browser-content {
+            zoom: 2;
+        }
+
+        /* Remove max-height constraints on reader image when zoomed */
+        .suwa-hover-mockup:hover .browser-content img#suwa-reader-img {
+            max-height: none !important;
+            height: 100% !important;
+        }
+
+
+        /* Tooltip Interativa no Slide (Slide 7) */
+        .slide-tooltip-trigger {
+            position: relative;
+            cursor: pointer;
+            color: var(--accent-blue);
+            font-weight: 500;
+            text-decoration: underline dotted;
+        }
+
+        .slide-tooltip-trigger:hover {
+            color: var(--text-color);
+        }
+
+        .slide-tooltip {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            bottom: 125%;
+            left: 20px;
+            width: 230px;
+            background-color: rgb(28, 29, 37);
+            border: 1px solid rgb(62, 64, 76);
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+            z-index: 99999;
+            transition: opacity 0.15s ease-in-out, visibility 0.15s ease-in-out;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+            font-weight: normal;
+            line-height: 1.4;
+            text-align: left;
+            display: block;
+            /* Stacked vertical layout */
+            pointer-events: none;
+        }
+
+        /* Direcionamento inteligente: primeiras duas linhas abrem para baixo */
+        .table-mock tbody tr:nth-child(-n+1) .slide-tooltip {
+            bottom: auto;
+            top: 125%;
+        }
+
+        .slide-tooltip-trigger:hover .slide-tooltip {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .slide-tooltip-img {
+            width: 100%;
+            aspect-ratio: 2 / 3;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 8px;
+            box-shadow: none;
+        }
+
+        .slide-tooltip-content {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .tooltip-title {
+            display: block;
+            font-size: 0.85rem;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .tooltip-rating-badge {
+            align-self: flex-start;
+            background-color: #854d0e;
+            color: #fef9c3;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 1px 5px;
+            border-radius: 3px;
+        }
+
+        .tooltip-rating-badge.digital {
+            background-color: rgba(168, 85, 247, 0.2);
+            color: #e9d5ff;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+        }
+
+        .tooltip-rating-badge.empty {
+            background-color: #334155;
+            color: #cbd5e1;
+        }
+
+        .tooltip-review {
+            font-style: italic;
+            font-size: 0.7rem;
+            color: #e9d5ff;
+            background-color: rgba(168, 85, 247, 0.15);
+            padding: 4px 6px;
+            border-left: 2px solid #a855f7;
+            border-radius: 3px;
+        }
+
+        .tooltip-desc-text {
+            font-size: 0.7rem;
+            color: #94a3b8;
+            margin: 0;
+            max-height: 55px;
+            overflow-y: auto;
+        }
+
+        /* Rodapé de Controle */
+        .controls-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 40px;
+            border-top: 1px solid var(--border-color);
+            background: rgba(15, 23, 42, 0.6);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: scale(1.05);
+            border-color: var(--accent-blue);
+        }
+
+        .nav-dots {
+            display: flex;
+            gap: 8px;
+        }
+
+        .nav-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .nav-dot.active {
+            background: var(--accent-blue);
+            transform: scale(1.3);
+            box-shadow: 0 0 10px var(--accent-blue);
+        }
+
+        .slide-counter {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        /* Animações e Efeitos */
+        @keyframes pulse {
+            0% {
+                opacity: 0.8;
+                box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.4);
+            }
+
+            70% {
+                opacity: 1;
+                box-shadow: 0 0 0 8px rgba(139, 92, 246, 0);
+            }
+
+            100% {
+                opacity: 0.8;
+                box-shadow: 0 0 0 0 rgba(139, 92, 246, 0);
+            }
+        }
+
+        @keyframes gradient-flow {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Responsividade */
+        @media (max-width: 900px) {
+            .slide-layout-split {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .slide-visual {
+                display: none;
+            }
+
+            .slide {
+                padding: 20px 30px;
+            }
+
+            .slide h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="presentation-container">
+
+        <!-- Barra de Cabeçalho Superior -->
+        <div class="window-header">
+            <div class="window-dots">
+                <div class="dot red"></div>
+                <div class="dot yellow"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="window-title">Apresentação Técnica - TP4 Biblioteca</div>
+            <div class="window-logo">CEFET-MG</div>
+        </div>
+
+        <!-- Conteúdo dos Slides -->
+        <div class="slides-wrapper">
+
+            <!-- SLIDE 1: CAPA -->
+            <div class="slide slide-cover active">
+                <div class="slide-tag">Programação em Python</div>
+                <h1>SISTEMA DE BIBLIOTECA</h1>
+                <h3>Data App com Streamlit, Integrações de APIs & Análises</h3>
+                <p>Uma arquitetura modular robusta que une lógica de negócio persistente em Python a uma interface
+                    interativa rica, alimentada com análises gráficas e enriquecimento de dados dinâmico.</p>
+                <button class="start-btn" onclick="nextSlide()">Iniciar Apresentação</button>
+            </div>
+
+            <!-- SLIDE 2: OBJETIVO DO TRABALHO -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Contexto e Metas</div>
+                        <h2>Objetivo do <span>Trabalho Prático 4</span></h2>
+                        <p class="slide-desc">Evoluir o sistema orientado a objetos desenvolvido nos trabalhos
+                            anteriores para a Web, criando um Data App interativo e persistente.</p>
+
+                        <div class="req-grid">
+                            <div class="req-card">
+                                <h4>📁 Manipulação de Arquivos</h4>
+                                <p>Carregar dados de livros a partir de planilhas CSV externas e exportar relatórios.
+                                </p>
+                            </div>
+                            <div class="req-card">
+                                <h4>📊 Análise Visual de Dados</h4>
+                                <p>Disponibilizar métricas rápidas calculadas e gráficos integrados sobre o acervo.</p>
+                            </div>
+                            <div class="req-card">
+                                <h4>🧩 Streamlit & Interação</h4>
+                                <p>Criar uma aplicação com filtros, cadastros, empréstimos e downloads amigáveis.</p>
+                            </div>
+                            <div class="req-card">
+                                <h4>💡 Funcionalidade Livre</h4>
+                                <p>Implementar ao menos uma inovação livre conectada ao ecossistema da biblioteca.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-visual suwa-mockup-stack">
+
+                        <!-- Mockup 1: app.py — Dashboard Streamlit -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">app.py — Streamlit Data App (1186 linhas)</div>
+                            </div>
+                            <div class="browser-content" style="padding: 6px; display: flex; flex-direction: column; gap: 4px; text-align: left; background: #0e1117; height: 100px; font-family: sans-serif; border-radius: 0 0 12px 12px; overflow: hidden;">
+                                <!-- Header banner -->
+                                <div style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 4px; padding: 4px 8px;">
+                                    <span style="font-size: 0.55rem; font-weight: 800; color: #fff;">📚 Sistema de Biblioteca CEFET</span>
+                                    <span style="font-size: 0.4rem; color: rgba(255,255,255,0.7); margin-left: 4px;">Gestão completa do acervo</span>
+                                </div>
+                                <!-- Metrics row -->
+                                <div style="display: flex; gap: 4px;">
+                                    <div style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 3px; padding: 3px 5px; text-align: center;">
+                                        <div style="font-size: 0.65rem; font-weight: 700; color: #3b82f6;">47</div>
+                                        <div style="font-size: 0.35rem; color: #9ca3af; text-transform: uppercase; letter-spacing: 0.05em;">ACERVO</div>
+                                    </div>
+                                    <div style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 3px; padding: 3px 5px; text-align: center;">
+                                        <div style="font-size: 0.65rem; font-weight: 700; color: #10b981;">31</div>
+                                        <div style="font-size: 0.35rem; color: #9ca3af; text-transform: uppercase;">LIVRES</div>
+                                    </div>
+                                    <div style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 3px; padding: 3px 5px; text-align: center;">
+                                        <div style="font-size: 0.65rem; font-weight: 700; color: #f59e0b;">5</div>
+                                        <div style="font-size: 0.35rem; color: #9ca3af; text-transform: uppercase;">EMPREST.</div>
+                                    </div>
+                                    <div style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 3px; padding: 3px 5px; text-align: center;">
+                                        <div style="font-size: 0.65rem; font-weight: 700; color: #8b5cf6;">11</div>
+                                        <div style="font-size: 0.35rem; color: #9ca3af; text-transform: uppercase;">DIGITAL</div>
+                                    </div>
+                                </div>
+                                <!-- Tabs -->
+                                <div style="display: flex; gap: 2px; border-bottom: 1px solid rgba(255,255,255,0.06); padding-bottom: 2px;">
+                                    <span style="font-size: 0.4rem; color: #fff; background: rgba(59,130,246,0.2); padding: 2px 6px; border-radius: 3px 3px 0 0; border-bottom: 2px solid #3b82f6;">📚 Acervo</span>
+                                    <span style="font-size: 0.4rem; color: #6b7280; padding: 2px 6px;">👥 Empréstimos</span>
+                                    <span style="font-size: 0.4rem; color: #6b7280; padding: 2px 6px;">🛠️ Cadastros</span>
+                                    <span style="font-size: 0.4rem; color: #6b7280; padding: 2px 6px;">⭐ Avaliações</span>
+                                </div>
+                                <!-- Mini table -->
+                                <div style="flex: 1; display: flex; flex-direction: column; gap: 1px; overflow: hidden;">
+                                    <div style="display: flex; gap: 4px; padding: 2px 4px; background: rgba(28,29,37,0.8); border-radius: 3px 3px 0 0;">
+                                        <span style="font-size: 0.35rem; color: #94a3b8; font-weight: 600; width: 18%; text-transform: uppercase;">Código</span>
+                                        <span style="font-size: 0.35rem; color: #94a3b8; font-weight: 600; width: 35%; text-transform: uppercase;">Título</span>
+                                        <span style="font-size: 0.35rem; color: #94a3b8; font-weight: 600; width: 27%; text-transform: uppercase;">Autor</span>
+                                        <span style="font-size: 0.35rem; color: #94a3b8; font-weight: 600; width: 20%; text-transform: uppercase;">Status</span>
+                                    </div>
+                                    <div style="display: flex; gap: 4px; padding: 2px 4px; background: rgba(38,39,48,0.6);">
+                                        <span style="font-size: 0.38rem; color: #64748b; font-family: monospace; width: 18%;">L001</span>
+                                        <span style="font-size: 0.38rem; color: #60a5fa; width: 35%;">Dom Casmurro</span>
+                                        <span style="font-size: 0.38rem; color: #e2e8f0; width: 27%;">Machado de Assis</span>
+                                        <span style="font-size: 0.38rem; color: #10b981; width: 20%;">● Disponível</span>
+                                    </div>
+                                    <div style="display: flex; gap: 4px; padding: 2px 4px; background: rgba(38,39,48,0.3);">
+                                        <span style="font-size: 0.38rem; color: #64748b; font-family: monospace; width: 18%;">S42</span>
+                                        <span style="font-size: 0.38rem; color: #60a5fa; width: 35%;">Superman (2023-)</span>
+                                        <span style="font-size: 0.38rem; color: #e2e8f0; width: 27%;">DC Comics</span>
+                                        <span style="font-size: 0.38rem; color: #3b82f6; width: 20%;">● Digital</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mockup 2: biblioteca.py — Classes OOP -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px; background: #1e1e2e;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">biblioteca.py — OOP Backend (487 linhas)</div>
+                            </div>
+                            <div class="browser-content" style="padding: 6px; display: flex; gap: 6px; text-align: left; background: #1e1e2e; height: 100px; font-family: 'Fira Code', monospace; border-radius: 0 0 12px 12px; overflow: hidden;">
+                                <!-- Left: Classes -->
+                                <div style="flex: 1; display: flex; flex-direction: column; gap: 3px;">
+                                    <span style="font-size: 0.42rem; color: #6b7280; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1px;">📦 Classes</span>
+                                    <div style="background: rgba(59,130,246,0.1); border-left: 2px solid #3b82f6; padding: 2px 4px; border-radius: 0 3px 3px 0;">
+                                        <span style="font-size: 0.42rem; color: #c084fc;">class</span>
+                                        <span style="font-size: 0.42rem; color: #fbbf24; font-weight: 600;"> Livro</span>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">codigo, titulo, autor, ano, genero</div>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">marcar_emprestado() / lido()</div>
+                                    </div>
+                                    <div style="background: rgba(16,185,129,0.1); border-left: 2px solid #10b981; padding: 2px 4px; border-radius: 0 3px 3px 0;">
+                                        <span style="font-size: 0.42rem; color: #c084fc;">class</span>
+                                        <span style="font-size: 0.42rem; color: #fbbf24; font-weight: 600;"> Usuario</span>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">matricula, nome, email, ativo</div>
+                                    </div>
+                                    <div style="background: rgba(245,158,11,0.1); border-left: 2px solid #f59e0b; padding: 2px 4px; border-radius: 0 3px 3px 0;">
+                                        <span style="font-size: 0.42rem; color: #c084fc;">class</span>
+                                        <span style="font-size: 0.42rem; color: #fbbf24; font-weight: 600;"> Emprestimo</span>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">livro, usuario, data, ativo</div>
+                                    </div>
+                                    <div style="background: rgba(139,92,246,0.1); border-left: 2px solid #8b5cf6; padding: 2px 4px; border-radius: 0 3px 3px 0;">
+                                        <span style="font-size: 0.42rem; color: #c084fc;">class</span>
+                                        <span style="font-size: 0.42rem; color: #fbbf24; font-weight: 600;"> Biblioteca</span>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">adicionar, emprestar, devolver</div>
+                                        <div style="font-size: 0.35rem; color: #6b7280; padding-left: 8px;">carregar_csv(), buscar()</div>
+                                    </div>
+                                </div>
+                                <!-- Right: Exceptions -->
+                                <div style="flex: 0.8; display: flex; flex-direction: column; gap: 2px; border-left: 1px solid rgba(255,255,255,0.05); padding-left: 6px;">
+                                    <span style="font-size: 0.42rem; color: #6b7280; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1px;">⚠️ Exceções (9)</span>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">CodigoDuplicadoError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">MatriculaDuplicadaError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">LivroNaoEncontradoError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">UsuarioNaoEncontradoError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">LivroIndisponivelError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">UsuarioInativoError</div>
+                                    <div style="font-size: 0.38rem; color: #ef4444; padding: 1px 0;">EmprestimoNaoEncontrado</div>
+                                    <div style="font-size: 0.38rem; color: #f59e0b; padding: 1px 0;">ArquivoAusente/Vazio/Invalido</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mockup 3: test_biblioteca.py — Testes Unitários -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px; background: #1a1a2e;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">test_biblioteca.py — unittest (281 linhas • 17 testes)</div>
+                            </div>
+                            <div class="browser-content" style="padding: 6px 8px; display: flex; flex-direction: column; gap: 2px; text-align: left; background: #0d1117; height: 120px; font-family: 'Fira Code', monospace; border-radius: 0 0 12px 12px; overflow: hidden;">
+                                <!-- Terminal header -->
+                                <div style="font-size: 0.42rem; color: #8b949e; padding-bottom: 2px; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                    <span style="color: #58a6ff;">$</span> python -m pytest test_biblioteca.py -v
+                                </div>
+                                <!-- Test results -->
+                                <div style="display: flex; flex-direction: column; gap: 1px; flex: 1; overflow: hidden;">
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_adicionar_livro_com_sucesso</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_cadastrar_usuario_com_sucesso</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_emprestimo_valido</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_devolucao_valida</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_adicionar_livro_duplicado_lanca_excecao</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_emprestar_livro_inexistente_lanca_excecao</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_emprestar_usuario_inativo_lanca_excecao</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_carregar_livros_csv_com_sucesso</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_carregar_livros_csv_arquivo_ausente</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_carregar_livros_csv_campo_vazio</div>
+                                    <div style="font-size: 0.38rem; color: #3fb950;">✓ test_devolucao_livro_inicialmente_indisponivel</div>
+                                </div>
+                                <!-- Summary bar -->
+                                <div style="display: flex; justify-content: space-between; align-items: center; padding: 3px 4px; background: rgba(63,185,80,0.1); border: 1px solid rgba(63,185,80,0.2); border-radius: 3px; margin-top: 2px;">
+                                    <span style="font-size: 0.42rem; color: #3fb950; font-weight: 700;">17 passed</span>
+                                    <span style="font-size: 0.38rem; color: #8b949e;">0 failed • 0 errors</span>
+                                    <span style="font-size: 0.38rem; color: #3fb950;">✅ ALL PASSED in 0.42s</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3: ARQUITETURA DO SISTEMA -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Decisões de Engenharia</div>
+                        <h2>Arquitetura do <span>Software</span></h2>
+                        <h3 class="slide-sub">Separação de Responsabilidades e Estado persistente</h3>
+                        <p class="slide-desc">O projeto divide-se claramente em módulos para manter as boas práticas de
+                            reuso de código e encapsulamento.</p>
+
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">⚙️</div>
+                                <div class="feature-text">
+                                    <strong>Módulo Lógico (biblioteca.py)</strong>
+                                    <span>Encapsula as classes principais (`Biblioteca`, `Livro`, `Usuario`,
+                                        `Emprestimo`) e regras de negócio essenciais.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">🖥️</div>
+                                <div class="feature-text">
+                                    <strong>Módulo Visual (app.py)</strong>
+                                    <span>Desenvolve os componentes de tela, filtros interativos e consome APIs externas
+                                        usando o framework Streamlit.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">💾</div>
+                                <div class="feature-text">
+                                    <strong>Gerenciamento de Estado (State)</strong>
+                                    <span>Utiliza `st.session_state` para garantir que o objeto principal da Biblioteca
+                                        permaneça persistente em memória entre os refreshes e interações da
+                                        página.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="font-size: 0.72rem; margin-bottom: 12px; width: 100%;">
+                            <span class="code-comment"># --- Como a Biblioteca é inicializada no app.py ---</span>
+                            <span class="code-keyword">if</span> <span class="code-string">'biblioteca'</span> <span
+                                class="code-keyword">not in</span> st.session_state:
+                            st.session_state.biblioteca = <span class="code-class">Biblioteca</span>()
+                            st.session_state.biblioteca.inicializar_teste()
+                        </div>
+                        <!-- Mockup de Diagrama Arquitetural interativo -->
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">Visualizador de Arquitetura de Software</div>
+                            </div>
+                            <div class="browser-content"
+                                style="padding: 15px; display: flex; flex-direction: column; gap: 12px; width: 100%; text-align: center;">
+                                <div style="font-size: 0.75rem; color: var(--text-muted); font-weight: 500;">Passe o
+                                    mouse sobre os blocos para inspecionar os acoplamentos do projeto</div>
+                                <div
+                                    style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 10px;">
+                                    <!-- Bloco 1: app.py (View) -->
+                                    <div style="background: rgba(59, 130, 246, 0.15); border: 1px solid rgba(59, 130, 246, 0.4); border-radius: 8px; padding: 12px; width: 28%; cursor: pointer; transition: all 0.3s ease;"
+                                        onmouseover="showArchDetails('view')" onmouseout="clearArchDetails()">
+                                        <div style="font-size: 0.95rem; margin-bottom: 4px;">🖥️</div>
+                                        <strong style="font-size: 0.75rem; color: #fff; display: block;">app.py</strong>
+                                        <span style="font-size: 0.55rem; color: var(--accent-blue);">Apresentação</span>
+                                    </div>
+                                    <div style="color: #475569; font-size: 1.2rem;">➔</div>
+                                    <!-- Bloco 2: biblioteca.py (Model/Business Logic) -->
+                                    <div style="background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.4); border-radius: 8px; padding: 12px; width: 34%; cursor: pointer; transition: all 0.3s ease;"
+                                        onmouseover="showArchDetails('model')" onmouseout="clearArchDetails()">
+                                        <div style="font-size: 0.95rem; margin-bottom: 4px;">⚙️</div>
+                                        <strong
+                                            style="font-size: 0.75rem; color: #fff; display: block;">biblioteca.py</strong>
+                                        <span style="font-size: 0.55rem; color: var(--accent-purple);">Regras &
+                                            Exceptions</span>
+                                    </div>
+                                    <div style="color: #475569; font-size: 1.2rem;">➔</div>
+                                    <!-- Bloco 3: st.session_state (State/DB) -->
+                                    <div style="background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); border-radius: 8px; padding: 12px; width: 28%; cursor: pointer; transition: all 0.3s ease;"
+                                        onmouseover="showArchDetails('state')" onmouseout="clearArchDetails()">
+                                        <div style="font-size: 0.95rem; margin-bottom: 4px;">💾</div>
+                                        <strong style="font-size: 0.75rem; color: #fff; display: block;">Session
+                                            State</strong>
+                                        <span style="font-size: 0.55rem; color: #10b981;">Persistência</span>
+                                    </div>
+                                </div>
+                                <div style="background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px; min-height: 52px; font-size: 0.7rem; color: var(--text-muted); text-align: left; transition: all 0.2s;"
+                                    id="arch-details-text">
+                                    💡 Passe o mouse em um dos blocos acima para ver detalhes de dependência lógica do
+                                    projeto.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 4: MANIPULAÇÃO DE CSV & ERROS -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Validação e Robustez</div>
+                        <h2>Manipulação de Arquivos e <span>Exceções</span></h2>
+                        <h3 class="slide-sub">Carregamento blindado contra erros comuns</h3>
+                        <p class="slide-desc">O projeto foi estruturado para suportar o upload dinâmico de planilhas CSV
+                            e garantir que dados inconsistentes não travem a execução do sistema.</p>
+
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">✔</div>
+                                <div class="feature-text">
+                                    <strong>Validação de Colunas Mandatórias</strong>
+                                    <span>Verifica se as colunas essenciais como código, título e autor existem no
+                                        arquivo antes de processar qualquer linha.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">⚠️</div>
+                                <div class="feature-text">
+                                    <strong>Exceptions Personalizadas</strong>
+                                    <span>Uso de exceções do sistema anterior e novas exceptions (`ArquivoAusenteError`,
+                                        `ArquivoVazioError`, `ArquivoInvalidoError`) para dar feedback explícito na
+                                        tela.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="font-size: 0.72rem; margin-bottom: 12px; width: 100%;">
+                            <span class="code-comment"># --- Captura de Exceções de Carga de Arquivos ---</span>
+                            <span class="code-keyword">except</span> <span class="code-class">ArquivoVazioError</span>:
+                            st.sidebar.error(<span class="code-string">"O arquivo CSV carregado está totalmente
+                                vazio!"</span>)
+                            <span class="code-keyword">except</span> <span
+                                class="code-class">ArquivoInvalidoError</span> <span class="code-keyword">as</span> e:
+                            st.sidebar.error(<span class="code-string">f"Colunas ausentes no CSV: {e}"</span>)
+                        </div>
+                        <!-- Mockup de Simulador de Exceções do CSV -->
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">http://localhost:8501/simulador-erros</div>
+                            </div>
+                            <div class="browser-content"
+                                style="padding: 15px; display: flex; flex-direction: column; gap: 12px; width: 100%; text-align: left;">
+                                <span style="font-size: 0.7rem; color: var(--text-muted); font-weight: 500;">Escolha um
+                                    cenário de erro do CSV para testar o tratamento de exceção no app:</span>
+                                <div style="display: flex; gap: 8px;">
+                                    <button
+                                        style="flex-grow: 1; padding: 6px 10px; font-size: 0.65rem; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 4px; color: #f87171; cursor: pointer;"
+                                        onclick="triggerS4Error('empty')">Arquivo Vazio</button>
+                                    <button
+                                        style="flex-grow: 1; padding: 6px 10px; font-size: 0.65rem; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 4px; color: #f87171; cursor: pointer;"
+                                        onclick="triggerS4Error('invalid')">Colunas Inválidas</button>
+                                    <button
+                                        style="flex-grow: 1; padding: 6px 10px; font-size: 0.65rem; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 4px; color: #34d399; cursor: pointer;"
+                                        onclick="triggerS4Error('ok')">CSV Correto</button>
+                                </div>
+                                <div style="display: none; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; padding: 10px 12px; font-size: 0.72rem; color: #f87171;"
+                                    id="s4-alert-error-empty">
+                                    ❌ st.sidebar.error("ArquivoVazioError: O arquivo CSV carregado está totalmente
+                                    vazio!")
+                                </div>
+                                <div style="display: none; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; padding: 10px 12px; font-size: 0.72rem; color: #f87171;"
+                                    id="s4-alert-error-invalid">
+                                    ❌ st.sidebar.error("ArquivoInvalidoError: Colunas ausentes no CSV: 'titulo'")
+                                </div>
+                                <div style="display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px; padding: 10px 12px; font-size: 0.72rem; color: #34d399;"
+                                    id="s4-alert-ok">
+                                    ✅ st.sidebar.success("Sucesso! 31 livros importados.")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 5: VISUALIZAÇÃO DE DADOS (MÉTRICAS E GRÁFICOS) -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Requisito 3.2</div>
+                        <h2>Visualização de Dados & <span>Dashboard</span></h2>
+                        <h3 class="slide-sub">Filtros interativos e reatividade automática</h3>
+                        <p class="slide-desc">Requisitos mínimos de 3 métricas e 2 gráficos foram ampliados para criar
+                            uma central de estatísticas completa.</p>
+
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">1</div>
+                                <div class="feature-text">
+                                    <strong>5 Métricas de Negócio em Tempo Real</strong>
+                                    <span>Total no acervo, livros físicos livres, emprestados, digitais importados e
+                                        taxa de disponibilidade física.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">2</div>
+                                <div class="feature-text">
+                                    <strong>Reatividade em Cascata via Pandas</strong>
+                                    <span>Ao aplicar filtros de texto ou ano, o dataframe do Pandas é recalculado na
+                                        hora, atualizando as métricas e os gráficos instantaneamente.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">3</div>
+                                <div class="feature-text">
+                                    <strong>Visualização Customizada</strong>
+                                    <span>Gêneros e publicações podem ser analisados em gráficos de barras, linhas ou
+                                        área, conforme a escolha do usuário no menu do app.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="margin-bottom: 12px; font-size: 0.72rem; width: 100%;">
+                            <span class="code-comment"># --- Geração de Métricas e Gráficos Condicionais ---</span>
+                            st.metric(<span class="code-string">"Total no Acervo"</span>, len(df_filtrado))
+                            tipo_grafico = st.selectbox(<span class="code-string">"Tipo"</span>, [<span
+                                class="code-string">"Barras"</span>, <span class="code-string">"Linhas"</span>, <span
+                                class="code-string">"Área"</span>])
+
+                            <span class="code-keyword">if</span> tipo_grafico == <span
+                                class="code-string">"Barras"</span>:
+                            st.bar_chart(df_filtrado[<span class="code-string">'genero'</span>].value_counts())
+                            <span class="code-keyword">elif</span> tipo_grafico == <span
+                                class="code-string">"Linhas"</span>:
+                            st.line_chart(df_filtrado[<span class="code-string">'genero'</span>].value_counts())
+                        </div>
+                        <div class="browser-mockup">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">http://localhost:8501/estatisticas</div>
+                            </div>
+                            <div class="browser-content">
+                                <div class="dashboard-mockup">
+                                    <div class="metrics-mockup">
+                                        <div class="metric-card-mock">
+                                            <span class="metric-lbl-mock">Total no Acervo</span>
+                                            <span class="metric-val-mock">31</span>
+                                            <span class="metric-help-mock">📚 Físicos + Digitais</span>
+                                        </div>
+                                        <div class="metric-card-mock">
+                                            <span class="metric-lbl-mock">Físicos Livres</span>
+                                            <span class="metric-val-mock">18</span>
+                                            <span class="metric-delta-mock normal">▲ 18 livres</span>
+                                        </div>
+                                        <div class="metric-card-mock">
+                                            <span class="metric-lbl-mock">Disp. Física</span>
+                                            <span class="metric-val-mock">60.0%</span>
+                                            <span class="metric-help-mock">📈 Taxa de ocupação</span>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; width: 100%; margin-top: 10px;">
+                                        <!-- Gráfico 1: Gênero -->
+                                        <div class="chart-container-mock">
+                                            <div class="chart-header-mock">
+                                                <span class="chart-title-mock">Distribuição de Livros por Gêneros</span>
+                                                <select class="chart-select-mock" id="chart-selector"
+                                                    onchange="updateChartType(this.value)">
+                                                    <option value="bar">Gráfico de Barras</option>
+                                                    <option value="line">Gráfico de Linhas</option>
+                                                    <option value="area">Gráfico de Área</option>
+                                                </select>
+                                            </div>
+                                            <div class="bar-chart-mock chart-type-bar"
+                                                style="height: 220px; padding-bottom: 25px;">
+                                                <div class="chart-y-axis-mock" style="height: 100%;">
+                                                    <span>120</span>
+                                                    <span>100</span>
+                                                    <span>80</span>
+                                                    <span>60</span>
+                                                    <span>40</span>
+                                                    <span>20</span>
+                                                    <span>0</span>
+                                                </div>
+                                                <div class="chart-bars-mock" style="padding-left: 5px;">
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div><span
+                                                            class="bar-label">Arte</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div><span
+                                                            class="bar-label">Ficção</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 3.5%;">
+                                                        <div class="bar-fill" style="--height: 83.3%;"></div><span
+                                                            class="bar-label">Viagem</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Gráfico 2: Linha do Tempo -->
+                                        <div class="chart-container-mock">
+                                            <div class="chart-header-mock">
+                                                <span class="chart-title-mock">Linha do Tempo de Publicação</span>
+                                                <span style="font-size: 0.65rem; color: var(--text-muted);">Anos
+                                                    Individuais</span>
+                                            </div>
+                                            <div class="bar-chart-mock chart-type-bar"
+                                                style="height: 220px; padding-bottom: 25px;">
+                                                <div class="chart-y-axis-mock" style="height: 100%;">
+                                                    <span>55</span>
+                                                    <span>45</span>
+                                                    <span>35</span>
+                                                    <span>25</span>
+                                                    <span>15</span>
+                                                    <span>5</span>
+                                                    <span>0</span>
+                                                </div>
+                                                <div class="chart-bars-mock" style="padding-left: 5px;">
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div><span
+                                                            class="bar-label">1200</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 4%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 18%;"></div><span
+                                                            class="bar-label">1597</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 45%;"></div><span
+                                                            class="bar-label">1800</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 2%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 4%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 52%;"></div><span
+                                                            class="bar-label">1895</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 4%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 6%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 8%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 10%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 15%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 22%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 28%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 38%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 45%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 65%;"></div><span
+                                                            class="bar-label">1984</span>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 55%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 75%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 82%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 68%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 90%;"></div>
+                                                    </div>
+                                                    <div class="chart-bar-mock" style="width: 2.2%;">
+                                                        <div class="bar-fill" style="--height: 96%;"></div><span
+                                                            class="bar-label">2024</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE SUWAYOMI: O MANGA SERVER DO APP -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Integração de Sistema (Digital)</div>
+                        <h2>O Servidor de Leitura <span>Suwayomi</span></h2>
+                        <h3 class="slide-sub">Gerenciador auto-hospedado de acervos digitais</h3>
+                        <p class="slide-desc">O Suwayomi é uma ferramenta open-source que atua como um servidor local de mangás e quadrinhos (baseado no ecossistema Tachiyomi). Ele centraliza as fontes digitais e expõe dados através de uma API moderna.</p>
+                        
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">🔌</div>
+                                <div class="feature-text">
+                                    <strong>Centralização de Catálogos</strong>
+                                    <span>Conecta com centenas de extensões de leitura online, unificando capítulos, capas e descrições em um único servidor local.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">🕸️</div>
+                                <div class="feature-text">
+                                    <strong>API GraphQL Robusta</strong>
+                                    <span>Disponibiliza um endpoint local (`/graphql`) que permite recuperar dados complexos e aninhados em uma única chamada.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">🔄</div>
+                                <div class="feature-text">
+                                    <strong>Sincronização com Trackers</strong>
+                                    <span>Permite integrar contas externas (como MyAnimeList e Anilist) para sincronizar status de leitura e avaliações globais.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual suwa-mockup-stack">
+                        <!-- Mockup 1: Home da Biblioteca (Suwayomi Home) -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">http://localhost:4567/ (Biblioteca Suwayomi)</div>
+                            </div>
+                            <div class="browser-content" style="padding: 0; display: flex; text-align: left; background: #1a1512; height: 100px; font-family: sans-serif; border-radius: 0 0 12px 12px; overflow: hidden; position: relative;">
+                                <!-- Sidebar -->
+                                <div style="width: 30px; background: #130f0d; border-right: 1px solid rgba(255,255,255,0.03); display: flex; flex-direction: column; gap: 8px; align-items: center; padding-top: 6px; flex-shrink: 0;">
+                                    <span style="font-size: 0.7rem; color: #ff9f1c; font-weight: bold;">🐙</span>
+                                    <span style="font-size: 0.6rem; color: #ff9f1c;">📚</span>
+                                    <span style="font-size: 0.6rem; color: #8c827d;">🔄</span>
+                                    <span style="font-size: 0.6rem; color: #8c827d;">⚙️</span>
+                                </div>
+                                <!-- Main Library view -->
+                                <div style="flex-grow: 1; padding: 6px; display: flex; flex-direction: column; gap: 4px; min-width: 0; overflow-x: auto;">
+                                    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 2px;">
+                                        <span style="font-size: 0.55rem; color: #fff; font-weight: bold;">Biblioteca (Acervo Digital)</span>
+                                        <span style="font-size: 0.45rem; color: #8c827d;">🔍  Item  🔃  ▢</span>
+                                    </div>
+                                    <!-- Horizontal cards list -->
+                                    <div style="display: flex; gap: 6px; overflow-x: auto; flex-grow: 1; padding-bottom: 4px; align-items: center;">
+                                        <!-- Card 1: Superman -->
+                                        <div style="background: rgba(255,255,255,0.02); border: 1px solid #ff9f1c; border-radius: 3px; padding: 3px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 45px; cursor: pointer;" onclick="openSuwaReader(0)">
+                                            <img src="assets/0.jpg" style="width: 100%; height: 40px; object-fit: cover; border-radius: 2px;">
+                                            <span style="font-size: 0.38rem; color: #fff; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; text-align: center; margin-top: 2px; font-weight: 600;">Superman</span>
+                                        </div>
+                                        <!-- Card 2: Chainsaw Man -->
+                                        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 3px; padding: 3px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 45px;">
+                                            <img src="assets/capa_chainsaw.jpg" style="width: 100%; height: 40px; object-fit: cover; border-radius: 2px;">
+                                            <span style="font-size: 0.38rem; color: #a39e9c; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; text-align: center; margin-top: 2px;">Chainsaw</span>
+                                        </div>
+                                        <!-- Card 3: Naruto -->
+                                        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 3px; padding: 3px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 45px;">
+                                            <div style="width: 100%; height: 40px; background: #c2410c; display: flex; align-items: center; justify-content: center; border-radius: 2px; font-size: 0.4rem; font-weight: bold; color: #fff;">NARUTO</div>
+                                            <span style="font-size: 0.38rem; color: #a39e9c; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; text-align: center; margin-top: 2px;">Naruto</span>
+                                        </div>
+                                        <!-- Card 4: 1984 -->
+                                        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 3px; padding: 3px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 45px;">
+                                            <img src="assets/capa_1984.jpg" style="width: 100%; height: 40px; object-fit: cover; border-radius: 2px;">
+                                            <span style="font-size: 0.38rem; color: #a39e9c; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; text-align: center; margin-top: 2px;">1984</span>
+                                        </div>
+                                        <!-- Card 5: Dom Casmurro -->
+                                        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 3px; padding: 3px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0; width: 45px;">
+                                            <img src="assets/capa_casmurro.jpg" style="width: 100%; height: 40px; object-fit: cover; border-radius: 2px;">
+                                            <span style="font-size: 0.38rem; color: #a39e9c; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; width: 100%; text-align: center; margin-top: 2px;">Casmurro</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mockup 2: Detalhes do Mangá (Suwayomi Info) -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">http://localhost:4567/manga/superman</div>
+                            </div>
+                            <div class="browser-content" style="padding: 6px; display: flex; text-align: left; background: #1a1512; height: 100px; font-family: sans-serif; border-radius: 0 0 12px 12px; overflow: hidden;">
+                                <!-- Left side details -->
+                                <div style="width: 45%; display: flex; gap: 6px; border-right: 1px solid rgba(255,255,255,0.05); padding-right: 6px;">
+                                    <img src="assets/0.jpg" style="width: 40px; height: 60px; object-fit: cover; border-radius: 3px;" alt="Capa">
+                                    <div style="display: flex; flex-direction: column; gap: 2px; font-size: 0.48rem; line-height: 1.1;">
+                                        <strong style="font-size: 0.55rem; color: #fff;">Superman (2023-)</strong>
+                                        <span style="color: #a39e9c;">Autor: <strong style="color: #fff;">DC</strong></span>
+                                        <span style="color: #a39e9c;">Status: <strong style="color: #4ade80;">Concluído</strong></span>
+                                        <span style="color: #a39e9c;">Fonte: <strong style="color: #ff9f1c;">GlobalComix</strong></span>
+                                        <button style="margin-top: 3px; padding: 2px 4px; background: #2e2621; border: 1px solid #ff9f1c; border-radius: 3px; color: #ff9f1c; font-size: 0.45rem; font-weight: bold; cursor: pointer; text-align: center;" onclick="openSuwaReader(0)">📖 Ler Capa</button>
+                                    </div>
+                                </div>
+                                <!-- Right side chapters -->
+                                <div style="flex-grow: 1; display: flex; flex-direction: column; gap: 3px; padding-left: 8px; overflow-y: auto;">
+                                    <strong style="font-size: 0.52rem; color: #fff; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 2px;">49 capítulos</strong>
+                                    <div style="display: flex; flex-direction: column; gap: 2px;">
+                                        <!-- Ch Ch. 0 -->
+                                        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.45rem; color: #bcaea6; padding: 2px 4px; background: rgba(255,255,255,0.02); border-radius: 2px;">
+                                            <span>Ch. 0 - Superman Cover</span>
+                                            <button style="padding: 1px 4px; background: #ff9f1c; border: none; border-radius: 2px; color: #130f0d; font-size: 0.42rem; font-weight: bold; cursor: pointer;" onclick="openSuwaReader(0)">Ler</button>
+                                        </div>
+                                        <!-- Ch Ch. 1 -->
+                                        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.45rem; color: #bcaea6; padding: 2px 4px; background: rgba(255,255,255,0.02); border-radius: 2px;">
+                                            <span>Ch. 1 - Superman Pág 1</span>
+                                            <button style="padding: 1px 4px; background: #ff9f1c; border: none; border-radius: 2px; color: #130f0d; font-size: 0.42rem; font-weight: bold; cursor: pointer;" onclick="openSuwaReader(1)">Ler</button>
+                                        </div>
+                                        <!-- Ch Ch. 2 -->
+                                        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.45rem; color: #bcaea6; padding: 2px 4px; background: rgba(255,255,255,0.02); border-radius: 2px;">
+                                            <span>Ch. 2 - Superman Pág 2</span>
+                                            <button style="padding: 1px 4px; background: #ff9f1c; border: none; border-radius: 2px; color: #130f0d; font-size: 0.42rem; font-weight: bold; cursor: pointer;" onclick="openSuwaReader(2)">Ler</button>
+                                        </div>
+                                        <!-- Ch Ch. 7 -->
+                                        <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.45rem; color: #bcaea6; padding: 2px 4px; background: rgba(255,255,255,0.02); border-radius: 2px;">
+                                            <span>Ch. 7 - Superman Pág 7</span>
+                                            <button style="padding: 1px 4px; background: #ff9f1c; border: none; border-radius: 2px; color: #130f0d; font-size: 0.42rem; font-weight: bold; cursor: pointer;" onclick="openSuwaReader(3)">Ler</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mockup 3: Leitor de HQs com Slider (Reader) -->
+                        <div class="browser-mockup suwa-hover-mockup" style="width: 100%;">
+                            <div class="browser-bar" style="height: 16px; padding: 0 6px;">
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-dot" style="width: 5px; height: 5px;"></div>
+                                <div class="browser-address" style="font-size: 0.5rem; line-height: 16px;">http://localhost:4567/reader/superman</div>
+                            </div>
+                            <div class="browser-content" style="padding: 0; display: flex; flex-direction: column; text-align: left; background: #000; height: 140px; font-family: sans-serif; border-radius: 0 0 12px 12px; overflow: hidden; position: relative;">
+                                <!-- Barra de controle -->
+                                <div style="height: 20px; background: #130f0d; display: flex; justify-content: space-between; align-items: center; padding: 0 8px; font-size: 0.48rem; border-bottom: 1px solid rgba(255,255,255,0.05); z-index: 10;">
+                                    <span id="suwa-page-title" style="color: #ff9f1c; font-weight: 500; font-size: 0.45rem;">Superman (2023-) - Capa (Pág 0)</span>
+                                    <div style="display: flex; gap: 4px; align-items: center;">
+                                        <button style="background: #2e2621; border: none; border-radius: 2px; color: #fff; padding: 1px 3px; font-size: 0.42rem; cursor: pointer; outline: none;" onclick="changeSuwaPage(-1)">◀ Ant</button>
+                                        <span id="suwa-page-indicator" style="color: #fff; padding: 0 1px; font-size: 0.42rem;">Pág 1/4</span>
+                                        <button style="background: #2e2621; border: none; border-radius: 2px; color: #fff; padding: 1px 3px; font-size: 0.42rem; cursor: pointer; outline: none;" onclick="changeSuwaPage(1)">Prox ▶</button>
+                                    </div>
+                                </div>
+                                <!-- Canvas de Leitura -->
+                                <div style="flex-grow: 1; display: flex; justify-content: center; align-items: center; background: #080808; overflow: hidden; padding: 4px; position: relative;">
+                                    <img id="suwa-reader-img" src="assets/0.jpg" style="height: 100%; max-height: 110px; object-fit: contain; cursor: pointer; box-shadow: 0 0 10px rgba(0,0,0,0.8);" onclick="changeSuwaPage(1)" alt="Comic Page">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 6: A ESTRELA DO APP - INTEGRACAO DE APIS -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Funcionalidade Livre (Destaque)</div>
+                        <h2>Integração de <span>APIs Híbridas</span></h2>
+                        <h3 class="slide-sub">Enriquecimento dinâmico de metadados</h3>
+                        <p class="slide-desc">A integração de dados une as fontes físicas e digitais através de dois
+                            caminhos e protocolos inteiramente diferentes:</p>
+
+                        <div class="req-grid">
+                            <div class="req-card">
+                                <h4>📚 OpenLibrary REST API (Físico)</h4>
+                                <p><strong>Client-Side & REST (JSON)</strong>: Executada diretamente no navegador do
+                                    cliente via AJAX (`fetch`) no hover do título. Consulta a API pública em tempo real
+                                    e exibe capas sem consumir banda do servidor.</p>
+                            </div>
+                            <div class="req-card">
+                                <h4>🌐 Suwayomi GraphQL API (Digital)</h4>
+                                <p><strong>Server-to-Server & GraphQL</strong>: Executada no backend Python
+                                    (`requests`). O servidor consulta a API GraphQL local do Suwayomi para carregar
+                                    status de leitura e capítulos e os cacheia em memória.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div
+                            style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px; width: 100%;">
+                            <!-- Bloco 1: REST -->
+                            <div class="code-block"
+                                style="font-size: 0.55rem; line-height: 1.3; margin: 0; padding: 10px; flex-grow: 1;">
+                                <span class="code-comment"># --- 1. REST (JS Client Fetch) ---</span>
+                                <span class="code-func">fetch</span>(<span
+                                    class="code-string">`https://openlibrary.org/search.json?q=${q}`</span>)
+                                .<span class="code-func">then</span>(res => res.json())
+                                .<span class="code-func">then</span>(data => {
+                                <span class="code-keyword">let</span> doc = data.docs[0];
+                                <span class="code-keyword">let</span> img = <span
+                                    class="code-string">`https://covers.openlibrary.org/...`</span>;
+                                <span class="code-func">exibirCapa</span>(img);
+                                });
+                            </div>
+                            <!-- Bloco 2: GraphQL -->
+                            <div class="code-block"
+                                style="font-size: 0.55rem; line-height: 1.3; margin: 0; padding: 10px; flex-grow: 1;">
+                                <span class="code-comment"># --- 2. GraphQL (Python Backend) ---</span>
+                                <span class="code-keyword">def</span> <span
+                                    class="code-func">buscar_manga</span>(manga_id):
+                                q = <span class="code-string">"""
+                                    query GetManga($id: ID!) {
+                                    manga(id: $id) {
+                                    title status
+                                    chapters { name }
+                                    }
+                                    }
+                                    """</span>
+                                res = requests.post(url, json={<span class="code-string">"query"</span>: q, <span
+                                    class="code-string">"variables"</span>: {<span class="code-string">"id"</span>:
+                                manga_id}})
+                                <span class="code-keyword">return</span> res.json()[<span
+                                    class="code-string">'data'</span>][<span class="code-string">'manga'</span>]
+                            </div>
+                        </div>
+                        <!-- Mockup de Simulador de Requisição de API -->
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">Console do Desenvolvedor - API Tester</div>
+                            </div>
+                            <div class="browser-content"
+                                style="padding: 15px; display: flex; flex-direction: column; gap: 8px; width: 100%; text-align: left;">
+                                <div
+                                    style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 5px;">
+                                    <button id="s6-tab-rest"
+                                        style="flex-grow: 1; padding: 6px; font-size: 0.65rem; background: rgba(59,130,246,0.1); border: none; border-bottom: 2px solid var(--accent-blue); color: #fff; cursor: pointer; font-weight: 600; outline: none;"
+                                        onclick="switchS6Tab('rest')">OpenLibrary REST (Client)</button>
+                                    <button id="s6-tab-graphql"
+                                        style="flex-grow: 1; padding: 6px; font-size: 0.65rem; background: transparent; border: none; border-bottom: 2px solid transparent; color: var(--text-muted); cursor: pointer; outline: none;"
+                                        onclick="switchS6Tab('graphql')">Suwayomi GraphQL (Server)</button>
+                                </div>
+                                <div style="display: flex; gap: 8px; align-items: center;">
+                                    <span style="font-size: 0.7rem; color: #fff; font-weight: 500;">Pesquisa:</span>
+                                    <select id="s6-query-select"
+                                        style="flex-grow: 1; background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 4px 8px; color: #fff; font-size: 0.7rem; cursor: pointer;">
+                                        <option value="dom_casmurro">Dom Casmurro (Machado de Assis)</option>
+                                        <option value="1984">1984 (George Orwell)</option>
+                                    </select>
+                                    <button
+                                        style="padding: 4px 10px; background: var(--primary-gradient); border: none; border-radius: 4px; color: #fff; font-weight: bold; font-size: 0.65rem; cursor: pointer;"
+                                        onclick="triggerS6ApiRequest()">Enviar</button>
+                                </div>
+                                <div style="background: rgba(15, 23, 42, 0.9); border: 1px solid rgba(255,255,255,0.05); border-radius: 6px; padding: 10px; font-family: 'Fira Code', monospace; font-size: 0.65rem; min-height: 120px; max-height: 120px; overflow-y: auto;"
+                                    id="s6-console-log">
+                                    <span style="color: #64748b;">// Console de rede ocioso. Clique em Enviar para
+                                        disparar request...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 7: TOOLTIPS INTERATIVAS & CACHE -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Interface e UX</div>
+                        <h2>Mecanismo de <span>Tooltips & Caching</span></h2>
+                        <h3 class="slide-sub">Estética premium e comportamento ultra rápido</h3>
+                        <p class="slide-desc">Construídas em HTML/CSS customizado injetado dentro do Streamlit para
+                            contornar limitações visuais do framework.</p>
+
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">⏳</div>
+                                <div class="feature-text">
+                                    <strong>Shimmering Placeholder (Esqueleto)</strong>
+                                    <span>Enquanto a requisição AJAX é processada na API, a tooltip exibe uma animação
+                                        pulsante de carregamento para otimizar o feedback ao usuário.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">💾</div>
+                                <div class="feature-text">
+                                    <strong>Memory Cache no Browser</strong>
+                                    <span>As capas e resenhas baixadas são mantidas em um objeto em memória no cliente.
+                                        Hovers repetidos no mesmo livro abrem de forma instantânea sem novas chamadas de
+                                        API.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="margin-bottom: 12px; font-size: 0.72rem; width: 100%;">
+                            <span class="code-comment"># --- Injeção de Componente HTML com Tooltips ---</span>
+                            html_tabela = b.gerar_tabela_html_com_tooltips(df_filtrado)
+                            <span class="code-comment"># Injeta HTML e JavaScript com hover das tooltips</span>
+                            components.html(html_tabela, height=<span class="code-keyword">450</span>, scrolling=<span
+                                class="code-keyword">True</span>)
+                        </div>
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">http://localhost:8501/tabela-interativa</div>
+                            </div>
+                            <div class="browser-content" style="position: relative; padding: 20px; overflow: visible;">
+                                <div class="table-mockup-container">
+                                    <!-- Barra de Filtros do Streamlit para preencher mais verticalmente -->
+                                    <div style="margin-bottom: 12px; display: flex; gap: 8px;">
+                                        <input type="text" placeholder="🔍 Filtrar por Título ou Autor..."
+                                            style="flex-grow: 1; background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 6px 12px; color: #fff; font-size: 0.7rem; outline: none;"
+                                            value="" readonly>
+                                        <select
+                                            style="background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 6px 12px; color: var(--text-muted); font-size: 0.7rem; outline: none; cursor: pointer;">
+                                            <option>Todos os Status</option>
+                                            <option>Disponível</option>
+                                            <option>Digital</option>
+                                            <option>Emprestado</option>
+                                        </select>
+                                    </div>
+                                    <table class="table-mock">
+                                        <thead>
+                                            <tr>
+                                                <th>Código</th>
+                                                <th>Título</th>
+                                                <th>Autor</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="font-family: monospace; color: #64748b; font-weight: 600;">
+                                                    L031</td>
+                                                <td>
+                                                    <span class="slide-tooltip-trigger">
+                                                        Dom Casmurro
+                                                        <span class="slide-tooltip">
+                                                            <img class="slide-tooltip-img"
+                                                                src="assets/capa_casmurro.jpg" alt="Capa Dom Casmurro">
+                                                            <span class="slide-tooltip-content">
+                                                                <strong class="tooltip-title">Dom Casmurro</strong>
+                                                                <span class="tooltip-rating-badge">⭐ 9.5 (Sua
+                                                                    Nota)</span>
+                                                                <span class="tooltip-review">"Obra-prima maravilhosa!
+                                                                    Narrativa brilhante."</span>
+                                                                <span class="tooltip-desc-text">Uma narrativa intrigante
+                                                                    e irônica sobre o ciúme e a dúvida que assombram
+                                                                    Bentinho em relação à fidelidade de Capitu.</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </td>
+                                                <td>Machado de Assis</td>
+                                                <td><span class="badge badge-green">Disponível</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: monospace; color: #64748b; font-weight: 600;">
+                                                    S005</td>
+                                                <td>
+                                                    <span class="slide-tooltip-trigger">
+                                                        Chainsaw Man
+                                                        <span class="slide-tooltip">
+                                                            <img class="slide-tooltip-img"
+                                                                src="assets/capa_chainsaw.jpg" alt="Capa Chainsaw Man">
+                                                            <span class="slide-tooltip-content">
+                                                                <strong class="tooltip-title">Chainsaw Man</strong>
+                                                                <span class="tooltip-rating-badge digital">⭐ 8.7 (MAL) |
+                                                                    👤 ⭐ 9.0</span>
+                                                                <span class="tooltip-review">"História inovadora com
+                                                                    excelente ritmo."</span>
+                                                                <span class="tooltip-desc-text">Denji é um jovem pobre
+                                                                    que trabalha como caçador de demônios com seu
+                                                                    demônio de estimação Pochita para pagar
+                                                                    dívidas.</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </td>
+                                                <td>Tatsuki Fujimoto</td>
+                                                <td><span class="badge badge-blue">Digital</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: monospace; color: #64748b; font-weight: 600;">
+                                                    L012</td>
+                                                <td>
+                                                    <span class="slide-tooltip-trigger">
+                                                        1984
+                                                        <span class="slide-tooltip">
+                                                            <img class="slide-tooltip-img" src="assets/capa_1984.jpg"
+                                                                alt="Capa 1984">
+                                                            <span class="slide-tooltip-content">
+                                                                <strong class="tooltip-title">1984</strong>
+                                                                <span class="tooltip-rating-badge empty">Físico</span>
+                                                                <span class="tooltip-desc-text">A clássica distopia
+                                                                    sobre vigilância governamental extrema, censura e
+                                                                    manipulação da verdade sob o regime do Grande
+                                                                    Irmão.</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </td>
+                                                <td>George Orwell</td>
+                                                <td><span class="badge badge-yellow">Emprestado</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: monospace; color: #64748b; font-weight: 600;">
+                                                    L003</td>
+                                                <td>
+                                                    <span class="slide-tooltip-trigger">
+                                                        O Pequeno Príncipe
+                                                        <span class="slide-tooltip">
+                                                            <img class="slide-tooltip-img"
+                                                                src="assets/capa_principe.jpg"
+                                                                alt="Capa O Pequeno Príncipe">
+                                                            <span class="slide-tooltip-content">
+                                                                <strong class="tooltip-title">O Pequeno
+                                                                    Príncipe</strong>
+                                                                <span class="tooltip-rating-badge">⭐ 9.8 (Sua
+                                                                    Nota)</span>
+                                                                <span class="tooltip-review">"Um livro essencial para
+                                                                    todas as idades."</span>
+                                                                <span class="tooltip-desc-text">A história de um piloto
+                                                                    que cai no deserto do Saara e encontra um jovem
+                                                                    príncipe vindo de um asteroide distante.</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </td>
+                                                <td>Antoine de Saint-Exupéry</td>
+                                                <td><span class="badge badge-green">Disponível</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="font-family: monospace; color: #64748b; font-weight: 600;">
+                                                    L009</td>
+                                                <td>
+                                                    <span class="slide-tooltip-trigger">
+                                                        Dom Quixote
+                                                        <span class="slide-tooltip">
+                                                            <img class="slide-tooltip-img" src="assets/capa_quixote.jpg"
+                                                                alt="Capa Dom Quixote">
+                                                            <span class="slide-tooltip-content">
+                                                                <strong class="tooltip-title">Dom Quixote</strong>
+                                                                <span class="tooltip-rating-badge">⭐ 9.2 (Sua
+                                                                    Nota)</span>
+                                                                <span class="tooltip-review">"Uma sátira brilhante dos
+                                                                    romances de cavalaria."</span>
+                                                                <span class="tooltip-desc-text">As aventuras do
+                                                                    cavaleiro errante Dom Quixote de la Mancha e de seu
+                                                                    fiel escudeiro Sancho Pança.</span>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </td>
+                                                <td>Miguel de Cervantes</td>
+                                                <td><span class="badge badge-green">Disponível</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div
+                                        style="font-size: 0.65rem; text-align: center; color: var(--text-muted); margin-top: 10px; font-style: italic; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 6px;">
+                                        💡 Passe o mouse (hover) nos títulos para ver as Tooltips em ação!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 8: FLUXO DE EMPRÉSTIMO & EXCEPTIONS -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Aba 2: Operações</div>
+                        <h2>Empréstimos & <span>Validações Lógicas</span></h2>
+                        <h3 class="slide-sub">Verificação rigorosa de regras de negócio</h3>
+                        <p class="slide-desc">O fluxo de empréstimo e devolução na interface reusa diretamente as
+                            restrições lógicas das classes centrais.</p>
+
+                        <div class="req-grid">
+                            <div class="req-card">
+                                <h4>🔒 Regras de Negócio</h4>
+                                <p>Um livro não pode ser emprestado se estiver indisponível ou for digital. Um usuário
+                                    inativo não pode realizar retiradas.</p>
+                            </div>
+                            <div class="req-card">
+                                <h4>⚙️ Tratamento Visual</h4>
+                                <p>Captura de exceptions de negócio (`LivroIndisponivelError`, `UsuarioInativoError`)
+                                    para exibir caixas de alerta coloridas de erro em vez de quebrar a página.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="font-size: 0.74rem; margin-bottom: 12px; width: 100%;">
+                            <span class="code-comment"># --- Execução do Empréstimo na Interface ---</span>
+                            <span class="code-keyword">try</span>:
+                            b.registrar_emprestimo(codigo_livro, matricula_usuario)
+                            st.success(<span class="code-string">"Empréstimo registrado com sucesso!"</span>)
+                            <span class="code-keyword">except</span> <span
+                                class="code-class">LivroIndisponivelError</span>:
+                            st.error(<span class="code-string">"Falha: O livro selecionado já está emprestado!"</span>)
+                            <span class="code-keyword">except</span> <span
+                                class="code-class">UsuarioInativoError</span>:
+                            st.error(<span class="code-string">"Falha: O usuário está inativo no sistema!"</span>)
+                        </div>
+                        <!-- Mockup do Formulário de Registro de Empréstimos -->
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">http://localhost:8501/registrar-emprestimo</div>
+                            </div>
+                            <div class="browser-content"
+                                style="padding: 15px; display: flex; flex-direction: column; gap: 12px; width: 100%; text-align: left;">
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <label style="font-size: 0.65rem; color: #fff; font-weight: 500;">Selecione o
+                                        Usuário:</label>
+                                    <select id="s8-user-select"
+                                        style="background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 4px 8px; color: #fff; font-size: 0.7rem; cursor: pointer;">
+                                        <option value="ativo">U001 - João da Silva (Ativo)</option>
+                                        <option value="inativo">U002 - Maria de Souza (Inativo)</option>
+                                    </select>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <label style="font-size: 0.65rem; color: #fff; font-weight: 500;">Selecione o
+                                        Livro:</label>
+                                    <select id="s8-book-select"
+                                        style="background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 4px 8px; color: #fff; font-size: 0.7rem; cursor: pointer;">
+                                        <option value="disponivel">L031 - Dom Casmurro (Disponível)</option>
+                                        <option value="emprestado">L012 - 1984 (Emprestado)</option>
+                                    </select>
+                                </div>
+                                <button
+                                    style="padding: 6px 12px; background: var(--primary-gradient); border: none; border-radius: 4px; color: #fff; font-weight: bold; font-size: 0.65rem; cursor: pointer; text-align: center;"
+                                    onclick="triggerS8Loan()">Registrar Empréstimo</button>
+                                <div style="display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px; padding: 8px 10px; font-size: 0.7rem; color: #34d399;"
+                                    id="s8-alert-success">
+                                    ✅ st.success("Empréstimo registrado com sucesso!")
+                                </div>
+                                <div style="display: none; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; padding: 8px 10px; font-size: 0.7rem; color: #f87171;"
+                                    id="s8-alert-error-inativo">
+                                    ❌ st.error("UsuarioInativoError: Falha: O usuário está inativo no sistema!")
+                                </div>
+                                <div style="display: none; background: rgba(239, 68, 68, 0.15); border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 6px; padding: 8px 10px; font-size: 0.7rem; color: #f87171;"
+                                    id="s8-alert-error-emprestado">
+                                    ❌ st.error("LivroIndisponivelError: Falha: O livro selecionado já está emprestado!")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 9: SISTEMA DE LEITURA & RESENHAS -->
+            <div class="slide">
+                <div class="slide-layout-split">
+                    <div class="slide-info">
+                        <div class="slide-tag">Aba 4: Diário de Leitura</div>
+                        <h2>Progresso de Leitura & <span>Resenhas</span></h2>
+                        <h3 class="slide-sub">Nova funcionalidade acoplada ao modelo Livro</h3>
+                        <p class="slide-desc">A classe `Livro` original foi expandida para armazenar dados dinâmicos de
+                            leitura pessoal e alimentar as tooltips.</p>
+
+                        <ul class="feature-list">
+                            <li class="feature-item">
+                                <div class="feature-icon">⭐</div>
+                                .<div class="feature-text">
+                                    <strong>Status de Leitura e Nota Pessoal</strong>
+                                    <span>Permite ao usuário marcar qualquer obra como lida, definindo uma nota de 0 a
+                                        10 através de um controle deslizante.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">✍️</div>
+                                .<div class="feature-text">
+                                    <strong>Resenha Crítica Integrada</strong>
+                                    <span>Armazenamento de notas/resenhas críticas curtas (limite de 200 caracteres),
+                                        salvas dinamicamente no objeto do Livro.</span>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-icon">🚀</div>
+                                .<div class="feature-text">
+                                    <strong>Atualização Dinâmica das Tooltips</strong>
+                                    <span>Ao marcar como lido e definir resenha, a tooltip de acervo atualiza-se
+                                        automaticamente revelando a nota e os comentários no hover.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-visual">
+                        <div class="code-block" style="font-size: 0.74rem; margin-bottom: 12px; width: 100%;">
+                            <span class="code-comment"># --- Processamento do Review no app.py ---</span>
+                            <span class="code-keyword">if</span> st.button(<span class="code-string">"Salvar
+                                Avaliação"</span>):
+                            livro = b.buscar_livro(codigo_selecionado)
+                            livro.marcar_como_lido(nota_slide, resenha_texto)
+                            st.success(<span class="code-string">"Avaliação registrada com sucesso!"</span>)
+                        </div>
+                        <!-- Mockup do Diário de Leitura -->
+                        <div class="browser-mockup"
+                            style="transform: perspective(1000px) rotateY(-2deg) rotateX(1deg);">
+                            <div class="browser-bar">
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-dot"></div>
+                                <div class="browser-address">http://localhost:8501/diario-leitura</div>
+                            </div>
+                            <div class="browser-content"
+                                style="padding: 15px; display: flex; flex-direction: column; gap: 10px; width: 100%; text-align: left;">
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <label style="font-size: 0.65rem; color: #fff; font-weight: 500;">Escolha o Livro
+                                        Lido:</label>
+                                    <select id="s9-book-select"
+                                        style="background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 4px 8px; color: #fff; font-size: 0.7rem; cursor: pointer;">
+                                        <option value="Dom Casmurro">Dom Casmurro</option>
+                                        <option value="Chainsaw Man">Chainsaw Man</option>
+                                        <option value="1984">1984</option>
+                                    </select>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <label style="font-size: 0.65rem; color: #fff; font-weight: 500;">Nota Pessoal:
+                                        <span id="s9-rating-val"
+                                            style="color: var(--accent-blue); font-weight: bold;">9.5</span></label>
+                                    <input type="range" min="0" max="10" step="0.5" value="9.5" id="s9-rating-slider"
+                                        style="width: 100%; accent-color: var(--accent-blue);"
+                                        oninput="document.getElementById('s9-rating-val').textContent=this.value">
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <label style="font-size: 0.65rem; color: #fff; font-weight: 500;">Escreva uma
+                                        Resenha:</label>
+                                    <textarea id="s9-review-text"
+                                        style="background: #1e293b; border: 1px solid rgba(255,255,255,0.08); border-radius: 4px; padding: 6px; color: #fff; font-size: 0.68rem; height: 45px; resize: none; font-family: sans-serif;"
+                                        placeholder="Digite seus comentários sobre a obra..."></textarea>
+                                </div>
+                                <button
+                                    style="padding: 6px 12px; background: var(--primary-gradient); border: none; border-radius: 4px; color: #fff; font-weight: bold; font-size: 0.65rem; cursor: pointer; text-align: center;"
+                                    onclick="triggerS9Review()">Salvar Avaliação</button>
+                                <div style="display: none; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 6px; padding: 8px 10px; font-size: 0.7rem; color: #34d399;"
+                                    id="s9-alert-success">
+                                    ✅ st.success("Avaliação registrada com sucesso! A tooltip do acervo foi
+                                    atualizada.")
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 10: CONCLUSÃO E CHECKLIST -->
+            <div class="slide slide-cover">
+                <div class="slide-tag">Critérios do Edital</div>
+                <h2>Conclusão & Checklist de Entrega</h2>
+                <p style="margin-bottom: 30px; font-size: 1rem; color: var(--text-muted);">Mapeamento final indicando a
+                    conformidade de todos os requisitos obrigatórios e pontuações do TP4:</p>
+
+                <div
+                    style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; text-align: left; max-width: 800px; margin: 0 auto 40px auto; background: rgba(30, 41, 59, 0.3); border: 1px solid var(--border-color); padding: 25px; border-radius: 16px;">
+                    <div style="display: flex; flex-direction: column; gap: 14px; font-size: 0.9rem;">
+                        <div>🟢 <strong>Manipulação de Arquivos (4,0 pts)</strong>: Carga de CSV com tratamento de
+                            erros, exceptions e exportação de relatórios.</div>
+                        <div>🟢 <strong>Visualização de Dados (4,0 pts)</strong>: Tabela de livros integrada e 2
+                            gráficos gerados dinamicamente.</div>
+                        <div>🟢 <strong>Interface Streamlit (4,0 pts)</strong>: Sistema completo com métricas, filtros
+                            reativos e exportação em .csv.</div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 14px; font-size: 0.9rem;">
+                        <div>🟢 <strong>Organização & Reuso (3,0 pts)</strong>: Reuso completo da estrutura de classes
+                            dos TPs anteriores em módulos limpos.</div>
+                        <div>🟢 <strong>Funcionalidade Livre (2,0 pts)</strong>: Tooltips integradas a APIs (OpenLibrary
+                            + GraphQL Suwayomi).</div>
+                        <div>🟢 <strong>Entrega & Instruções (3,0 pts)</strong>: Código `app.py`, bases de teste e
+                            roteiro de execução inclusos no ZIP final.</div>
+                    </div>
+                </div>
+
+                <button class="start-btn" onclick="goToSlide(0)">Reiniciar Apresentação</button>
+            </div>
+
+        </div>
+
+        <!-- Rodapé e Controles -->
+        <div class="controls-footer">
+            <div class="slide-counter">Slide <span id="current-slide-num">1</span> de <span
+                    id="total-slides-num">11</span></div>
+
+            <div class="nav-dots" id="dots-container">
+                <!-- Inserido dinamicamente via JS -->
+            </div>
+
+            <div class="nav-buttons">
+                <button class="nav-btn" onclick="prevSlide()" aria-label="Slide anterior">←</button>
+                <button class="nav-btn" onclick="nextSlide()" aria-label="Próximo slide">→</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        const currentSlideNum = document.getElementById('current-slide-num');
+        const totalSlidesNum = document.getElementById('total-slides-num');
+        const dotsContainer = document.getElementById('dots-container');
+
+        let currentSlideIdx = 0;
+        const totalSlides = slides.length;
+
+        totalSlidesNum.textContent = totalSlides;
+
+        // Criar os pontos indicadores de navegação
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('nav-dot');
+            if (i === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(i));
+            dotsContainer.appendChild(dot);
+        }
+
+        const dots = document.querySelectorAll('.nav-dot');
+
+        function updateSlideStates() {
+            slides.forEach((slide, idx) => {
+                slide.classList.remove('active', 'prev');
+                if (idx === currentSlideIdx) {
+                    slide.classList.add('active');
+                } else if (idx < currentSlideIdx) {
+                    slide.classList.add('prev');
+                }
+            });
+
+            dots.forEach((dot, idx) => {
+                dot.classList.toggle('active', idx === currentSlideIdx);
+            });
+
+            currentSlideNum.textContent = currentSlideIdx + 1;
+        }
+
+        function nextSlide() {
+            if (currentSlideIdx < totalSlides - 1) {
+                currentSlideIdx++;
+                updateSlideStates();
+            }
+        }
+
+        function prevSlide() {
+            if (currentSlideIdx > 0) {
+                currentSlideIdx--;
+                updateSlideStates();
+            }
+        }
+
+        function goToSlide(idx) {
+            currentSlideIdx = idx;
+            updateSlideStates();
+        }
+
+        // Navegação pelo teclado (Setas)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+
+        function updateChartType(type) {
+            const chart = document.querySelector('.bar-chart-mock');
+            if (!chart) return;
+            chart.classList.remove('chart-type-bar', 'chart-type-line', 'chart-type-area');
+            if (type === 'line') {
+                chart.classList.add('chart-type-line');
+            } else if (type === 'area') {
+                chart.classList.add('chart-type-area');
+            } else {
+                chart.classList.add('chart-type-bar');
+            }
+        }
+
+        // --- Novas Lógicas Interativas para os Mockups ---
+        function triggerS2Upload() {
+            const area = document.getElementById('s2-upload-area');
+            const progressContainer = document.getElementById('s2-upload-progress');
+            const bar = document.getElementById('s2-progress-bar');
+            const text = document.getElementById('s2-progress-text');
+            const success = document.getElementById('s2-upload-success');
+
+            area.style.display = 'none';
+            progressContainer.style.display = 'block';
+            success.style.display = 'none';
+
+            let width = 0;
+            const interval = setInterval(() => {
+                if (width >= 100) {
+                    clearInterval(interval);
+                    progressContainer.style.display = 'none';
+                    success.style.display = 'block';
+                    setTimeout(() => {
+                        success.style.display = 'none';
+                        area.style.display = 'flex';
+                    }, 4000);
+                } else {
+                    width += 10;
+                    bar.style.width = width + '%';
+                    text.textContent = width + '%';
+                }
+            }, 100);
+        }
+
+        function showArchDetails(layer) {
+            const el = document.getElementById('arch-details-text');
+            if (layer === 'view') {
+                el.innerHTML = '<strong>Camada de Apresentação (View)</strong>: Trata do layout, menus de navegação, caixas de input e exibe as tooltips dinâmicas usando o framework Streamlit. Não executa lógica pura de negócios; delega.';
+                el.style.borderColor = 'rgba(59, 130, 246, 0.3)';
+            } else if (layer === 'model') {
+                el.innerHTML = '<strong>Regras de Negócio (Model)</strong>: biblioteca.py contém as regras de restrições de empréstimos, leitura de planilhas CSV, validações de duplicidade de chaves e os modelos orientados a objetos.';
+                el.style.borderColor = 'rgba(139, 92, 246, 0.3)';
+            } else if (layer === 'state') {
+                el.innerHTML = '<strong>Session State (Persistência)</strong>: O Streamlit é stateless por padrão. Usamos `st.session_state.biblioteca` para evitar que a biblioteca zere toda vez que um clique é feito na tela.';
+                el.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+            }
+        }
+
+        function clearArchDetails() {
+            const el = document.getElementById('arch-details-text');
+            el.innerHTML = '💡 Passe o mouse em um dos blocos acima para ver detalhes de dependência lógica do projeto.';
+            el.style.borderColor = 'rgba(255,255,255,0.05)';
+        }
+
+        function triggerS4Error(scenario) {
+            document.getElementById('s4-alert-error-empty').style.display = 'none';
+            document.getElementById('s4-alert-error-invalid').style.display = 'none';
+            document.getElementById('s4-alert-ok').style.display = 'none';
+
+            if (scenario === 'empty') {
+                document.getElementById('s4-alert-error-empty').style.display = 'block';
+            } else if (scenario === 'invalid') {
+                document.getElementById('s4-alert-error-invalid').style.display = 'block';
+            } else if (scenario === 'ok') {
+                document.getElementById('s4-alert-ok').style.display = 'block';
+            }
+        }
+
+        let s6ActiveTab = 'rest';
+        function switchS6Tab(tab) {
+            s6ActiveTab = tab;
+            const btnRest = document.getElementById('s6-tab-rest');
+            const btnGraph = document.getElementById('s6-tab-graphql');
+            const select = document.getElementById('s6-query-select');
+            const consoleLog = document.getElementById('s6-console-log');
+
+            consoleLog.innerHTML = '<span style="color: #64748b;">// Console de rede ocioso. Clique em Enviar para disparar...</span>';
+
+            if (tab === 'rest') {
+                btnRest.style.background = 'rgba(59,130,246,0.1)';
+                btnRest.style.borderBottom = '2px solid var(--accent-blue)';
+                btnRest.style.color = '#fff';
+                btnRest.style.fontWeight = '600';
+
+                btnGraph.style.background = 'transparent';
+                btnGraph.style.borderBottom = '2px solid transparent';
+                btnGraph.style.color = 'var(--text-muted)';
+                btnGraph.style.fontWeight = 'normal';
+
+                select.innerHTML = `
+                    <option value="dom_casmurro">Dom Casmurro (Machado de Assis)</option>
+                    <option value="1984">1984 (George Orwell)</option>
+                `;
+            } else {
+                btnGraph.style.background = 'rgba(139,92,246,0.1)';
+                btnGraph.style.borderBottom = '2px solid var(--accent-purple)';
+                btnGraph.style.color = '#fff';
+                btnGraph.style.fontWeight = '600';
+
+                btnRest.style.background = 'transparent';
+                btnRest.style.borderBottom = '2px solid transparent';
+                btnRest.style.color = 'var(--text-muted)';
+                btnRest.style.fontWeight = 'normal';
+
+                select.innerHTML = `
+                    <option value="chainsaw_man">Chainsaw Man (Tatsuki Fujimoto)</option>
+                    <option value="demon_slayer">Demon Slayer (Koyoharu Gotouge)</option>
+                `;
+            }
+        }
+
+        function triggerS6ApiRequest() {
+            const queryVal = document.getElementById('s6-query-select').value;
+            const consoleLog = document.getElementById('s6-console-log');
+
+            if (s6ActiveTab === 'rest') {
+                consoleLog.innerHTML = '<span style="color: #60a5fa;">&gt; GET https://openlibrary.org/search.json?q=' + encodeURIComponent(queryVal.replace('_', ' ')) + '</span><br><span style="color: #fbbf24;">&gt; Apenas aguarde (fetching metadata REST)...</span>';
+
+                setTimeout(() => {
+                    let responseJson = '';
+                    if (queryVal === 'dom_casmurro') {
+                        responseJson = `{\n  "docs": [{\n    "title": "Dom Casmurro",\n    "author_name": ["Machado de Assis"],\n    "first_publish_year": 1899,\n    "cover_i": 8412803\n  }]\n}`;
+                    } else if (queryVal === '1984') {
+                        responseJson = `{\n  "docs": [{\n    "title": "1984",\n    "author_name": ["George Orwell"],\n    "first_publish_year": 1949,\n    "cover_i": 12711652\n  }]\n}`;
+                    }
+                    consoleLog.innerHTML = '<span style="color: #60a5fa;">&gt; GET https://openlibrary.org/search.json?q=' + encodeURIComponent(queryVal.replace('_', ' ')) + '</span><br><span style="color: #10b981;">&gt; Response 200 OK (REST API)</span><br><pre style="color: #34d399; margin-top:4px;">' + responseJson + '</pre>';
+                }, 500);
+            } else {
+                consoleLog.innerHTML = '<span style="color: #c084fc;">&gt; POST http://localhost:4567/graphql</span><br><span style="color: #a78bfa;">&gt; Query GraphQL:</span><br><pre style="color: #cbd5e1; margin-top:2px;">query {\n  manga(id: "' + queryVal + '") {\n    title\n    status\n    chapters {\n      name\n    }\n  }\n}</pre><br><span style="color: #fbbf24;">&gt; Executando no Backend Python...</span>';
+
+                setTimeout(() => {
+                    let responseJson = '';
+                    if (queryVal === 'chainsaw_man') {
+                        responseJson = `{\n  "data": {\n    "manga": {\n      "title": "Chainsaw Man",\n      "status": "ONGOING",\n      "chapters": [\n        {"name": "Chapter 168"},\n        {"name": "Chapter 167"}\n      ]\n    }\n  }\n}`;
+                    } else if (queryVal === 'demon_slayer') {
+                        responseJson = `{\n  "data": {\n    "manga": {\n      "title": "Demon Slayer",\n      "status": "COMPLETED",\n      "chapters": [\n        {"name": "Chapter 205"},\n        {"name": "Chapter 204"}\n      ]\n    }\n  }\n}`;
+                    }
+                    consoleLog.innerHTML = '<span style="color: #c084fc;">&gt; POST http://localhost:4567/graphql</span><br><span style="color: #10b981;">&gt; Response 200 OK (GraphQL Backend Cache)</span><br><pre style="color: #a78bfa; margin-top:4px;">' + responseJson + '</pre>';
+                }, 700);
+            }
+        }
+
+        function triggerS8Loan() {
+            const user = document.getElementById('s8-user-select').value;
+            const book = document.getElementById('s8-book-select').value;
+
+            document.getElementById('s8-alert-success').style.display = 'none';
+            document.getElementById('s8-alert-error-inativo').style.display = 'none';
+            document.getElementById('s8-alert-error-emprestado').style.display = 'none';
+
+            if (user === 'inativo') {
+                document.getElementById('s8-alert-error-inativo').style.display = 'block';
+            } else if (book === 'emprestado') {
+                document.getElementById('s8-alert-error-emprestado').style.display = 'block';
+            } else {
+                document.getElementById('s8-alert-success').style.display = 'block';
+            }
+        }
+
+        function triggerS9Review() {
+            const book = document.getElementById('s9-book-select').value;
+            const rating = document.getElementById('s9-rating-slider').value;
+            const review = document.getElementById('s9-review-text').value || 'Sem comentários adicionais.';
+            const alert = document.getElementById('s9-alert-success');
+
+            alert.innerHTML = `✅ st.success("Avaliação salva! '${book}' classificado com nota ${rating} no Diário.")`;
+            alert.style.display = 'block';
+
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 5000);
+        }
+
+        // --- Lógica do Leitor Suwayomi (Superman HQ) ---
+        const suwaImages = [
+            { src: 'assets/0.jpg', title: 'Superman (2023-) - Capa (Pág 0)' },
+            { src: 'assets/1.jpg', title: 'Superman (2023-) - Página 1' },
+            { src: 'assets/2.jpg', title: 'Superman (2023-) - Página 2' },
+            { src: 'assets/7.jpg', title: 'Superman (2023-) - Página 7' }
+        ];
+        let currentSuwaIdx = 0;
+
+        function openSuwaReader(index) {
+            currentSuwaIdx = index;
+            updateSuwaReader();
+        }
+
+        function changeSuwaPage(dir) {
+            currentSuwaIdx += dir;
+            if (currentSuwaIdx < 0) {
+                currentSuwaIdx = suwaImages.length - 1;
+            } else if (currentSuwaIdx >= suwaImages.length) {
+                currentSuwaIdx = 0;
+            }
+            updateSuwaReader();
+        }
+
+        function updateSuwaReader() {
+            const img = document.getElementById('suwa-reader-img');
+            const title = document.getElementById('suwa-page-title');
+            const indicator = document.getElementById('suwa-page-indicator');
+            
+            img.src = suwaImages[currentSuwaIdx].src;
+            title.textContent = suwaImages[currentSuwaIdx].title;
+            indicator.textContent = `Pág ${currentSuwaIdx + 1}/${suwaImages.length}`;
+        }
+    </script>
+</body>
+
+</html>
