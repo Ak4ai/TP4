@@ -4,6 +4,8 @@ Este é o **Trabalho Prático 4 (TP4)** desenvolvido para a disciplina de **Prog
 
 Trata-se de um sistema completo de gestão de biblioteca virtual e física com uma interface web interativa de alto padrão (Data App) construída com **Streamlit**, integrada a APIs de terceiros (REST e GraphQL) e com renderizações dinâmicas otimizadas em HTML/JS.
 
+🔗 **Apresentação Online (GitHub Pages):** [Clique aqui para visualizar a apresentação](https://ak4ai.github.io/TP4/apresentacao/apresentacao.html)
+
 ---
 
 ## 🚀 Principais Funcionalidades
